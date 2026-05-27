@@ -60,6 +60,7 @@ declare_oxc_lint!(
     GroupExports,
     import,
     style,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/group-exports.md",
     version = "0.16.6",
 );
 

@@ -42,6 +42,7 @@ declare_oxc_lint!(
     RequireYieldsType,
     jsdoc,
     pedantic,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireYieldsType.md",
     version = "1.65.0",
 );
 

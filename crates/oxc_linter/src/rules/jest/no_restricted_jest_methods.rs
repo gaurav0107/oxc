@@ -19,6 +19,7 @@ declare_oxc_lint!(
     style,
     config = SharedNoRestrictedJestMethods::NoRestrictedJestMethodsConfig,
     docs = SharedNoRestrictedJestMethods::DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-restricted-jest-methods.md",
     version = "0.2.3",
 );
 

@@ -93,6 +93,7 @@ declare_oxc_lint!(
     correctness,
     suggestion,
     config = InteractiveSupportsFocusConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/interactive-supports-focus.md",
     version = "1.63.0",
 );
 

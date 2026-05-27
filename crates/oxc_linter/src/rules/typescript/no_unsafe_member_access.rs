@@ -63,6 +63,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     config = NoUnsafeMemberAccessConfig,
+    references = "https://typescript-eslint.io/rules/no-unsafe-member-access/",
     version = "1.12.0",
 );
 

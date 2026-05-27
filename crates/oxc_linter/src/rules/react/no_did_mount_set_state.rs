@@ -80,6 +80,7 @@ declare_oxc_lint!(
     react,
     correctness,
     config = NoDidMountSetStateConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md",
     version = "1.36.0",
 );
 

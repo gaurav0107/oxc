@@ -47,6 +47,7 @@ declare_oxc_lint!(
     jsx_a11y,
     correctness,
     dangerous_suggestion,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/tabindex-no-positive.md",
     version = "0.0.21",
 );
 

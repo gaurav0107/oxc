@@ -51,6 +51,7 @@ declare_oxc_lint!(
     NoThisBeforeSuper,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-this-before-super",
     version = "0.2.6",
 );
 

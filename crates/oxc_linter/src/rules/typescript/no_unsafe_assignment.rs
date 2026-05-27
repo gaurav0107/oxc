@@ -59,6 +59,7 @@ declare_oxc_lint!(
     NoUnsafeAssignment(tsgolint),
     typescript,
     pedantic,
+    references = "https://typescript-eslint.io/rules/no-unsafe-assignment/",
     version = "1.12.0",
 );
 

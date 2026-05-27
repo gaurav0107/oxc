@@ -102,6 +102,7 @@ declare_oxc_lint!(
     eslint,
     suspicious,
     suggestion,
+    references = "https://eslint.org/docs/latest/rules/no-useless-constructor",
     version = "0.4.4",
 );
 

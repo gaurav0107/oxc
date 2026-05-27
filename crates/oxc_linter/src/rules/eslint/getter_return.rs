@@ -86,6 +86,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = GetterReturn,
+    references = "https://eslint.org/docs/latest/rules/getter-return",
     version = "0.0.3",
 );
 

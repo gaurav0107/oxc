@@ -76,6 +76,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     config = NoParamReassignConfig,
+    references = "https://eslint.org/docs/latest/rules/no-param-reassign",
     version = "1.20.0",
 );
 

@@ -98,6 +98,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     config = TripleSlashReferenceConfig,
+    references = "https://typescript-eslint.io/rules/triple-slash-reference/",
     version = "0.2.0",
 );
 

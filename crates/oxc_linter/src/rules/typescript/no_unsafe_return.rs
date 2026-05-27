@@ -58,6 +58,7 @@ declare_oxc_lint!(
     NoUnsafeReturn(tsgolint),
     typescript,
     pedantic,
+    references = "https://typescript-eslint.io/rules/no-unsafe-return/",
     version = "1.12.0",
 );
 

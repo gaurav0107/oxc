@@ -52,6 +52,7 @@ declare_oxc_lint!(
     unicorn,
     correctness,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-starts-ends-with.md",
     version = "0.0.18",
 );
 

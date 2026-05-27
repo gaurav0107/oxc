@@ -89,6 +89,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     config = OnlyThrowErrorConfig,
+    references = "https://typescript-eslint.io/rules/only-throw-error/",
     version = "1.12.0",
 );
 

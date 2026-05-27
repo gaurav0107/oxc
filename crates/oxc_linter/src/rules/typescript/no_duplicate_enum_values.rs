@@ -86,6 +86,7 @@ declare_oxc_lint!(
     NoDuplicateEnumValues,
     typescript,
     correctness,
+    references = "https://typescript-eslint.io/rules/no-duplicate-enum-values/",
     version = "0.0.8",
 );
 

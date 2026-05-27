@@ -109,6 +109,7 @@ declare_oxc_lint!(
     react,
     correctness,
     config = JsxKey,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-key.md",
     version = "0.0.14",
 );
 

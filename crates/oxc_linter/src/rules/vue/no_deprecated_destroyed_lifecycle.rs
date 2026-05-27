@@ -63,6 +63,7 @@ declare_oxc_lint!(
     vue,
     correctness,
     fix,
+    references = "https://eslint.vuejs.org/rules/no-deprecated-destroyed-lifecycle.html",
     version = "1.35.0",
 );
 

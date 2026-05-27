@@ -10,7 +10,15 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct PreferToContain;
 
-declare_oxc_lint!(PreferToContain, vitest, style, fix, docs = DOCUMENTATION, version = "0.2.14",);
+declare_oxc_lint!(
+    PreferToContain,
+    vitest,
+    style,
+    fix,
+    docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-contain.md",
+    version = "0.2.14",
+);
 
 impl Rule for PreferToContain {
     fn run_on_jest_node<'a, 'c>(

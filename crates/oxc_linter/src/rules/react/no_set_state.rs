@@ -52,6 +52,7 @@ declare_oxc_lint!(
     NoSetState,
     react,
     style,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-set-state.md",
     version = "0.5.2",
 );
 

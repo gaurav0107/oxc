@@ -42,6 +42,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-date-clone.md",
     version = "0.15.13",
 );
 

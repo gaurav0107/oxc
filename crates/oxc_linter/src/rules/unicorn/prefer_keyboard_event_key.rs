@@ -70,6 +70,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-keyboard-event-key.md",
     version = "1.33.0",
 );
 

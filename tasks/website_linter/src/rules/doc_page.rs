@@ -37,6 +37,7 @@ impl Context {
         let RuleTableRow {
             name,
             documentation,
+            references,
             schema,
             plugin,
             version,
@@ -119,10 +120,14 @@ const source = `{}`;{}
             }
         }
 
-        // how-to-use and rule references components.
+        // how-to-use, version, and (optional) references.
+        let references_section = match references {
+            Some(url) => format!("\n\n## References\n- <{url}>"),
+            None => String::new(),
+        };
         writeln!(
             self.page,
-            "\n## How to use\n<RuleHowToUse />\n\n## Version\nThis rule was added in v{version}.\n\n## References\n<RuleReferences />"
+            "\n## How to use\n<RuleHowToUse />\n\n## Version\nThis rule was added in v{version}.{references_section}"
         )?;
 
         Ok(self.page.take())

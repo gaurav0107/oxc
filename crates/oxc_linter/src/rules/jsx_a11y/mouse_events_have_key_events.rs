@@ -74,6 +74,7 @@ declare_oxc_lint!(
     jsx_a11y,
     correctness,
     config = MouseEventsHaveKeyEventsConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/mouse-events-have-key-events.md",
     version = "0.1.1",
 );
 

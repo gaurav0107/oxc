@@ -45,6 +45,7 @@ declare_oxc_lint!(
     NoUnsafeDeclarationMerging,
     typescript,
     correctness,
+    references = "https://typescript-eslint.io/rules/no-unsafe-declaration-merging/",
     version = "0.0.11",
 );
 

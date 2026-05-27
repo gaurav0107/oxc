@@ -45,6 +45,7 @@ declare_oxc_lint!(
     NoNestedTernary,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/no-nested-ternary",
     version = "0.15.4",
 );
 

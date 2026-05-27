@@ -78,6 +78,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     config = PreferPromiseRejectErrorsConfig,
+    references = "https://typescript-eslint.io/rules/prefer-promise-reject-errors/",
     version = "1.12.0",
 );
 

@@ -16,6 +16,8 @@ declare_oxc_lint!(
     style,
     config = NoHooksConfig,
     docs = DOCUMENTATION,
+    references =
+        "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-hooks.md",
     version = "0.0.16",
 );
 

@@ -15,6 +15,7 @@ declare_oxc_lint!(
     vitest,
     correctness,
     docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-to-throw-message.md",
     version = "0.2.9",
 );
 

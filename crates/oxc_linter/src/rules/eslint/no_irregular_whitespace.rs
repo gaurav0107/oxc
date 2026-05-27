@@ -92,6 +92,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = NoIrregularWhitespaceConfig,
+    references = "https://eslint.org/docs/latest/rules/no-irregular-whitespace",
     version = "0.1.1",
 );
 

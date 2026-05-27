@@ -90,6 +90,7 @@ declare_oxc_lint!(
     vitest,
     style,
     fix,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-importing-vitest-globals.md",
     version = "1.59.0",
 );
 

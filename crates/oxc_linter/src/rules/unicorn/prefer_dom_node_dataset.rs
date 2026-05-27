@@ -60,6 +60,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     conditional_fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-dataset.md",
     version = "0.0.18",
 );
 

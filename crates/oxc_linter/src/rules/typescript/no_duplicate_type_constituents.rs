@@ -65,6 +65,7 @@ declare_oxc_lint!(
     correctness,
     fix,
     config = NoDuplicateTypeConstituentsConfig,
+    references = "https://typescript-eslint.io/rules/no-duplicate-type-constituents/",
     version = "1.12.0",
 );
 

@@ -62,6 +62,7 @@ declare_oxc_lint!(
     node,
     restriction,
     config = NoProcessEnvConfig,
+    references = "https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-process-env.md",
     version = "1.23.0",
 );
 

@@ -42,6 +42,7 @@ declare_oxc_lint!(
     unicorn,
     correctness,
     conditional_fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md",
     version = "0.0.12",
 );
 

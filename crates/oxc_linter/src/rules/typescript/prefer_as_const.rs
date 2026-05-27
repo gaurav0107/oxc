@@ -57,6 +57,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     conditional_fix,
+    references = "https://typescript-eslint.io/rules/prefer-as-const/",
     version = "0.0.8",
 );
 

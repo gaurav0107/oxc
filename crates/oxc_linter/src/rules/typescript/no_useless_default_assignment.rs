@@ -28,6 +28,7 @@ declare_oxc_lint!(
     NoUselessDefaultAssignment(tsgolint),
     typescript,
     correctness,
+    references = "https://typescript-eslint.io/rules/no-useless-default-assignment/",
     version = "1.49.0",
 );
 

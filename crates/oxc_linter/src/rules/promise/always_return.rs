@@ -184,6 +184,7 @@ declare_oxc_lint!(
     promise,
     suspicious,
     config = AlwaysReturnConfig,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/always-return.md",
     version = "1.13.0",
 );
 

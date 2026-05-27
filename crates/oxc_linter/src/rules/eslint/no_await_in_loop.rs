@@ -47,6 +47,7 @@ declare_oxc_lint!(
     NoAwaitInLoop,
     eslint,
     perf,
+    references = "https://eslint.org/docs/latest/rules/no-await-in-loop",
     version = "0.3.2",
 );
 

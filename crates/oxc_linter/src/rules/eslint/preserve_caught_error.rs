@@ -285,6 +285,7 @@ declare_oxc_lint!(
     suspicious,
     conditional_fix,
     config = PreserveCaughtErrorOptions,
+    references = "https://eslint.org/docs/latest/rules/preserve-caught-error",
     version = "1.16.0",
 );
 impl PreserveCaughtError {

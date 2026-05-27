@@ -65,6 +65,7 @@ declare_oxc_lint!(
     NoUselessCall,
     eslint,
     perf,
+    references = "https://eslint.org/docs/latest/rules/no-useless-call",
     version = "0.15.9",
 );
 

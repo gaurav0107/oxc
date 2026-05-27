@@ -50,6 +50,7 @@ declare_oxc_lint!(
     NoImportAssign,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-import-assign",
     version = "0.0.5",
 );
 

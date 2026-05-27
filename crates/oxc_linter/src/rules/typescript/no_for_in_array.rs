@@ -57,6 +57,7 @@ declare_oxc_lint!(
     NoForInArray(tsgolint),
     typescript,
     correctness,
+    references = "https://typescript-eslint.io/rules/no-for-in-array/",
     version = "1.12.0",
 );
 

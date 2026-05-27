@@ -72,6 +72,7 @@ declare_oxc_lint!(
     promise,
     style,
     config = ParamNamesConfig,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/param-names.md",
     version = "0.6.1",
 );
 

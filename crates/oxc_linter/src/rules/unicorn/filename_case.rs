@@ -193,6 +193,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     config = FilenameCaseConfigJson,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/filename-case.md",
     version = "0.0.14",
 );
 

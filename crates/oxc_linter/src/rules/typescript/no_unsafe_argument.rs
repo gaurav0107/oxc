@@ -53,6 +53,7 @@ declare_oxc_lint!(
     NoUnsafeArgument(tsgolint),
     typescript,
     pedantic,
+    references = "https://typescript-eslint.io/rules/no-unsafe-argument/",
     version = "1.12.0",
 );
 

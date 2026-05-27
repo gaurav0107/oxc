@@ -78,6 +78,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = TextEncodingIdentifierCase,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/text-encoding-identifier-case.md",
     version = "0.0.15",
 );
 

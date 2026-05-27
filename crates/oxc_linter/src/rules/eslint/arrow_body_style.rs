@@ -195,6 +195,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = ArrowBodyStyle,
+    references = "https://eslint.org/docs/latest/rules/arrow-body-style",
     version = "1.4.0",
 );
 

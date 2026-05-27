@@ -122,6 +122,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     config = DefaultCaseConfig,
+    references = "https://eslint.org/docs/latest/rules/default-case",
     version = "0.4.0",
 );
 

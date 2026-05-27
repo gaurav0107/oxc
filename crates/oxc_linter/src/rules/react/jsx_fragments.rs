@@ -103,6 +103,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = FragmentMode,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md",
     version = "1.12.0",
 );
 

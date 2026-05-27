@@ -85,6 +85,7 @@ declare_oxc_lint!(
     NoClassAssign,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-class-assign",
     version = "0.0.3",
 );
 

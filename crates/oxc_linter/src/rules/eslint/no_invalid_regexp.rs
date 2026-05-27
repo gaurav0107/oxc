@@ -69,6 +69,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = NoInvalidRegexpConfig,
+    references = "https://eslint.org/docs/latest/rules/no-invalid-regexp",
     version = "0.9.4",
 );
 

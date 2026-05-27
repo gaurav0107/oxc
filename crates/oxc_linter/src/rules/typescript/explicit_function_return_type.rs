@@ -135,6 +135,7 @@ declare_oxc_lint!(
     typescript,
     restriction,
     config = ExplicitFunctionReturnTypeConfig,
+    references = "https://typescript-eslint.io/rules/explicit-function-return-type/",
     version = "0.4.4",
 );
 

@@ -51,6 +51,7 @@ declare_oxc_lint!(
     correctness,
     pending,
     config = NoDefaultsConfig,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/noDefaults.md",
     version = "0.3.2",
 );
 

@@ -62,6 +62,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-default-parameters.md",
     version = "1.33.0",
 );
 

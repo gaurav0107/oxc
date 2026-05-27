@@ -53,6 +53,7 @@ declare_oxc_lint!(
     typescript,
     style,
     pending,
+    references = "https://typescript-eslint.io/rules/prefer-for-of/",
     version = "0.2.16",
 );
 

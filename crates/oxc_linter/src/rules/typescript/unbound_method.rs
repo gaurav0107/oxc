@@ -97,6 +97,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     config = UnboundMethodConfig,
+    references = "https://typescript-eslint.io/rules/unbound-method/",
     version = "1.12.0",
 );
 

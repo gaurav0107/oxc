@@ -75,6 +75,7 @@ declare_oxc_lint!(
     NoPageCustomFont,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-page-custom-font",
     version = "0.3.3",
 );
 

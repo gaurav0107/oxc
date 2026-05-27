@@ -44,6 +44,7 @@ declare_oxc_lint!(
     NoEmptyCharacterClass,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-empty-character-class",
     version = "0.0.7",
 );
 

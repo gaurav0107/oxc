@@ -68,6 +68,7 @@ declare_oxc_lint!(
     style,
     pending,
     config = NoEmptyInterface,
+    references = "https://typescript-eslint.io/rules/no-empty-interface/",
     version = "0.0.6",
 );
 

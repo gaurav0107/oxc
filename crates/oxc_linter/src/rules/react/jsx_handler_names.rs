@@ -105,6 +105,7 @@ declare_oxc_lint!(
     react,
     style,
     config = JsxHandlerNamesConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md",
     version = "1.13.0",
 );
 

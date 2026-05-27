@@ -52,6 +52,7 @@ declare_oxc_lint!(
     eslint,
     suspicious,
     pending, // TODO: Make a suggestion fixer for this rule.
+    references = "https://eslint.org/docs/latest/rules/no-useless-concat",
     version = "0.4.2",
 );
 

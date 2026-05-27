@@ -72,6 +72,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     conditional_suggestion,
+    references = "https://eslint.org/docs/latest/rules/no-throw-literal",
     version = "0.9.10",
 );
 

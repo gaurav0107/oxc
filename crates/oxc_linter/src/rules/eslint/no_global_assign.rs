@@ -55,6 +55,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = NoGlobalAssignConfig,
+    references = "https://eslint.org/docs/latest/rules/no-global-assign",
     version = "0.0.7",
 );
 

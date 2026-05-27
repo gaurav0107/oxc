@@ -75,6 +75,7 @@ declare_oxc_lint!(
     typescript,
     restriction,
     fix,
+    references = "https://typescript-eslint.io/rules/no-import-type-side-effects/",
     version = "0.5.0",
 );
 

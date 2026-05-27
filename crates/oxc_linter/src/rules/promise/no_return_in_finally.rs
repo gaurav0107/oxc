@@ -44,6 +44,7 @@ declare_oxc_lint!(
     NoReturnInFinally,
     promise,
     nursery,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-return-in-finally.md",
     version = "0.7.1",
 );
 

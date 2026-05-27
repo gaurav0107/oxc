@@ -156,6 +156,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = ObjectShorthandTupleConfig,
+    references = "https://eslint.org/docs/latest/rules/object-shorthand",
     version = "1.59.0",
 );
 

@@ -129,6 +129,7 @@ declare_oxc_lint!(
     style,
     pending,
     config = PreferRegexLiterals,
+    references = "https://eslint.org/docs/latest/rules/prefer-regex-literals",
     version = "1.64.0",
 );
 

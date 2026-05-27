@@ -75,6 +75,7 @@ declare_oxc_lint!(
     import,
     style,
     config = PreferDefaultExport,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md",
     version = "1.4.0",
 );
 

@@ -94,6 +94,7 @@ declare_oxc_lint!(
     jsx_a11y,
     restriction,
     config = AnchorAmbiguousTextConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/anchor-ambiguous-text.md",
     version = "0.13.2",
 );
 

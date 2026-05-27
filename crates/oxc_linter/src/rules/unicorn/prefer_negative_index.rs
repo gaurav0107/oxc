@@ -55,6 +55,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-negative-index.md",
     version = "0.13.2",
 );
 

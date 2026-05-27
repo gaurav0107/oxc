@@ -11,7 +11,15 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct PreferSpyOn;
 
-declare_oxc_lint!(PreferSpyOn, jest, style, suggestion, docs = DOCUMENTATION, version = "0.2.14",);
+declare_oxc_lint!(
+    PreferSpyOn,
+    jest,
+    style,
+    suggestion,
+    docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-spy-on.md",
+    version = "0.2.14",
+);
 
 impl Rule for PreferSpyOn {
     fn run<'a>(&self, node: &AstNode<'a>, ctx: &LintContext<'a>) {

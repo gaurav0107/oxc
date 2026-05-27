@@ -175,6 +175,7 @@ declare_oxc_lint!(
     pedantic,
     fix = conditional_fix_dangerous,
     config = Eqeqeq,
+    references = "https://eslint.org/docs/latest/rules/eqeqeq",
     version = "0.0.3",
 );
 

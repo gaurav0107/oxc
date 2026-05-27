@@ -59,6 +59,7 @@ declare_oxc_lint!(
     RequireRenderReturn,
     vue,
     correctness,
+    references = "https://eslint.vuejs.org/rules/require-render-return.html",
     version = "1.67.0",
 );
 

@@ -146,6 +146,7 @@ declare_oxc_lint!(
     restriction,
     fix_suggestion,
     config = NoRestrictedTypesConfig,
+    references = "https://typescript-eslint.io/rules/no-restricted-types/",
     version = "1.31.0",
 );
 

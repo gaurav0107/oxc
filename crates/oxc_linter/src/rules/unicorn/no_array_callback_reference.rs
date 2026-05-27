@@ -55,6 +55,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md",
     version = "1.19.0",
 );
 

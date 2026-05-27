@@ -77,6 +77,7 @@ declare_oxc_lint!(
     eslint,
     suspicious,
     config = NoExtendNativeConfig,
+    references = "https://eslint.org/docs/latest/rules/no-extend-native",
     version = "0.9.7",
 );
 

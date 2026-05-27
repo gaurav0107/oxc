@@ -63,6 +63,7 @@ declare_oxc_lint!(
     NoScriptComponentInHead,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-script-component-in-head",
     version = "0.2.0",
 );
 

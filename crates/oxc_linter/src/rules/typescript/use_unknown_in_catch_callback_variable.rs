@@ -80,6 +80,7 @@ declare_oxc_lint!(
     typescript,
     restriction,
     suggestion,
+    references = "https://typescript-eslint.io/rules/use-unknown-in-catch-callback-variable/",
     version = "1.12.0",
 );
 

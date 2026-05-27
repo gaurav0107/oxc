@@ -78,6 +78,7 @@ declare_oxc_lint!(
     pedantic,
     fix,
     config = NoUselessUndefined,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-undefined.md",
     version = "0.6.1",
 );
 

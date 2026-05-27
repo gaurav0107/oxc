@@ -126,6 +126,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     config = NoMisusedPromisesConfig,
+    references = "https://typescript-eslint.io/rules/no-misused-promises/",
     version = "1.11.0",
 );
 

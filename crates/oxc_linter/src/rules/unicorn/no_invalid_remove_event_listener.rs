@@ -45,6 +45,7 @@ declare_oxc_lint!(
     NoInvalidRemoveEventListener,
     unicorn,
     correctness,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-remove-event-listener.md",
     version = "0.0.16",
 );
 

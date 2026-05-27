@@ -62,6 +62,7 @@ declare_oxc_lint!(
     GuardForIn,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/guard-for-in",
     version = "0.2.14",
 );
 

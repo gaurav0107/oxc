@@ -19,6 +19,7 @@ declare_oxc_lint!(
     pedantic,
     pending,
     docs = DOCUMENTATION,
+    references = "https://eslint.org/docs/latest/rules/no-negated-condition",
     version = "0.0.18",
 );
 

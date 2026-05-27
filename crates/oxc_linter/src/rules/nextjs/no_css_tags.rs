@@ -66,6 +66,7 @@ declare_oxc_lint!(
     NoCssTags,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-css-tags",
     version = "0.2.0",
 );
 

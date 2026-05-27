@@ -138,6 +138,7 @@ declare_oxc_lint!(
     jsx_a11y,
     correctness,
     config = AltTextConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/alt-text.md",
     version = "0.0.16",
 );
 

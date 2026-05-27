@@ -80,6 +80,7 @@ declare_oxc_lint!(
     NoMisusedNew,
     typescript,
     correctness,
+    references = "https://typescript-eslint.io/rules/no-misused-new/",
     version = "0.0.7",
 );
 

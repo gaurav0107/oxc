@@ -41,6 +41,7 @@ declare_oxc_lint!(
     NoSelfImport,
     import,
     suspicious,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-self-import.md",
     version = "0.0.13",
 );
 

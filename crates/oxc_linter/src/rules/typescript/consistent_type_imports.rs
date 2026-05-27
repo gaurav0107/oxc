@@ -181,6 +181,7 @@ declare_oxc_lint!(
     style,
     conditional_fix,
     config = ConsistentTypeImportsConfig,
+    references = "https://typescript-eslint.io/rules/consistent-type-imports/",
     version = "0.5.2",
 );
 

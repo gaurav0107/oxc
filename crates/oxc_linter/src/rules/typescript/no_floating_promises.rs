@@ -108,6 +108,7 @@ declare_oxc_lint!(
     correctness,
     suggestion,
     config = NoFloatingPromisesConfig,
+    references = "https://typescript-eslint.io/rules/no-floating-promises/",
     version = "1.11.0",
 );
 

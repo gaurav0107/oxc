@@ -15,6 +15,8 @@ declare_oxc_lint!(
     style,
     config = MaxExpectsConfig,
     docs = DOCUMENTATION,
+    references =
+        "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/max-expects.md",
     version = "0.0.18",
 );
 

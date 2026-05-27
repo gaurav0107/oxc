@@ -52,6 +52,7 @@ declare_oxc_lint!(
     unicorn,
     perf, // Encourages more efficient use of built-in methods
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-find.md",
     version = "0.16.12",
 );
 

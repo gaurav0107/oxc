@@ -10,7 +10,16 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct PreferTodo;
 
-declare_oxc_lint!(PreferTodo, vitest, style, fix, docs = DOCUMENTATION, version = "0.0.16",);
+declare_oxc_lint!(
+    PreferTodo,
+    vitest,
+    style,
+    fix,
+    docs = DOCUMENTATION,
+    references =
+        "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-todo.md",
+    version = "0.0.16",
+);
 
 impl Rule for PreferTodo {
     fn run_on_jest_node<'a, 'c>(

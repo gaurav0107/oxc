@@ -46,6 +46,7 @@ declare_oxc_lint!(
     RequirePropertyName,
     jsdoc,
     correctness,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requirePropertyName.md",
     version = "0.2.18",
 );
 

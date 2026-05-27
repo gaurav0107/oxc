@@ -15,6 +15,7 @@ declare_oxc_lint!(
     style,
     config = RequireTopLevelDescribeConfig,
     docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-top-level-describe.md",
     version = "0.4.2",
 );
 

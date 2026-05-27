@@ -135,6 +135,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     config = ComplexityConfig,
+    references = "https://eslint.org/docs/latest/rules/complexity",
     version = "1.37.0",
 );
 

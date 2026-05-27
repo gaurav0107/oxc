@@ -183,6 +183,7 @@ declare_oxc_lint!(
     pedantic,
     conditional_fix,
     config = NoElseReturn,
+    references = "https://eslint.org/docs/latest/rules/no-else-return",
     version = "0.9.10",
 );
 

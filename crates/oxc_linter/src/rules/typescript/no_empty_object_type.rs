@@ -157,6 +157,7 @@ declare_oxc_lint!(
     restriction,
     pending,
     config = NoEmptyObjectTypeConfig,
+    references = "https://typescript-eslint.io/rules/no-empty-object-type/",
     version = "0.12.0",
 );
 

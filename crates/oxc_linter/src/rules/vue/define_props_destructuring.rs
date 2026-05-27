@@ -80,6 +80,7 @@ declare_oxc_lint!(
     vue,
     style,
     config = DefinePropsDestructuring,
+    references = "https://eslint.vuejs.org/rules/define-props-destructuring.html",
     version = "1.20.0",
 );
 

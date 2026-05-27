@@ -10,7 +10,15 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct PreferCalledWith;
 
-declare_oxc_lint!(PreferCalledWith, jest, style, fix, docs = DOCUMENTATION, version = "0.2.5",);
+declare_oxc_lint!(
+    PreferCalledWith,
+    jest,
+    style,
+    fix,
+    docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-called-with.md",
+    version = "0.2.5",
+);
 
 impl Rule for PreferCalledWith {
     fn run_on_jest_node<'a, 'c>(

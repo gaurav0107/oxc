@@ -322,6 +322,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = JsxCurlyBracePresence,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md",
     version = "0.7.0",
 );
 

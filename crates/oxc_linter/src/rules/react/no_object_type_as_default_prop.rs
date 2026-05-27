@@ -73,6 +73,7 @@ declare_oxc_lint!(
     NoObjectTypeAsDefaultProp,
     react,
     perf,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-object-type-as-default-prop.md",
     version = "1.66.0",
 );
 

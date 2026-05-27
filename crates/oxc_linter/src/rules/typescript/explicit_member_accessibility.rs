@@ -199,6 +199,7 @@ declare_oxc_lint!(
     restriction,
     conditional_fix_suggestion,
     config = ExplicitMemberAccessibilityConfig,
+    references = "https://typescript-eslint.io/rules/explicit-member-accessibility/",
     version = "1.61.0",
 );
 

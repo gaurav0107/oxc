@@ -69,6 +69,7 @@ declare_oxc_lint!(
     NoLifecycleAfterAwait,
     vue,
     correctness,
+    references = "https://eslint.vuejs.org/rules/no-lifecycle-after-await.html",
     version = "1.39.0",
 );
 

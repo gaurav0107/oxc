@@ -44,6 +44,7 @@ declare_oxc_lint!(
     NoNamespace,
     react,
     suspicious,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-namespace.md",
     version = "0.15.13",
 );
 

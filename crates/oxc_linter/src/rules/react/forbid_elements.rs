@@ -124,6 +124,7 @@ declare_oxc_lint!(
     react,
     restriction,
     config = ForbidElementsConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/forbid-elements.md",
     version = "0.16.11",
 );
 

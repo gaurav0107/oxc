@@ -55,6 +55,7 @@ declare_oxc_lint!(
     jest,
     style,
     fix,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-alias-methods.md",
     version = "0.0.12",
 );
 

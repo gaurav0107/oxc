@@ -61,6 +61,7 @@ declare_oxc_lint!(
     NoLoopFunc,
     eslint,
     pedantic,
+    references = "https://eslint.org/docs/latest/rules/no-loop-func",
     version = "1.33.0",
 );
 

@@ -57,6 +57,7 @@ declare_oxc_lint!(
     NoDupeClassMembers,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-dupe-class-members",
     version = "0.0.3",
 );
 

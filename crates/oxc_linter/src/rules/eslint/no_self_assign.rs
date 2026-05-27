@@ -102,6 +102,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = NoSelfAssign,
+    references = "https://eslint.org/docs/latest/rules/no-self-assign",
     version = "0.0.5",
 );
 

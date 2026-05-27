@@ -258,6 +258,7 @@ declare_oxc_lint!(
     style,
     conditional_fix_suggestion,
     config = ConsistentTypeAssertionsConfig,
+    references = "https://typescript-eslint.io/rules/consistent-type-assertions/",
     version = "1.44.0",
 );
 

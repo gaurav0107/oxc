@@ -84,6 +84,7 @@ declare_oxc_lint!(
     vue,
     restriction,
     config = MaxProps,
+    references = "https://eslint.vuejs.org/rules/max-props.html",
     version = "1.19.0",
 );
 

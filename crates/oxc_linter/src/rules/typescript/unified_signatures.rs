@@ -73,6 +73,7 @@ declare_oxc_lint!(
     typescript,
     style,
     config = UnifiedSignaturesOptions,
+    references = "https://typescript-eslint.io/rules/unified-signatures/",
     version = "1.48.0",
 );
 

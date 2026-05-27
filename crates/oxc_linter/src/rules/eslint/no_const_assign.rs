@@ -53,6 +53,7 @@ declare_oxc_lint!(
     NoConstAssign,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-const-assign",
     version = "0.0.3",
 );
 

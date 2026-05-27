@@ -73,6 +73,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = SelfClosingComp,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md",
     version = "0.9.3",
 );
 

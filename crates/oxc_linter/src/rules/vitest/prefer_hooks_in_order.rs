@@ -9,7 +9,14 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct PreferHooksInOrder;
 
-declare_oxc_lint!(PreferHooksInOrder, vitest, style, docs = DOCUMENTATION, version = "0.6.0",);
+declare_oxc_lint!(
+    PreferHooksInOrder,
+    vitest,
+    style,
+    docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-hooks-in-order.md",
+    version = "0.6.0",
+);
 
 impl Rule for PreferHooksInOrder {
     fn run_once(&self, ctx: &LintContext) {

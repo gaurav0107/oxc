@@ -77,6 +77,7 @@ declare_oxc_lint!(
     NoDuplicateCase,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-duplicate-case",
     version = "0.0.3",
 );
 

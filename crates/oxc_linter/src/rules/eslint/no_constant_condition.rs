@@ -127,6 +127,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = NoConstantCondition,
+    references = "https://eslint.org/docs/latest/rules/no-constant-condition",
     version = "0.0.3",
 );
 

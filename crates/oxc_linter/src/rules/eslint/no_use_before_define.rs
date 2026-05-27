@@ -97,6 +97,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     config = NoUseBeforeDefineConfig,
+    references = "https://eslint.org/docs/latest/rules/no-use-before-define",
     version = "1.49.0",
 );
 

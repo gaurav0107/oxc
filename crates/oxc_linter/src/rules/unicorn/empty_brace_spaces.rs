@@ -48,6 +48,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/empty-brace-spaces.md",
     version = "0.0.18",
 );
 

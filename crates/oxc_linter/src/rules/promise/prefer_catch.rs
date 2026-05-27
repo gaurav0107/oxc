@@ -53,6 +53,7 @@ declare_oxc_lint!(
     promise,
     style,
     pending,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/prefer-catch.md",
     version = "0.15.14",
 );
 

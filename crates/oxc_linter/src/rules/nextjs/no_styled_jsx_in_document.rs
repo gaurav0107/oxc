@@ -75,6 +75,7 @@ declare_oxc_lint!(
     NoStyledJsxInDocument,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-styled-jsx-in-document",
     version = "0.3.3",
 );
 

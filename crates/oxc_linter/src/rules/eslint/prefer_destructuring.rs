@@ -90,6 +90,7 @@ declare_oxc_lint!(
     style,
     conditional_fix,
     config = PreferDestructuring,
+    references = "https://eslint.org/docs/latest/rules/prefer-destructuring",
     version = "1.10.0",
 );
 

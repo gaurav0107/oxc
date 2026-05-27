@@ -41,6 +41,7 @@ declare_oxc_lint!(
     NoSetterReturn,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-setter-return",
     version = "0.0.3",
 );
 

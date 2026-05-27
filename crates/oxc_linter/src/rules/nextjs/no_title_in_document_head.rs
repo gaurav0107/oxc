@@ -61,6 +61,7 @@ declare_oxc_lint!(
     NoTitleInDocumentHead,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-title-in-document-head",
     version = "0.2.0",
 );
 

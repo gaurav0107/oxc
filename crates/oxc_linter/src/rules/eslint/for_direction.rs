@@ -85,6 +85,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     fix_dangerous,
+    references = "https://eslint.org/docs/latest/rules/for-direction",
     version = "0.0.3",
 );
 

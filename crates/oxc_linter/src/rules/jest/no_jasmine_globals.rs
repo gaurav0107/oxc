@@ -66,6 +66,7 @@ declare_oxc_lint!(
     jest,
     style,
     conditional_fix,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-jasmine-globals.md",
     version = "0.0.13",
 );
 

@@ -94,6 +94,7 @@ declare_oxc_lint!(
     NoEmptyFile,
     unicorn,
     correctness,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md",
     version = "0.0.15",
 );
 

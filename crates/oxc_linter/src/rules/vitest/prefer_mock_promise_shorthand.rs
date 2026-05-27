@@ -15,6 +15,7 @@ declare_oxc_lint!(
     style,
     conditional_fix,
     docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-mock-promise-shorthand.md",
     version = "0.2.16",
 );
 

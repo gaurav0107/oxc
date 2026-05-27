@@ -63,6 +63,7 @@ declare_oxc_lint!(
     react,
     correctness,
     fix,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spread-multi.md",
     version = "0.7.2",
 );
 

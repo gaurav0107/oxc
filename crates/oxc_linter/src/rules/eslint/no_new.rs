@@ -43,6 +43,7 @@ declare_oxc_lint!(
     NoNew,
     eslint,
     suspicious,
+    references = "https://eslint.org/docs/latest/rules/no-new",
     version = "0.4.0",
 );
 

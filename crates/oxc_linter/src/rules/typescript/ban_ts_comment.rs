@@ -159,6 +159,7 @@ declare_oxc_lint!(
     pedantic,
     conditional_fix,
     config = BanTsCommentConfig,
+    references = "https://typescript-eslint.io/rules/ban-ts-comment/",
     version = "0.0.8",
 );
 

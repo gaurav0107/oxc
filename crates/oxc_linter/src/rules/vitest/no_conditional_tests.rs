@@ -53,6 +53,7 @@ declare_oxc_lint!(
     NoConditionalTests,
     vitest,
     correctness,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-conditional-tests.md",
     version = "0.8.0",
 );
 

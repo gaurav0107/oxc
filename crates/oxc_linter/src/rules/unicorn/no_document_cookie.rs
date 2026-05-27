@@ -62,6 +62,7 @@ declare_oxc_lint!(
     NoDocumentCookie,
     unicorn,
     restriction,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-document-cookie.md",
     version = "0.0.18",
 );
 

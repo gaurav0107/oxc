@@ -63,7 +63,7 @@ declare_oxc_lint!(
     /// Examples of **incorrect** code for this rule:
     /// ```ts
     /// class StaticConstants {
-    /// 	static readonly version = 42;
+    /// 	static readonly references = "https://typescript-eslint.io/rules/no-extraneous-class/", version = 42;
     ///
     /// 	static isProduction() {
     /// 	  return process.env.NODE_ENV === 'production';

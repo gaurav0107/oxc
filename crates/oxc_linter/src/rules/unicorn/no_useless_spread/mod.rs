@@ -143,6 +143,7 @@ declare_oxc_lint!(
     unicorn,
     correctness,
     fix_dangerous,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-spread.md",
     version = "0.0.19",
 );
 

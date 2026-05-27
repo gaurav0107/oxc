@@ -55,6 +55,7 @@ declare_oxc_lint!(
     typescript,
     suspicious,
     config = ConsistentReturnConfig,
+    references = "https://typescript-eslint.io/rules/consistent-return/",
     version = "0.0.8",
 );
 

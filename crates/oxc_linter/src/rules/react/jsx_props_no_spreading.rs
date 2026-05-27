@@ -88,6 +88,7 @@ declare_oxc_lint!(
     react,
     style,
     config = JsxPropsNoSpreadingConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md",
     version = "1.33.0",
 );
 

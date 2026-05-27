@@ -84,6 +84,7 @@ declare_oxc_lint!(
     NoLossOfPrecision,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-loss-of-precision",
     version = "0.0.7",
 );
 

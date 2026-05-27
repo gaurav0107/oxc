@@ -41,6 +41,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     conditional_fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-text-content.md",
     version = "0.0.21",
 );
 

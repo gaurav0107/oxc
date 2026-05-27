@@ -51,6 +51,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-slice-end.md",
     version = "0.16.10",
 );
 

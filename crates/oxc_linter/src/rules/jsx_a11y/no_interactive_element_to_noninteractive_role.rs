@@ -76,6 +76,7 @@ declare_oxc_lint!(
     jsx_a11y,
     correctness,
     config = NoInteractiveElementToNoninteractiveRoleConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-interactive-element-to-noninteractive-role.md",
     version = "1.65.0"
 );
 

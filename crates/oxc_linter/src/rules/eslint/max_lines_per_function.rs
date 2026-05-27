@@ -119,6 +119,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     config = MaxLinesPerFunctionConfig,
+    references = "https://eslint.org/docs/latest/rules/max-lines-per-function",
     version = "0.15.12",
 );
 

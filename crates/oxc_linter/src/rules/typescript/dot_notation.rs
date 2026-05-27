@@ -65,6 +65,7 @@ declare_oxc_lint!(
     typescript,
     style,
     config = DotNotationConfig,
+    references = "https://typescript-eslint.io/rules/dot-notation/",
     version = "1.49.0",
 );
 

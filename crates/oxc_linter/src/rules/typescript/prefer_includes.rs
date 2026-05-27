@@ -75,6 +75,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     fix,
+    references = "https://typescript-eslint.io/rules/prefer-includes/",
     version = "1.29.0",
 );
 

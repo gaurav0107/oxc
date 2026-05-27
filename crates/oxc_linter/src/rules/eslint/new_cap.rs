@@ -412,6 +412,7 @@ declare_oxc_lint!(
     style,
     pending, // TODO: maybe?
     config = NewCapConfig,
+    references = "https://eslint.org/docs/latest/rules/new-cap",
     version = "0.15.5",
 );
 

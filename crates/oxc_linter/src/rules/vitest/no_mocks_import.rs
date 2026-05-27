@@ -12,6 +12,7 @@ declare_oxc_lint!(
     vitest,
     style,
     docs = SharedNoMocksImport::DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-mocks-import.md",
     version = "0.0.13",
 );
 

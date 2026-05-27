@@ -110,6 +110,7 @@ declare_oxc_lint!(
     style,
     fix_dangerous,
     config = Mode,
+    references = "https://eslint.org/docs/latest/rules/operator-assignment",
     version = "0.15.13",
 );
 

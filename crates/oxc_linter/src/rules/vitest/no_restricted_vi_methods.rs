@@ -17,6 +17,7 @@ declare_oxc_lint!(
     style,
     config = SharedNoRestrictedJestMethods::NoRestrictedJestMethodsConfig,
     docs = SharedNoRestrictedJestMethods::DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-restricted-vi-methods.md",
     version = "0.2.3",
 );
 

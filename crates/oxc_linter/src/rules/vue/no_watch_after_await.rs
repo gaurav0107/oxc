@@ -68,6 +68,7 @@ declare_oxc_lint!(
     NoWatchAfterAwait,
     vue,
     correctness,
+    references = "https://eslint.vuejs.org/rules/no-watch-after-await.html",
     version = "1.67.0",
 );
 

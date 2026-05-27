@@ -105,6 +105,7 @@ declare_oxc_lint!(
     restriction,
     conditional_fix,
     config = PromiseFunctionAsyncConfig,
+    references = "https://typescript-eslint.io/rules/promise-function-async/",
     version = "1.12.0",
 );
 

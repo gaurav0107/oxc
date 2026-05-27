@@ -64,6 +64,7 @@ declare_oxc_lint!(
     react,
     pedantic,
     config = DisplayNameConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/display-name.md",
     version = "1.42.0",
 );
 

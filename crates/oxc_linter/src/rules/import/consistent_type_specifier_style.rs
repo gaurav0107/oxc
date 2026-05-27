@@ -97,6 +97,7 @@ declare_oxc_lint!(
     style,
     conditional_fix,
     config = Mode,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/consistent-type-specifier-style.md",
     version = "0.16.11",
 );
 

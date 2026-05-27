@@ -51,6 +51,7 @@ declare_oxc_lint!(
     unicorn,
     suspicious,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-module-specifiers.md",
     version = "1.20.0",
 );
 

@@ -65,6 +65,7 @@ declare_oxc_lint!(
     vue,
     correctness,
     pending,
+    references = "https://eslint.vuejs.org/rules/no-deprecated-props-default-this.html",
     version = "1.67.0",
 );
 

@@ -50,6 +50,7 @@ declare_oxc_lint!(
     NoWebpackLoaderSyntax,
     import,
     restriction,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-webpack-loader-syntax.md",
     version = "0.7.0",
 );
 

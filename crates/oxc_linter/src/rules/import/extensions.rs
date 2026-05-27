@@ -473,6 +473,7 @@ declare_oxc_lint!(
     import,
     restriction,
     config = ExtensionsConfig,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/extensions.md",
     version = "1.2.0",
 );
 

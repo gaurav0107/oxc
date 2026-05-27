@@ -43,6 +43,7 @@ declare_oxc_lint!(
     NoObjectAsDefaultParameter,
     unicorn,
     pedantic,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-object-as-default-parameter.md",
     version = "0.0.16",
 );
 impl Rule for NoObjectAsDefaultParameter {

@@ -93,6 +93,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     config = MaxDepth,
+    references = "https://eslint.org/docs/latest/rules/max-depth",
     version = "0.15.12",
 );
 

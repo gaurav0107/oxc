@@ -31,6 +31,7 @@ declare_oxc_lint!(
     PreferRegexpExec(tsgolint),
     typescript,
     style,
+    references = "https://typescript-eslint.io/rules/prefer-regexp-exec/",
     version = "1.49.0",
 );
 

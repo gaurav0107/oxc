@@ -213,6 +213,7 @@ declare_oxc_lint!(
     restriction,
     none,
     config = PropertyDetailsList,
+    references = "https://eslint.org/docs/latest/rules/no-restricted-properties",
     version = "1.63.0",
 );
 

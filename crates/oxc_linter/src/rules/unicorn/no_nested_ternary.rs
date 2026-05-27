@@ -47,6 +47,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     conditional_fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-nested-ternary.md",
     version = "0.0.18",
 );
 

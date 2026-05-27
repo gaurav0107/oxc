@@ -62,6 +62,7 @@ declare_oxc_lint!(
     unicorn,
     restriction,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-anonymous-default-export.md",
     version = "0.3.3",
 );
 

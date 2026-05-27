@@ -70,6 +70,7 @@ declare_oxc_lint!(
     pedantic,
     fix_suggestion,
     config = NoConfusingVoidExpressionConfig,
+    references = "https://typescript-eslint.io/rules/no-confusing-void-expression/",
     version = "1.12.0",
 );
 

@@ -77,6 +77,7 @@ declare_oxc_lint!(
     // TODO: add suggestion (see jest-community/eslint-plugin-jest#586)
     style,
     pending,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-done-callback.md",
     version = "0.0.13",
 );
 

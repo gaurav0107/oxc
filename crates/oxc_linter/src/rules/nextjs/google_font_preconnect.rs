@@ -45,6 +45,7 @@ declare_oxc_lint!(
     GoogleFontPreconnect,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/google-font-preconnect",
     version = "0.2.0",
 );
 

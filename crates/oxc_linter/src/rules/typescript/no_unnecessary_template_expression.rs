@@ -64,6 +64,7 @@ declare_oxc_lint!(
     typescript,
     suspicious,
     fix,
+    references = "https://typescript-eslint.io/rules/no-unnecessary-template-expression/",
     version = "1.12.0",
 );
 

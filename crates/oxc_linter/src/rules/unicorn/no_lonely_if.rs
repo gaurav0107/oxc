@@ -44,6 +44,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-lonely-if.md",
     version = "0.0.18",
 );
 

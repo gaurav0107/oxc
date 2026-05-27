@@ -102,6 +102,7 @@ declare_oxc_lint!(
     NoUselessAssignment,
     eslint,
     nursery,
+    references = "https://eslint.org/docs/latest/rules/no-useless-assignment",
     version = "1.59.0",
 );
 

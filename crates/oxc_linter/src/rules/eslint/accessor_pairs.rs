@@ -118,6 +118,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     config = AccessorPairsConfig,
+    references = "https://eslint.org/docs/latest/rules/accessor-pairs",
     version = "1.33.0",
 );
 

@@ -217,6 +217,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = Yoda,
+    references = "https://eslint.org/docs/latest/rules/yoda",
     version = "0.14.1",
 );
 

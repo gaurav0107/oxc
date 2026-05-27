@@ -80,6 +80,7 @@ declare_oxc_lint!(
     style,
     pending,  // TODO: fixer
     config = NoNamespaceConfig,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-namespace.md",
     version = "0.12.0",
 );
 

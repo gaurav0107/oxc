@@ -11,7 +11,14 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct NoTestReturnStatement;
 
-declare_oxc_lint!(NoTestReturnStatement, vitest, style, docs = DOCUMENTATION, version = "0.2.0",);
+declare_oxc_lint!(
+    NoTestReturnStatement,
+    vitest,
+    style,
+    docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-test-return-statement.md",
+    version = "0.2.0",
+);
 
 impl Rule for NoTestReturnStatement {
     fn run<'a>(&self, node: &AstNode<'a>, ctx: &LintContext<'a>) {

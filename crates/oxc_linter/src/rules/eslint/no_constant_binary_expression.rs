@@ -57,6 +57,7 @@ declare_oxc_lint!(
     NoConstantBinaryExpression,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-constant-binary-expression",
     version = "0.0.3",
 );
 

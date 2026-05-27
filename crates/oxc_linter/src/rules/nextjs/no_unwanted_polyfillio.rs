@@ -64,6 +64,7 @@ declare_oxc_lint!(
     NoUnwantedPolyfillio,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-unwanted-polyfillio",
     version = "0.2.7",
 );
 

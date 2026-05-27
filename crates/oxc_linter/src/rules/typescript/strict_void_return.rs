@@ -48,6 +48,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     config = StrictVoidReturnConfig,
+    references = "https://typescript-eslint.io/rules/strict-void-return/",
     version = "0.0.8",
 );
 

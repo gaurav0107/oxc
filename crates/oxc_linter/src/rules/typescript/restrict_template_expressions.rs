@@ -123,6 +123,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     config = RestrictTemplateExpressionsConfig,
+    references = "https://typescript-eslint.io/rules/restrict-template-expressions/",
     version = "1.12.0",
 );
 

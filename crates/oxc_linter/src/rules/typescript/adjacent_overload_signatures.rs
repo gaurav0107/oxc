@@ -85,6 +85,7 @@ declare_oxc_lint!(
     AdjacentOverloadSignatures,
     typescript,
     style,
+    references = "https://typescript-eslint.io/rules/adjacent-overload-signatures/",
     version = "0.0.7",
 );
 

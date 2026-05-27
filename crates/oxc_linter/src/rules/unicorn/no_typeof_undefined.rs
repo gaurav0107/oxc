@@ -52,6 +52,7 @@ declare_oxc_lint!(
     pedantic,
     fix_or_suggestion,
     config = NoTypeofUndefined,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-typeof-undefined.md",
     version = "0.0.18",
 );
 

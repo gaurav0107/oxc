@@ -51,6 +51,7 @@ declare_oxc_lint!(
     NoExAssign,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-ex-assign",
     version = "0.0.4",
 );
 

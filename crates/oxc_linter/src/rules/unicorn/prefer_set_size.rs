@@ -48,6 +48,7 @@ declare_oxc_lint!(
     unicorn,
     correctness,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-size.md",
     version = "0.0.19",
 );
 

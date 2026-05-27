@@ -63,6 +63,7 @@ declare_oxc_lint!(
     ValidParams,
     promise,
     correctness,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/valid-params.md",
     version = "0.7.1",
 );
 

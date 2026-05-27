@@ -56,6 +56,7 @@ declare_oxc_lint!(
     NoThisAssignment,
     unicorn,
     pedantic,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md",
     version = "0.0.18",
 );
 

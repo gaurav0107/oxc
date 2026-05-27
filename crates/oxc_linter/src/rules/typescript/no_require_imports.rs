@@ -116,6 +116,7 @@ declare_oxc_lint!(
     restriction,
     pending,  // TODO: fixer (change require to import)
     config = NoRequireImportsConfig,
+    references = "https://typescript-eslint.io/rules/no-require-imports/",
     version = "0.13.0",
 );
 

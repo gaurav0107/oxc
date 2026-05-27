@@ -40,6 +40,7 @@ declare_oxc_lint!(
     typescript,
     restriction,
     pending,
+    references = "https://typescript-eslint.io/rules/no-non-null-assertion/",
     version = "0.5.0",
 );
 

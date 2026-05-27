@@ -55,6 +55,7 @@ declare_oxc_lint!(
     NoChildrenProp,
     react,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md",
     version = "0.0.14",
 );
 

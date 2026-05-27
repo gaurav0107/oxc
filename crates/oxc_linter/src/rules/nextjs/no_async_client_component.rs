@@ -86,6 +86,7 @@ declare_oxc_lint!(
     NoAsyncClientComponent,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-async-client-component",
     version = "0.2.0",
 );
 

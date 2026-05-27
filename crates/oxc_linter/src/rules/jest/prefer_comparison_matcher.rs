@@ -16,6 +16,7 @@ declare_oxc_lint!(
     style,
     fix,
     docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-comparison-matcher.md",
     version = "0.2.15",
 );
 

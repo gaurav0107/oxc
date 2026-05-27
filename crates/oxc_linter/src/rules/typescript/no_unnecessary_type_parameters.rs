@@ -37,6 +37,7 @@ declare_oxc_lint!(
     NoUnnecessaryTypeParameters(tsgolint),
     typescript,
     suspicious,
+    references = "https://typescript-eslint.io/rules/no-unnecessary-type-parameters/",
     version = "1.49.0",
 );
 

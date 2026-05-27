@@ -45,6 +45,7 @@ declare_oxc_lint!(
     style,
     docs = DOCUMENTATION,
     suggestion,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-expect-assertions.md",
     version = "1.62.0",
     config = PreferExpectAssertionsConfig
 );

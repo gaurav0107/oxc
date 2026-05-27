@@ -88,6 +88,7 @@ declare_oxc_lint!(
     NoUnusedPrivateClassMembers,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-unused-private-class-members",
     version = "0.1.1",
 );
 

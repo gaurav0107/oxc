@@ -55,6 +55,7 @@ declare_oxc_lint!(
     NoUnsafeFunctionType,
     typescript,
     pedantic,
+    references = "https://typescript-eslint.io/rules/no-unsafe-function-type/",
     version = "0.11.1",
 );
 

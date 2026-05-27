@@ -45,6 +45,7 @@ declare_oxc_lint!(
     NoNamedExport,
     import,
     style,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-export.md",
     version = "1.19.0",
 );
 

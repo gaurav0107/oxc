@@ -71,6 +71,7 @@ declare_oxc_lint!(
     ReturnInEmitsValidator,
     vue,
     correctness,
+    references = "https://eslint.vuejs.org/rules/return-in-emits-validator.html",
     version = "1.67.0",
 );
 

@@ -36,6 +36,7 @@ declare_oxc_lint!(
     NoDynamicDelete,
     typescript,
     restriction,
+    references = "https://typescript-eslint.io/rules/no-dynamic-delete/",
     version = "0.5.2",
 );
 

@@ -52,6 +52,7 @@ declare_oxc_lint!(
     vitest,
     style,
     fix,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-strict-boolean-matchers.md",
     version = "1.57.0",
 );
 

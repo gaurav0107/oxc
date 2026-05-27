@@ -83,6 +83,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     pending,
+    references = "https://eslint.org/docs/latest/rules/no-lonely-if",
     version = "0.16.0",
 );
 

@@ -60,6 +60,7 @@ declare_oxc_lint!(
     typescript,
     style,
     fix,
+    references = "https://typescript-eslint.io/rules/prefer-reduce-type-parameter/",
     version = "1.12.0",
 );
 

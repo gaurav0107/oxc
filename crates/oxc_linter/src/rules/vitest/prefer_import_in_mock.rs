@@ -70,6 +70,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = PreferImportInMockConfig,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-import-in-mock.md",
     version = "1.49.0",
 );
 

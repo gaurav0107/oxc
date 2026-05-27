@@ -57,6 +57,7 @@ declare_oxc_lint!(
     NoMixedEnums(tsgolint),
     typescript,
     pedantic,
+    references = "https://typescript-eslint.io/rules/no-mixed-enums/",
     version = "1.12.0",
 );
 

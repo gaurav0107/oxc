@@ -92,6 +92,7 @@ declare_oxc_lint!(
     style,
     conditional_fix,
     config = SortImportsOptions,
+    references = "https://eslint.org/docs/latest/rules/sort-imports",
     version = "0.4.4",
 );
 

@@ -51,6 +51,7 @@ declare_oxc_lint!(
     NoRedundantTypeConstituents(tsgolint),
     typescript,
     correctness,
+    references = "https://typescript-eslint.io/rules/no-redundant-type-constituents/",
     version = "1.12.0",
 );
 

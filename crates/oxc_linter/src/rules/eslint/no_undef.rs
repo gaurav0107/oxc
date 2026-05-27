@@ -53,6 +53,7 @@ declare_oxc_lint!(
     eslint,
     nursery,
     config = NoUndef,
+    references = "https://eslint.org/docs/latest/rules/no-undef",
     version = "0.0.8",
 );
 

@@ -109,6 +109,7 @@ declare_oxc_lint!(
     vitest,
     correctness,
     config = RequireMockTypeParametersConfig,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-mock-type-parameters.md",
     version = "1.58.0",
 );
 

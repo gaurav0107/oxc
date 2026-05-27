@@ -134,6 +134,7 @@ declare_oxc_lint!(
     correctness,
     suggestion,
     config = NoMisleadingCharacterClass,
+    references = "https://eslint.org/docs/latest/rules/no-misleading-character-class",
     version = "1.17.0",
 );
 

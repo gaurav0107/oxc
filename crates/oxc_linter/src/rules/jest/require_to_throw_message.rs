@@ -15,6 +15,7 @@ declare_oxc_lint!(
     jest,
     correctness,
     docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/require-to-throw-message.md",
     version = "0.2.9",
 );
 

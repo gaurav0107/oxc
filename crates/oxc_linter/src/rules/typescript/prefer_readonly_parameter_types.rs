@@ -71,6 +71,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     config = PreferReadonlyParameterTypesConfig,
+    references = "https://typescript-eslint.io/rules/prefer-readonly-parameter-types/",
     version = "1.49.0",
 );
 

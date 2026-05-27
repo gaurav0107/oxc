@@ -42,6 +42,7 @@ declare_oxc_lint!(
     unicorn,
     suspicious,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-add-event-listener.md",
     version = "0.0.16",
 );
 

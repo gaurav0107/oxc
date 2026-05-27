@@ -46,6 +46,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     suggestion,
+    references = "https://eslint.org/docs/latest/rules/no-nonoctal-decimal-escape",
     version = "0.2.10",
 );
 

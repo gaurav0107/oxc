@@ -54,6 +54,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-empty-array-spread.md",
     version = "0.10.1",
 );
 

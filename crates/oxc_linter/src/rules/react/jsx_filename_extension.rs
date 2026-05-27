@@ -117,6 +117,7 @@ declare_oxc_lint!(
     restriction,
     pending,
     config = JsxFilenameExtensionConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md",
     version = "0.15.14",
 );
 

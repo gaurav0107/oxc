@@ -157,6 +157,7 @@ declare_oxc_lint!(
     suspicious,
     pending,
     config = ConsistentFunctionScoping,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-function-scoping.md",
     version = "0.8.0",
 );
 

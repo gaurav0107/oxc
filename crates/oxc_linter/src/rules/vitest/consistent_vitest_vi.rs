@@ -97,6 +97,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = ConsistentVitestConfig,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/consistent-vitest-vi.md",
     version = "1.37.0",
 );
 

@@ -106,6 +106,7 @@ declare_oxc_lint!(
     suspicious,
     pending,
     config = NoAbsolutePath,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-absolute-path.md",
     version = "0.15.13",
 );
 

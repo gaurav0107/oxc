@@ -59,6 +59,7 @@ declare_oxc_lint!(
     typescript,
     restriction,
     suggestion,
+    references = "https://typescript-eslint.io/rules/non-nullable-type-assertion-style/",
     version = "1.12.0",
 );
 

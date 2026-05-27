@@ -93,6 +93,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     config = RestrictPlusOperandsConfig,
+    references = "https://typescript-eslint.io/rules/restrict-plus-operands/",
     version = "1.12.0",
 );
 

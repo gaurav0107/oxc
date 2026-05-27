@@ -55,6 +55,7 @@ declare_oxc_lint!(
     NoMutableExports,
     import,
     style,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-mutable-exports.md",
     version = "0.15.13",
 );
 

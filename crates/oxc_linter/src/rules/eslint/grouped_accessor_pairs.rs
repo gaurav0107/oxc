@@ -182,6 +182,7 @@ declare_oxc_lint!(
     style,
     pending,
     config = GroupedAccessorPairs,
+    references = "https://eslint.org/docs/latest/rules/grouped-accessor-pairs",
     version = "0.15.12",
 );
 

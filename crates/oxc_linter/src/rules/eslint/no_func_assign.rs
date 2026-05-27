@@ -68,6 +68,7 @@ declare_oxc_lint!(
     NoFuncAssign,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-func-assign",
     version = "0.0.3",
 );
 

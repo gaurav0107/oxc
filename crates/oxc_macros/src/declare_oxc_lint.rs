@@ -33,6 +33,8 @@ pub struct LintRuleMeta {
     config: Option<Path>,
     /// The version of oxlint in which this rule was first available.
     version: LitStr,
+    /// Upstream docs URL for the rule this one was ported from. `None` for native oxc rules.
+    references: Option<LitStr>,
 }
 
 impl Parse for LintRuleMeta {
@@ -106,6 +108,7 @@ impl Parse for LintRuleMeta {
         let mut fix: Option<Ident> = None;
         let mut config: Option<Path> = None;
         let mut version: Option<LitStr> = None;
+        let mut references: Option<LitStr> = None;
 
         // remaining options are `key = value` pairs, with the exception of
         // fix kinds. Those can be short-handed to just the fix kind
@@ -150,6 +153,11 @@ impl Parse for LintRuleMeta {
                 "version" => {
                     input.parse::<Token!(=)>()?;
                     version.replace(input.parse()?);
+                }
+                // references = "https://upstream-plugin/docs/rule.md"
+                "references" => {
+                    input.parse::<Token!(=)>()?;
+                    references.replace(input.parse()?);
                 }
                 _ => {
                     if input.peek(Token!(=)) || fix.is_some() {
@@ -204,6 +212,7 @@ impl Parse for LintRuleMeta {
             used_in_test: false,
             config,
             version,
+            references,
         })
     }
 }
@@ -224,6 +233,7 @@ pub fn declare_oxc_lint(metadata: LintRuleMeta) -> TokenStream {
         used_in_test,
         config,
         version,
+        references,
     } = metadata;
 
     let canonical_name = rule_name_converter().convert(name.to_string());
@@ -303,6 +313,14 @@ pub fn declare_oxc_lint(metadata: LintRuleMeta) -> TokenStream {
         }
     };
 
+    let references = references.as_ref().map(|references| {
+        quote! {
+            fn references() -> Option<&'static str> {
+                Some(#references)
+            }
+        }
+    });
+
     let output = quote! {
         #import_statement
 
@@ -324,6 +342,8 @@ pub fn declare_oxc_lint(metadata: LintRuleMeta) -> TokenStream {
             #config_schema
 
             #version_const
+
+            #references
         }
     };
 

@@ -46,6 +46,7 @@ declare_oxc_lint!(
     jsx_a11y,
     correctness,
     fix,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-aria-hidden-on-focusable.md",
     version = "0.0.22",
 );
 

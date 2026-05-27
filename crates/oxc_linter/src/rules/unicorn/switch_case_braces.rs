@@ -92,6 +92,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = SwitchCaseBracesConfig,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-braces.md",
     version = "0.0.15",
 );
 

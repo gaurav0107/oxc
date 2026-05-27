@@ -81,6 +81,7 @@ declare_oxc_lint!(
     NextScriptForGa,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/next-script-for-ga",
     version = "0.2.0",
 );
 

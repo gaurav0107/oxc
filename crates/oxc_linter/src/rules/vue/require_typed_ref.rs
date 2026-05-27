@@ -44,6 +44,7 @@ declare_oxc_lint!(
     RequireTypedRef,
     vue,
     style,
+    references = "https://eslint.vuejs.org/rules/require-typed-ref.html",
     version = "1.17.0",
 );
 

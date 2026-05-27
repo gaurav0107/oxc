@@ -63,6 +63,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     config = NoDeprecatedConfig,
+    references = "https://typescript-eslint.io/rules/no-deprecated/",
     version = "1.26.0",
 );
 

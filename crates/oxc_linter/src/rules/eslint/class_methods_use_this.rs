@@ -130,6 +130,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     config = ClassMethodsUseThisConfig,
+    references = "https://eslint.org/docs/latest/rules/class-methods-use-this",
     version = "1.16.0",
 );
 

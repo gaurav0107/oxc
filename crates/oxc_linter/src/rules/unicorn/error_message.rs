@@ -61,6 +61,7 @@ declare_oxc_lint!(
     ErrorMessage,
     unicorn,
     style,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/error-message.md",
     version = "0.0.14",
 );
 

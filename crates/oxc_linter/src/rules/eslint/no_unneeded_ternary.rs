@@ -77,6 +77,7 @@ declare_oxc_lint!(
     suspicious,
     fix_dangerous,
     config = NoUnneededTernary,
+    references = "https://eslint.org/docs/latest/rules/no-unneeded-ternary",
     version = "0.15.12",
 );
 

@@ -42,6 +42,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     pending,
+    references = "https://eslint.org/docs/latest/rules/no-object-constructor",
     version = "0.13.2",
 );
 

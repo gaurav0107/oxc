@@ -50,6 +50,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     fix,
+    references = "https://eslint.org/docs/latest/rules/no-array-constructor",
     version = "0.0.3",
 );
 

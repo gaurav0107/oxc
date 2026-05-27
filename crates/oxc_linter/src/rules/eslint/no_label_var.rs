@@ -58,6 +58,7 @@ declare_oxc_lint!(
     NoLabelVar,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/no-label-var",
     version = "0.6.0",
 );
 

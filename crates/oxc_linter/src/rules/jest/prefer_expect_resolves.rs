@@ -10,7 +10,15 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct PreferExpectResolves;
 
-declare_oxc_lint!(PreferExpectResolves, jest, style, fix, docs = DOCUMENTATION, version = "0.2.14",);
+declare_oxc_lint!(
+    PreferExpectResolves,
+    jest,
+    style,
+    fix,
+    docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-expect-resolves.md",
+    version = "0.2.14",
+);
 
 impl Rule for PreferExpectResolves {
     fn run_on_jest_node<'a, 'c>(

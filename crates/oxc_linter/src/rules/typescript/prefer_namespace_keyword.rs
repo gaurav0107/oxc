@@ -62,6 +62,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     fix,
+    references = "https://typescript-eslint.io/rules/prefer-namespace-keyword/",
     version = "0.7.0",
 );
 

@@ -69,6 +69,7 @@ declare_oxc_lint!(
     RequireAwaitedExpectPoll,
     vitest,
     correctness,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-awaited-expect-poll.md",
     version = "1.58.0",
 );
 

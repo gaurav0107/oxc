@@ -201,6 +201,7 @@ declare_oxc_lint!(
     import,
     style,
     fix,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/newline-after-import.md",
     version = "1.66.0",
     config = NewlineAfterImport,
 );

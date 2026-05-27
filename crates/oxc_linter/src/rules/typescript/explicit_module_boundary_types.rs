@@ -169,6 +169,7 @@ declare_oxc_lint!(
     typescript,
     restriction,
     config = ExplicitModuleBoundaryTypesConfig,
+    references = "https://typescript-eslint.io/rules/explicit-module-boundary-types/",
     version = "1.9.0",
 );
 

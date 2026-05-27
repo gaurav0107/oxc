@@ -27,6 +27,8 @@ pub struct RuleTableRow {
     #[cfg(feature = "ruledocs")]
     pub documentation: Option<&'static str>,
     #[cfg(feature = "ruledocs")]
+    pub references: Option<&'static str>,
+    #[cfg(feature = "ruledocs")]
     pub schema: Option<schemars::schema::Schema>,
 
     pub turned_on_by_default: bool,
@@ -65,6 +67,8 @@ impl RuleTable {
                     version: rule.version(),
                     #[cfg(feature = "ruledocs")]
                     documentation: rule.documentation(),
+                    #[cfg(feature = "ruledocs")]
+                    references: rule.references(),
                     #[cfg(feature = "ruledocs")]
                     schema: generator.as_mut().and_then(|g| rule.schema(g)),
                     plugin: rule.plugin_name().to_string(),

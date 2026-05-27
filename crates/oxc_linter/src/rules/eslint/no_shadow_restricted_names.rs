@@ -95,6 +95,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = NoShadowRestrictedNamesConfig,
+    references = "https://eslint.org/docs/latest/rules/no-shadow-restricted-names",
     version = "0.0.3",
 );
 

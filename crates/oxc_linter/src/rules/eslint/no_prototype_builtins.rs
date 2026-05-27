@@ -45,6 +45,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     pending,
+    references = "https://eslint.org/docs/latest/rules/no-prototype-builtins",
     version = "0.0.5",
 );
 

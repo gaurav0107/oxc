@@ -34,6 +34,7 @@ declare_oxc_lint!(
     NoMultiStr,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/no-multi-str",
     version = "0.5.3",
 );
 

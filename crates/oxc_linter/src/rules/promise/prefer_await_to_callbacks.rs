@@ -55,6 +55,7 @@ declare_oxc_lint!(
     PreferAwaitToCallbacks,
     promise,
     style,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/prefer-await-to-callbacks.md",
     version = "0.9.10",
 );
 

@@ -65,6 +65,7 @@ declare_oxc_lint!(
     PreferRestParams,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/prefer-rest-params",
     version = "0.15.4",
 );
 

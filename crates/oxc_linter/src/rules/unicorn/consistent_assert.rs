@@ -50,6 +50,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-assert.md",
     version = "0.16.9",
 );
 

@@ -40,6 +40,7 @@ declare_oxc_lint!(
     NoVarRequires,
     typescript,
     restriction,
+    references = "https://typescript-eslint.io/rules/no-var-requires/",
     version = "0.0.7",
 );
 

@@ -65,6 +65,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     fix,
+    references = "https://eslint.org/docs/latest/rules/no-new-wrappers",
     version = "0.2.10",
 );
 

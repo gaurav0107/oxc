@@ -72,6 +72,7 @@ declare_oxc_lint!(
     NoArrowFunctionsInWatch,
     vue,
     correctness,
+    references = "https://eslint.vuejs.org/rules/no-arrow-functions-in-watch.html",
     version = "1.39.0",
 );
 

@@ -60,6 +60,7 @@ declare_oxc_lint!(
     NoPathConcat,
     node,
     restriction,
+    references = "https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-path-concat.md",
     version = "1.49.0",
 );
 

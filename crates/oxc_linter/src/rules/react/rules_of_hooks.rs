@@ -219,6 +219,7 @@ declare_oxc_lint!(
     RulesOfHooks,
     react,
     pedantic,
+    references = "https://react.dev/reference/rules/rules-of-hooks",
     version = "0.3.3",
 );
 

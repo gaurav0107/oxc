@@ -50,6 +50,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     conditional_fix,
+    references = "https://eslint.org/docs/latest/rules/no-var",
     version = "0.1.1",
 );
 

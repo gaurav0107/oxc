@@ -46,6 +46,7 @@ declare_oxc_lint!(
     NoAmd,
     import,
     restriction,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-amd.md",
     version = "0.0.16",
 );
 

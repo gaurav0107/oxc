@@ -55,6 +55,7 @@ declare_oxc_lint!(
     ReactInJsxScope,
     react,
     suspicious,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md",
     version = "0.0.20",
 );
 

@@ -38,6 +38,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     suggestion,
+    references = "https://typescript-eslint.io/rules/no-array-delete/",
     version = "1.12.0",
 );
 

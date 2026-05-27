@@ -194,6 +194,7 @@ declare_oxc_lint!(
     correctness,
     fix = conditional_dangerous_fix_or_suggestion,
     config = NoUnusedVarsOptions,
+    references = "https://eslint.org/docs/latest/rules/no-unused-vars",
     version = "0.7.0",
 );
 

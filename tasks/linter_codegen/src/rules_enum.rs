@@ -179,6 +179,14 @@ fn generate_rule_enum_impl(rule_entries: &[RuleEntry<'_>]) -> TokenStream {
         })
         .collect();
 
+    let references_arms: Vec<TokenStream> = rule_entries
+        .iter()
+        .map(|rule| {
+            let enum_name = make_enum_ident(rule);
+            quote! { Self::#enum_name(_) => #enum_name::references() }
+        })
+        .collect();
+
     let schema_arms: Vec<TokenStream> = rule_entries
         .iter()
         .map(|rule| {
@@ -317,6 +325,12 @@ fn generate_rule_enum_impl(rule_entries: &[RuleEntry<'_>]) -> TokenStream {
             pub fn documentation(&self) -> Option<&'static str> {
                 match self {
                     #(#documentation_arms),*
+                }
+            }
+
+            pub fn references(&self) -> Option<&'static str> {
+                match self {
+                    #(#references_arms),*
                 }
             }
 

@@ -62,6 +62,7 @@ declare_oxc_lint!(
     react,
     correctness,
     suggestion,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/forward-ref-uses-ref.md",
     version = "0.16.9",
 );
 

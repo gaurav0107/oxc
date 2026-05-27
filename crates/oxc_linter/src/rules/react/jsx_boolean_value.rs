@@ -109,6 +109,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = JsxBooleanValueConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md",
     version = "0.7.0",
 );
 

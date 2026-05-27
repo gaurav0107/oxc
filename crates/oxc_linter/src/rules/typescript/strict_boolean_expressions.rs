@@ -120,6 +120,7 @@ declare_oxc_lint!(
     pedantic,
     pending,
     config = StrictBooleanExpressionsConfig,
+    references = "https://typescript-eslint.io/rules/strict-boolean-expressions/",
     version = "1.25.0",
 );
 

@@ -58,6 +58,7 @@ declare_oxc_lint!(
     NoAssignModuleVariable,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-assign-module-variable",
     version = "0.2.0",
 );
 

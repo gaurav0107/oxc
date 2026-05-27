@@ -15,6 +15,7 @@ declare_oxc_lint!(
     vitest,
     correctness,
     docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/valid-expect-in-promise.md",
     version = "1.60.0",
 );
 

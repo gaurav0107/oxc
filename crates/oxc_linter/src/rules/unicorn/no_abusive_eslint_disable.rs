@@ -73,6 +73,7 @@ declare_oxc_lint!(
     NoAbusiveEslintDisable,
     unicorn,
     restriction,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-abusive-eslint-disable.md",
     version = "0.0.18",
 );
 

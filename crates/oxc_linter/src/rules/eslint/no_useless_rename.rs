@@ -77,6 +77,7 @@ declare_oxc_lint!(
     correctness,
     fix,
     config = NoUselessRenameConfig,
+    references = "https://eslint.org/docs/latest/rules/no-useless-rename",
     version = "0.2.14",
 );
 

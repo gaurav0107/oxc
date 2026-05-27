@@ -88,6 +88,7 @@ declare_oxc_lint!(
     style,
     conditional_fix_dangerous,
     config = ConsistentTypeDefinitionsConfig,
+    references = "https://typescript-eslint.io/rules/consistent-type-definitions/",
     version = "0.2.17",
 );
 

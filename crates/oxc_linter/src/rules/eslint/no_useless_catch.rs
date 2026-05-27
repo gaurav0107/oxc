@@ -53,6 +53,7 @@ declare_oxc_lint!(
     NoUselessCatch,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-useless-catch",
     version = "0.0.5",
 );
 

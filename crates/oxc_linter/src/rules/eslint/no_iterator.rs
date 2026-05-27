@@ -57,6 +57,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     suggestion,
+    references = "https://eslint.org/docs/latest/rules/no-iterator",
     version = "0.2.15",
 );
 

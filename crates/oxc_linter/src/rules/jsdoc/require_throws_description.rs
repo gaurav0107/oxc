@@ -50,6 +50,7 @@ declare_oxc_lint!(
     RequireThrowsDescription,
     jsdoc,
     style,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireThrowsDescription.md",
     version = "1.65.0",
 );
 

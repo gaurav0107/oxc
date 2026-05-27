@@ -55,6 +55,7 @@ declare_oxc_lint!(
     Lang,
     jsx_a11y,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/lang.md",
     version = "0.1.1",
 );
 

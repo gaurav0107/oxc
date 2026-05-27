@@ -71,6 +71,7 @@ declare_oxc_lint!(
     NoAccessorRecursion,
     unicorn,
     suspicious,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-accessor-recursion.md",
     version = "0.16.5",
 );
 

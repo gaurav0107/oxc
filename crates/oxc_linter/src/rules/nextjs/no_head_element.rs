@@ -67,6 +67,7 @@ declare_oxc_lint!(
     NoHeadElement,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-head-element",
     version = "0.2.1",
 );
 

@@ -55,6 +55,7 @@ declare_oxc_lint!(
     NoInvalidFetchOptions,
     unicorn,
     correctness,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-fetch-options.md",
     version = "0.15.12",
 );
 

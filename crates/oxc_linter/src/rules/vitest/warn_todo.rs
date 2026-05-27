@@ -48,6 +48,7 @@ declare_oxc_lint!(
     WarnTodo,
     vitest,
     correctness,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/warn-todo.md",
     version = "1.37.0",
 );
 

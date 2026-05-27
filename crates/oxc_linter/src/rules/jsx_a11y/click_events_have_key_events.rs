@@ -47,6 +47,7 @@ declare_oxc_lint!(
     ClickEventsHaveKeyEvents,
     jsx_a11y,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/click-events-have-key-events.md",
     version = "0.2.1",
 );
 

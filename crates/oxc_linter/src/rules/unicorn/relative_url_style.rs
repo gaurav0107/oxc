@@ -72,6 +72,7 @@ declare_oxc_lint!(
     style,
     fix_suggestion,
     config = RelativeUrlStyleConfig,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/relative-url-style.md",
     version = "1.44.0",
 );
 

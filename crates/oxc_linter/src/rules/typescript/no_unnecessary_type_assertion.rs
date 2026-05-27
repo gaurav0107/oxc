@@ -68,6 +68,7 @@ declare_oxc_lint!(
     suspicious,
     fix,
     config = NoUnnecessaryTypeAssertionConfig,
+    references = "https://typescript-eslint.io/rules/no-unnecessary-type-assertion/",
     version = "1.12.0",
 );
 

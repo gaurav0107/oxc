@@ -25,6 +25,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = ConsistentTestItConfig,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/consistent-test-it.md",
     version = "0.5.3",
 );
 

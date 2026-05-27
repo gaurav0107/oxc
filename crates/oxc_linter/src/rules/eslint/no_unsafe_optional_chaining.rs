@@ -62,6 +62,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = NoUnsafeOptionalChaining,
+    references = "https://eslint.org/docs/latest/rules/no-unsafe-optional-chaining",
     version = "0.0.5",
 );
 

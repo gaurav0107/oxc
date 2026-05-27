@@ -87,6 +87,7 @@ declare_oxc_lint!(
     restriction,
     conditional_suggestion,
     config = NoConsoleConfig,
+    references = "https://eslint.org/docs/latest/rules/no-console",
     version = "0.0.13",
 );
 

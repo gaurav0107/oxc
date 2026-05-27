@@ -76,6 +76,7 @@ declare_oxc_lint!(
     NoUselessBackreference,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-useless-backreference",
     version = "0.16.10",
 );
 

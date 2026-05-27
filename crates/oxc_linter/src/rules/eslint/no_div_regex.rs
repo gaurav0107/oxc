@@ -40,6 +40,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     fix,
+    references = "https://eslint.org/docs/latest/rules/no-div-regex",
     version = "0.4.2",
 );
 

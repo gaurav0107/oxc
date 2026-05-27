@@ -58,6 +58,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     suggestion,
+    references = "https://typescript-eslint.io/rules/no-non-null-asserted-optional-chain/",
     version = "0.0.6",
 );
 

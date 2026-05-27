@@ -185,6 +185,7 @@ declare_oxc_lint!(
     style,
     pending,
     config = LogicalAssignmentOperators,
+    references = "https://eslint.org/docs/latest/rules/logical-assignment-operators",
     version = "1.63.0",
 );
 

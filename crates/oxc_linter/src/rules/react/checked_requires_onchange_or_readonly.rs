@@ -78,6 +78,7 @@ declare_oxc_lint!(
     react,
     pedantic,
     config = CheckedRequiresOnchangeOrReadonly,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/checked-requires-onchange-or-readonly.md",
     version = "0.2.15",
 );
 

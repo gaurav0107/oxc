@@ -47,6 +47,7 @@ declare_oxc_lint!(
     ExportsLast,
     import,
     style,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/exports-last.md",
     version = "0.15.14",
 );
 

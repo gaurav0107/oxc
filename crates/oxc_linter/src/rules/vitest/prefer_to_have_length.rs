@@ -10,7 +10,15 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct PreferToHaveLength;
 
-declare_oxc_lint!(PreferToHaveLength, vitest, style, fix, docs = DOCUMENTATION, version = "0.2.13",);
+declare_oxc_lint!(
+    PreferToHaveLength,
+    vitest,
+    style,
+    fix,
+    docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-have-length.md",
+    version = "0.2.13",
+);
 
 impl Rule for PreferToHaveLength {
     fn run_on_jest_node<'a, 'c>(

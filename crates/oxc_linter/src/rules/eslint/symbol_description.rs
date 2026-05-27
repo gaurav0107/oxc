@@ -52,6 +52,7 @@ declare_oxc_lint!(
     SymbolDescription,
     eslint,
     pedantic,
+    references = "https://eslint.org/docs/latest/rules/symbol-description",
     version = "0.4.0",
 );
 

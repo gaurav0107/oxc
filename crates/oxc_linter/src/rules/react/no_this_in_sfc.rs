@@ -65,6 +65,7 @@ declare_oxc_lint!(
     NoThisInSfc,
     react,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-this-in-sfc.md",
     version = "1.37.0",
 );
 

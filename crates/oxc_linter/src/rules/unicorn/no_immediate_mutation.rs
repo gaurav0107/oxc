@@ -92,6 +92,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-immediate-mutation.md",
     version = "1.35.0",
 );
 

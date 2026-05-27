@@ -84,6 +84,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     conditional_fix_suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-class-fields.md",
     version = "1.20.0",
 );
 

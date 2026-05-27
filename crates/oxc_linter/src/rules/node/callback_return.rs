@@ -125,6 +125,7 @@ declare_oxc_lint!(
     CallbackReturn,
     node,
     style,
+    references = "https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/callback-return.md",
     version = "1.67.0",
     config = CallbackReturn,
 );

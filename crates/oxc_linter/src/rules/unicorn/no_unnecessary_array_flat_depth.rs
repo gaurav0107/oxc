@@ -40,6 +40,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-array-flat-depth.md",
     version = "0.16.12",
 );
 

@@ -95,6 +95,7 @@ declare_oxc_lint!(
     NoRedundantShouldComponentUpdate,
     react,
     style,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-redundant-should-component-update.md",
     version = "1.33.0",
 );
 

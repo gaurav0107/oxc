@@ -44,6 +44,7 @@ declare_oxc_lint!(
     RequireReturnsType,
     jsdoc,
     pedantic,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireReturnsType.md",
     version = "0.4.3",
 );
 

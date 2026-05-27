@@ -110,6 +110,7 @@ declare_oxc_lint!(
     vitest,
     correctness,
     suggestion,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/hoisted-apis-on-top.md",
     version = "1.39.0",
 );
 

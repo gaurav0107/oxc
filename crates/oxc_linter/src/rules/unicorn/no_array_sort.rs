@@ -68,6 +68,7 @@ declare_oxc_lint!(
     suspicious,
     fix,
     config = NoArraySort,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-sort.md",
     version = "1.15.0",
 );
 

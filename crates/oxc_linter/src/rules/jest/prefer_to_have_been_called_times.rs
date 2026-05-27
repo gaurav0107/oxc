@@ -16,6 +16,7 @@ declare_oxc_lint!(
     style,
     fix,
     docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-have-been-called-times.md",
     version = "1.34.0",
 );
 

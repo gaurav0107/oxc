@@ -56,6 +56,7 @@ declare_oxc_lint!(
     NoSyncScripts,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-sync-scripts",
     version = "0.2.0",
 );
 

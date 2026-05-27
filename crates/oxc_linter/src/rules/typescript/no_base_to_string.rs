@@ -79,6 +79,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     config = NoBaseToStringConfig,
+    references = "https://typescript-eslint.io/rules/no-base-to-string/",
     version = "1.12.0",
 );
 

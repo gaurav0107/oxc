@@ -69,6 +69,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     pending,
+    references = "https://eslint.org/docs/latest/rules/no-useless-return",
     version = "1.32.0",
 );
 

@@ -49,6 +49,7 @@ declare_oxc_lint!(
     react,
     pedantic,
     pending,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md",
     version = "0.0.15",
 );
 

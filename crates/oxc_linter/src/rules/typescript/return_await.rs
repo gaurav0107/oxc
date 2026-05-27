@@ -101,6 +101,7 @@ declare_oxc_lint!(
     pedantic,
     fix_suggestion,
     config = ReturnAwaitOption,
+    references = "https://typescript-eslint.io/rules/return-await/",
     version = "1.12.0",
 );
 

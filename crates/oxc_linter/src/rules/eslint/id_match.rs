@@ -153,6 +153,7 @@ declare_oxc_lint!(
     style,
     none,
     config = IdMatchConfig,
+    references = "https://eslint.org/docs/latest/rules/id-match",
     version = "1.66.0",
 );
 

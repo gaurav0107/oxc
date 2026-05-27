@@ -34,6 +34,7 @@ declare_oxc_lint!(
     RequireYield,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/require-yield",
     version = "0.0.4",
 );
 

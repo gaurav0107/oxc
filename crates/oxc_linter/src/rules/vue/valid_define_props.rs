@@ -133,6 +133,7 @@ declare_oxc_lint!(
     vue,
     correctness,
     pending,  // TODO: removing empty `defineProps` and merging multiple `defineProps` calls
+    references = "https://eslint.vuejs.org/rules/valid-define-props.html",
     version = "1.15.0",
 );
 

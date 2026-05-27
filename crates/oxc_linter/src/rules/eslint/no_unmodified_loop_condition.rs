@@ -50,6 +50,7 @@ declare_oxc_lint!(
     NoUnmodifiedLoopCondition,
     eslint,
     suspicious,
+    references = "https://eslint.org/docs/latest/rules/no-unmodified-loop-condition",
     version = "1.48.0",
 );
 

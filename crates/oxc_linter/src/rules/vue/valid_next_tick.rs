@@ -80,6 +80,7 @@ declare_oxc_lint!(
     vue,
     correctness,
     fix,
+    references = "https://eslint.vuejs.org/rules/valid-next-tick.html",
     version = "1.67.0",
 );
 

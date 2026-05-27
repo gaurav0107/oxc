@@ -44,6 +44,7 @@ declare_oxc_lint!(
     typescript,
     suspicious,
     pending,
+    references = "https://typescript-eslint.io/rules/no-confusing-non-null-assertion/",
     version = "0.6.1",
 );
 

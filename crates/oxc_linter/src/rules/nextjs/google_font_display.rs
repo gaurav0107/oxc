@@ -74,6 +74,7 @@ declare_oxc_lint!(
     GoogleFontDisplay,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/google-font-display",
     version = "0.2.0",
 );
 

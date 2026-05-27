@@ -50,6 +50,7 @@ declare_oxc_lint!(
     unicorn,
     restriction,
     pending, // TODO: suggestion
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-process-exit.md",
     version = "0.2.9",
 );
 

@@ -51,6 +51,7 @@ declare_oxc_lint!(
     NoUnsafeCall(tsgolint),
     typescript,
     pedantic,
+    references = "https://typescript-eslint.io/rules/no-unsafe-call/",
     version = "1.12.0",
 );
 

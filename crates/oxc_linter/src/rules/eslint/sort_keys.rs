@@ -94,6 +94,7 @@ declare_oxc_lint!(
     style,
     conditional_fix,
     config = SortKeysConfig,
+    references = "https://eslint.org/docs/latest/rules/sort-keys",
     version = "0.9.4",
 );
 

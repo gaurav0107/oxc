@@ -48,6 +48,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-response-static-json.md",
     version = "1.29.0",
 );
 

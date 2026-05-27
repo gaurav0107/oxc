@@ -67,6 +67,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     config = NoRedeclare,
+    references = "https://eslint.org/docs/latest/rules/no-redeclare",
     version = "0.0.13",
 );
 

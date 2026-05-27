@@ -164,6 +164,7 @@ declare_oxc_lint!(
     react,
     restriction,
     config = OnlyExportComponentsConfig,
+    references = "https://github.com/ArnaudBarre/eslint-plugin-react-refresh/blob/main/docs/only-export-components.md",
     version = "1.23.0",
 );
 

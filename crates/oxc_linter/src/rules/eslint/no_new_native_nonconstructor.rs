@@ -48,6 +48,7 @@ declare_oxc_lint!(
     NoNewNativeNonconstructor,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-new-native-nonconstructor",
     version = "0.3.3",
 );
 

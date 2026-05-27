@@ -58,6 +58,7 @@ declare_oxc_lint!(
     NoExposeAfterAwait,
     vue,
     correctness,
+    references = "https://eslint.vuejs.org/rules/no-expose-after-await.html",
     version = "1.67.0",
 );
 

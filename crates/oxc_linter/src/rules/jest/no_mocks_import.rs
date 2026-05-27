@@ -13,6 +13,7 @@ declare_oxc_lint!(
     jest,
     style,
     docs = SharedNoMocksImport::DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-mocks-import.md",
     version = "0.0.13",
 );
 

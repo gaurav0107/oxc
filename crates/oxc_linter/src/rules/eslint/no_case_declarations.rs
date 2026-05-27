@@ -71,6 +71,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     suggestion,
+    references = "https://eslint.org/docs/latest/rules/no-case-declarations",
     version = "0.0.4",
 );
 

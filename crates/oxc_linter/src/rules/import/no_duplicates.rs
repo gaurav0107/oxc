@@ -103,6 +103,7 @@ declare_oxc_lint!(
     // same thing as this rule and is also pending a fixer.
     none,
     config = NoDuplicates,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-duplicates.md",
     version = "0.2.11",
 );
 

@@ -198,6 +198,7 @@ declare_oxc_lint!(
     style,
     fix = pending,
     config = FuncStyle,
+    references = "https://eslint.org/docs/latest/rules/func-style",
     version = "0.15.11",
 );
 

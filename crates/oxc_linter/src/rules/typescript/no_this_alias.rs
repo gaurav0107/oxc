@@ -97,6 +97,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     config = NoThisAliasConfig,
+    references = "https://typescript-eslint.io/rules/no-this-alias/",
     version = "0.0.7",
 );
 

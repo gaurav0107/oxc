@@ -40,6 +40,7 @@ declare_oxc_lint!(
     NoWith,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-with",
     version = "0.2.14",
 );
 

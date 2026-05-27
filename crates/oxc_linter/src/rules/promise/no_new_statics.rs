@@ -41,6 +41,7 @@ declare_oxc_lint!(
     promise,
     correctness,
     fix,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-new-statics.md",
     version = "0.6.1",
 );
 

@@ -154,6 +154,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = CapitalizedCommentsOptions,
+    references = "https://eslint.org/docs/latest/rules/capitalized-comments",
     version = "1.34.0",
 );
 

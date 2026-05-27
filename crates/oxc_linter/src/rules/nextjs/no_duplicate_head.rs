@@ -70,6 +70,7 @@ declare_oxc_lint!(
     NoDuplicateHead,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-duplicate-head",
     version = "0.3.3",
 );
 

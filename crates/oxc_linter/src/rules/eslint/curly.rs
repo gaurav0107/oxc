@@ -267,6 +267,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = Curly,
+    references = "https://eslint.org/docs/latest/rules/curly",
     version = "0.15.13",
 );
 

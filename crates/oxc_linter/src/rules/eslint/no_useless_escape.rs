@@ -93,6 +93,7 @@ declare_oxc_lint!(
     correctness,
     fix,
     config = NoUselessEscapeConfig,
+    references = "https://eslint.org/docs/latest/rules/no-useless-escape",
     version = "0.0.5",
 );
 

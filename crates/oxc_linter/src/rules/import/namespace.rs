@@ -111,6 +111,7 @@ declare_oxc_lint!(
     import,
     correctness,
     config = Namespace,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/namespace.md",
     version = "0.2.11",
 );
 

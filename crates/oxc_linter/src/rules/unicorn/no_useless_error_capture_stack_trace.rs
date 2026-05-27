@@ -60,6 +60,7 @@ declare_oxc_lint!(
     unicorn,
     restriction,
     suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-error-capture-stack-trace.md",
     version = "1.20.0",
 );
 

@@ -50,6 +50,7 @@ declare_oxc_lint!(
     NoUnassignedVars,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-unassigned-vars",
     version = "1.10.0",
 );
 

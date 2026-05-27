@@ -75,6 +75,7 @@ declare_oxc_lint!(
     NoHeadImportInDocument,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-head-import-in-document",
     version = "0.2.0",
 );
 

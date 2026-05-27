@@ -92,6 +92,7 @@ declare_oxc_lint!(
     InlineScriptId,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/inline-script-id",
     version = "0.2.0",
 );
 

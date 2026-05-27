@@ -56,6 +56,7 @@ declare_oxc_lint!(
     NoUnsafeUnaryMinus(tsgolint),
     typescript,
     correctness,
+    references = "https://typescript-eslint.io/rules/no-unsafe-unary-minus/",
     version = "1.12.0",
 );
 

@@ -39,6 +39,7 @@ declare_oxc_lint!(
     NoNamedDefault,
     import,
     style,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-default.md",
     version = "0.15.3",
 );
 

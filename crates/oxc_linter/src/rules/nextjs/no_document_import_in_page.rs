@@ -55,6 +55,7 @@ declare_oxc_lint!(
     NoDocumentImportInPage,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-document-import-in-page",
     version = "0.2.1",
 );
 

@@ -93,6 +93,7 @@ declare_oxc_lint!(
     react,
     suspicious,
     pending,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/iframe-missing-sandbox.md",
     version = "0.10.0",
 );
 

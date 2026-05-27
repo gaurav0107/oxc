@@ -57,6 +57,7 @@ declare_oxc_lint!(
     IframeHasTitle,
     jsx_a11y,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/iframe-has-title.md",
     version = "0.0.19",
 );
 

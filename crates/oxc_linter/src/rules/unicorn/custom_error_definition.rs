@@ -125,6 +125,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/custom-error-definition.md",
     version = "1.57.0",
 );
 

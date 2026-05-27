@@ -91,6 +91,7 @@ declare_oxc_lint!(
     NoDirectMutationState,
     react,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md",
     version = "0.2.0",
 );
 

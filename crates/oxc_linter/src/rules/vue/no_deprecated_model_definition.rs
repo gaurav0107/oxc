@@ -87,6 +87,7 @@ declare_oxc_lint!(
     correctness,
     pending,
     config = NoDeprecatedModelDefinition,
+    references = "https://eslint.vuejs.org/rules/no-deprecated-model-definition.html",
     version = "1.63.0",
 );
 

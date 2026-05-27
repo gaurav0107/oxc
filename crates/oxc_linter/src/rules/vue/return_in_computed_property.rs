@@ -81,6 +81,7 @@ declare_oxc_lint!(
     vue,
     correctness,
     config = ReturnInComputedProperty,
+    references = "https://eslint.vuejs.org/rules/return-in-computed-property.html",
     version = "1.63.0",
 );
 

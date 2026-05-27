@@ -130,6 +130,7 @@ declare_oxc_lint!(
     pedantic,
     fix,
     config = PreferNullishCoalescingConfig,
+    references = "https://typescript-eslint.io/rules/prefer-nullish-coalescing/",
     version = "1.33.0",
 );
 

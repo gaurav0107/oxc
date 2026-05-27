@@ -42,6 +42,7 @@ declare_oxc_lint!(
     vue,
     correctness,
     fix,
+    references = "https://eslint.vuejs.org/rules/prefer-import-from-vue.html",
     version = "1.20.0",
 );
 

@@ -57,6 +57,7 @@ declare_oxc_lint!(
     JsxNoDuplicateProps,
     react,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md",
     version = "0.0.14",
 );
 

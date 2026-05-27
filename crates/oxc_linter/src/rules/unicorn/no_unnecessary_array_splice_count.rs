@@ -54,6 +54,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-array-splice-count.md",
     version = "1.20.0",
 );
 

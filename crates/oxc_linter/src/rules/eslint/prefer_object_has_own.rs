@@ -58,6 +58,7 @@ declare_oxc_lint!(
     eslint,
     style,
     conditional_fix,
+    references = "https://eslint.org/docs/latest/rules/prefer-object-has-own",
     version = "0.11.0",
 );
 

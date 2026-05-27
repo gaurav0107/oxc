@@ -46,6 +46,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     suggestion,
+    references = "https://eslint.org/docs/latest/rules/no-debugger",
     version = "0.0.3",
 );
 

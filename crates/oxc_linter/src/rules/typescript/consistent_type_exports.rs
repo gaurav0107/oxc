@@ -46,6 +46,7 @@ declare_oxc_lint!(
     typescript,
     style,
     config = ConsistentTypeExportsConfig,
+    references = "https://typescript-eslint.io/rules/consistent-type-exports/",
     version = "0.0.8",
 );
 

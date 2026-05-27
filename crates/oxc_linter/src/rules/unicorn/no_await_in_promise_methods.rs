@@ -50,6 +50,7 @@ declare_oxc_lint!(
     unicorn,
     correctness,
     suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-in-promise-methods.md",
     version = "0.2.18",
 );
 

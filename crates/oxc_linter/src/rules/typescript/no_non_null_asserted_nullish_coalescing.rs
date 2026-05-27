@@ -67,6 +67,7 @@ declare_oxc_lint!(
     typescript,
     restriction,
     suggestion,
+    references = "https://typescript-eslint.io/rules/no-non-null-asserted-nullish-coalescing/",
     version = "0.5.0",
 );
 

@@ -48,6 +48,7 @@ declare_oxc_lint!(
     Export,
     import,
     nursery,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/export.md",
     version = "0.0.21",
 );
 

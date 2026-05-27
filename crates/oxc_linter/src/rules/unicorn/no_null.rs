@@ -60,6 +60,7 @@ declare_oxc_lint!(
     style,
     conditional_dangerous_fix,
     config = NoNull,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-null.md",
     version = "0.0.21",
 );
 

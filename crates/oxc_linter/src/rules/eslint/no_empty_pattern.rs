@@ -91,6 +91,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = NoEmptyPattern,
+    references = "https://eslint.org/docs/latest/rules/no-empty-pattern",
     version = "0.0.3",
 );
 

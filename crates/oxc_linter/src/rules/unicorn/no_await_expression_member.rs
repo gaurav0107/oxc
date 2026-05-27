@@ -46,6 +46,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     fix_dangerous,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md",
     version = "0.0.19",
 );
 

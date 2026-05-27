@@ -80,6 +80,7 @@ declare_oxc_lint!(
     style,
     none,
     config = PreferPromiseRejectErrors,
+    references = "https://eslint.org/docs/latest/rules/prefer-promise-reject-errors",
     version = "0.15.7",
 );
 

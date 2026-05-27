@@ -302,6 +302,7 @@ declare_oxc_lint!(
     restriction,
     suggestion,
     config = NoEmptyFunctionConfig,
+    references = "https://eslint.org/docs/latest/rules/no-empty-function",
     version = "0.3.3",
 );
 

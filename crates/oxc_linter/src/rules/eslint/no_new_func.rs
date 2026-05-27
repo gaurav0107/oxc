@@ -58,6 +58,7 @@ declare_oxc_lint!(
     NoNewFunc,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/no-new-func",
     version = "0.9.2",
 );
 

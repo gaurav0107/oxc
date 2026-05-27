@@ -105,6 +105,7 @@ declare_oxc_lint!(
     eslint,
     style,
     config = NoMultiAssign,
+    references = "https://eslint.org/docs/latest/rules/no-multi-assign",
     version = "0.15.4",
 );
 

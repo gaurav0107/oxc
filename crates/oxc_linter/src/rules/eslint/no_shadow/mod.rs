@@ -101,6 +101,7 @@ declare_oxc_lint!(
     eslint,
     suspicious,
     config = NoShadowConfig,
+    references = "https://eslint.org/docs/latest/rules/no-shadow",
     version = "1.48.0",
 );
 

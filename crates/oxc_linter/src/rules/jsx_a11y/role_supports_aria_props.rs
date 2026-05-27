@@ -55,6 +55,7 @@ declare_oxc_lint!(
     RoleSupportsAriaProps,
     jsx_a11y,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/role-supports-aria-props.md",
     version = "0.2.0",
 );
 

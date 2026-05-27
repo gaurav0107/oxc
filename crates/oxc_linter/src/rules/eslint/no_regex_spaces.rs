@@ -53,6 +53,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     fix,
+    references = "https://eslint.org/docs/latest/rules/no-regex-spaces",
     version = "0.0.18",
 );
 

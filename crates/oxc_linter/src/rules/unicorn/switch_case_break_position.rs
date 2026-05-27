@@ -47,6 +47,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-break-position.md",
     version = "1.59.0",
 );
 

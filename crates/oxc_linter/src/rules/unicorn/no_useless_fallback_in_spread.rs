@@ -40,6 +40,7 @@ declare_oxc_lint!(
     unicorn,
     correctness,
     conditional_fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-fallback-in-spread.md",
     version = "0.0.16",
 );
 

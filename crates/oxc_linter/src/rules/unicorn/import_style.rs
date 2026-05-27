@@ -295,6 +295,7 @@ declare_oxc_lint!(
     restriction,
     none,
     config = ImportStyleConfig,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/import-style.md",
     version = "1.67.0",
 );
 

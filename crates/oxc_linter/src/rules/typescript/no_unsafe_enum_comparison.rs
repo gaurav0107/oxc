@@ -64,6 +64,7 @@ declare_oxc_lint!(
     typescript,
     suspicious,
     suggestion,
+    references = "https://typescript-eslint.io/rules/no-unsafe-enum-comparison/",
     version = "1.12.0",
 );
 

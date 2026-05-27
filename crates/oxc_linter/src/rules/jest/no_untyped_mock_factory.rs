@@ -86,6 +86,7 @@ declare_oxc_lint!(
     jest,
     style,
     conditional_fix,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-untyped-mock-factory.md",
     version = "0.2.15",
 );
 

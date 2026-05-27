@@ -98,6 +98,7 @@ declare_oxc_lint!(
     correctness,
     conditional_fix,
     config = UseIsnan,
+    references = "https://eslint.org/docs/latest/rules/use-isnan",
     version = "0.0.3",
 );
 

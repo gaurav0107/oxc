@@ -72,6 +72,7 @@ declare_oxc_lint!(
     RelatedGetterSetterPairs(tsgolint),
     typescript,
     pedantic,
+    references = "https://typescript-eslint.io/rules/related-getter-setter-pairs/",
     version = "1.12.0",
 );
 

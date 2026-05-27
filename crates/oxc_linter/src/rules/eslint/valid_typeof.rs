@@ -90,6 +90,7 @@ declare_oxc_lint!(
     correctness,
     conditional_fix,
     config = ValidTypeof,
+    references = "https://eslint.org/docs/latest/rules/valid-typeof",
     version = "0.0.3",
 );
 

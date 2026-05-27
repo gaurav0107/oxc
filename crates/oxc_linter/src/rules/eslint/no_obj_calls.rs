@@ -64,6 +64,7 @@ declare_oxc_lint!(
     NoObjCalls,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-obj-calls",
     version = "0.0.7",
 );
 

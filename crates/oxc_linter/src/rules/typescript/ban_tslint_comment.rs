@@ -38,6 +38,7 @@ declare_oxc_lint!(
     typescript,
     style,
     fix,
+    references = "https://typescript-eslint.io/rules/ban-tslint-comment/",
     version = "0.2.9",
 );
 

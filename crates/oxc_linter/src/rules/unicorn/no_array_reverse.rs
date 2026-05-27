@@ -66,6 +66,7 @@ declare_oxc_lint!(
     suspicious,
     fix,
     config = NoArrayReverse,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reverse.md",
     version = "1.15.0",
 );
 

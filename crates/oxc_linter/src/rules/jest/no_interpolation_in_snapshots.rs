@@ -15,6 +15,7 @@ declare_oxc_lint!(
     jest,
     style,
     docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-interpolation-in-snapshots.md",
     version = "0.0.13",
 );
 

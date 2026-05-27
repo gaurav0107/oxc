@@ -57,6 +57,7 @@ declare_oxc_lint!(
     eslint,
     suspicious,
     pending,
+    references = "https://eslint.org/docs/latest/rules/no-extra-bind",
     version = "1.1.0",
 );
 

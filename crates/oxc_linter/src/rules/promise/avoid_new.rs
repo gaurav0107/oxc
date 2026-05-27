@@ -45,6 +45,7 @@ declare_oxc_lint!(
     AvoidNew,
     promise,
     style,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/avoid-new.md",
     version = "0.6.1",
 );
 

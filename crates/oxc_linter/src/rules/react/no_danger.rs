@@ -51,6 +51,7 @@ declare_oxc_lint!(
     NoDanger,
     react,
     restriction,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-danger.md",
     version = "0.0.14",
 );
 

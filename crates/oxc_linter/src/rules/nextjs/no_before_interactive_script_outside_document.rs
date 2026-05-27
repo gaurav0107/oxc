@@ -86,6 +86,7 @@ declare_oxc_lint!(
     NoBeforeInteractiveScriptOutsideDocument,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-before-interactive-script-outside-document",
     version = "0.2.7",
 );
 

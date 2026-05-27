@@ -71,6 +71,7 @@ declare_oxc_lint!(
     pedantic,
     fix,
     config = NoUselessPromiseResolveRejectOptions,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-promise-resolve-reject.md",
     version = "0.0.18",
 );
 

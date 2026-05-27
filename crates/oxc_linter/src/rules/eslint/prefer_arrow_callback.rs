@@ -94,6 +94,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = PreferArrowCallback,
+    references = "https://eslint.org/docs/latest/rules/prefer-arrow-callback",
     version = "1.65.0",
 );
 

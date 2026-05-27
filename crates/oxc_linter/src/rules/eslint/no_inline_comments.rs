@@ -80,6 +80,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     config = NoInlineCommentsConfig,
+    references = "https://eslint.org/docs/latest/rules/no-inline-comments",
     version = "1.34.0",
 );
 

@@ -96,6 +96,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     config = NoBitwiseConfig,
+    references = "https://eslint.org/docs/latest/rules/no-bitwise",
     version = "0.0.3",
 );
 

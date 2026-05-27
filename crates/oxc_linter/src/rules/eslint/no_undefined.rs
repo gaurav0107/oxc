@@ -58,6 +58,7 @@ declare_oxc_lint!(
     NoUndefined,
     eslint,
     restriction,
+    references = "https://eslint.org/docs/latest/rules/no-undefined",
     version = "0.5.3",
 );
 

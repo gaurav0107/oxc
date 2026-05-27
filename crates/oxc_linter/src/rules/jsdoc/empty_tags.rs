@@ -65,6 +65,7 @@ declare_oxc_lint!(
     restriction,
     pending,
     config = EmptyTagsConfig,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/emptyTags.md",
     version = "0.2.16",
 );
 

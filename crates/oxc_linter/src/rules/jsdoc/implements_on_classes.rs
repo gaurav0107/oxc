@@ -56,6 +56,7 @@ declare_oxc_lint!(
     ImplementsOnClasses,
     jsdoc,
     correctness,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/implementsOnClasses.md",
     version = "0.3.2",
 );
 

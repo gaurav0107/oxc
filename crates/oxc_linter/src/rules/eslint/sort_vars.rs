@@ -53,6 +53,7 @@ declare_oxc_lint!(
     pedantic,
     pending,
     config = SortVars,
+    references = "https://eslint.org/docs/latest/rules/sort-vars",
     version = "0.9.3",
 );
 

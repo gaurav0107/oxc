@@ -56,6 +56,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     suggestion,
+    references = "https://typescript-eslint.io/rules/no-unnecessary-parameter-property-assignment/",
     version = "0.15.13",
 );
 

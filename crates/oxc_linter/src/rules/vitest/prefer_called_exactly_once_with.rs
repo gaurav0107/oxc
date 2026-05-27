@@ -188,6 +188,7 @@ declare_oxc_lint!(
     vitest,
     style,
     dangerous_fix,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-called-exactly-once-with.md",
     version = "1.58.0",
 );
 

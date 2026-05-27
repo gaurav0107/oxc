@@ -58,6 +58,7 @@ declare_oxc_lint!(
     unicorn,
     restriction,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md",
     version = "1.50.0",
 );
 

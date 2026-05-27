@@ -130,6 +130,7 @@ declare_oxc_lint!(
     style,
     pending, // TODO: transform it to the other declaration (if possible)
     config = DeclarationStyle,
+    references = "https://eslint.vuejs.org/rules/define-emits-declaration.html",
     version = "1.15.0",
 );
 

@@ -59,6 +59,7 @@ declare_oxc_lint!(
     restriction,
     fix,
     config = BomOptionType,
+    references = "https://eslint.org/docs/latest/rules/unicode-bom",
     version = "0.3.3",
 );
 

@@ -86,6 +86,7 @@ declare_oxc_lint!(
     typescript,
     style,
     conditional_fix,
+    references = "https://typescript-eslint.io/rules/prefer-function-type/",
     version = "0.2.11",
 );
 

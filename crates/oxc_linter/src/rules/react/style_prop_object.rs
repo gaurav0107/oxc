@@ -84,6 +84,7 @@ declare_oxc_lint!(
     react,
     suspicious,
     config = StylePropObjectConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md",
     version = "0.11.0",
 );
 

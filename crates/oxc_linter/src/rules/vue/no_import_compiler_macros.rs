@@ -62,6 +62,7 @@ declare_oxc_lint!(
     vue,
     restriction,
     dangerous_fix,
+    references = "https://eslint.vuejs.org/rules/no-import-compiler-macros.html",
     version = "1.21.0",
 );
 

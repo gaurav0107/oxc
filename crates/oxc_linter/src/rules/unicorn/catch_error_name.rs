@@ -95,6 +95,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = CatchErrorNameConfig,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/catch-error-name.md",
     version = "0.0.14",
 );
 

@@ -61,6 +61,7 @@ declare_oxc_lint!(
     correctness,
     fix_suggestion,
     config = NoMeaninglessVoidOperatorConfig,
+    references = "https://typescript-eslint.io/rules/no-meaningless-void-operator/",
     version = "1.12.0",
 );
 

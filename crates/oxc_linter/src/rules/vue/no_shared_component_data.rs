@@ -61,6 +61,7 @@ declare_oxc_lint!(
     vue,
     correctness,
     pending,
+    references = "https://eslint.vuejs.org/rules/no-shared-component-data.html",
     version = "1.67.0",
 );
 

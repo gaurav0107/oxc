@@ -68,6 +68,7 @@ declare_oxc_lint!(
     DefaultParamLast,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/default-param-last",
     version = "0.2.15",
 );
 

@@ -74,6 +74,7 @@ declare_oxc_lint!(
     restriction,
     conditional_fix,
     config = NoExplicitAny,
+    references = "https://typescript-eslint.io/rules/no-explicit-any/",
     version = "0.0.13",
 );
 

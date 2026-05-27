@@ -70,6 +70,7 @@ declare_oxc_lint!(
     NoComputedPropertiesInData,
     vue,
     correctness,
+    references = "https://eslint.vuejs.org/rules/no-computed-properties-in-data.html",
     version = "1.67.0",
 );
 

@@ -71,6 +71,7 @@ declare_oxc_lint!(
     correctness,
     fix,
     config = NoUnsafeNegation,
+    references = "https://eslint.org/docs/latest/rules/no-unsafe-negation",
     version = "0.0.3",
 );
 

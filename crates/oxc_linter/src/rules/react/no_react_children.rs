@@ -90,6 +90,7 @@ declare_oxc_lint!(
     react,
     restriction,
     none,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-react-children.md",
     version = "1.53.0",
 );
 

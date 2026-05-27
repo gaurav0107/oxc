@@ -53,6 +53,7 @@ declare_oxc_lint!(
     NoLoneBlocks,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/no-lone-blocks",
     version = "0.15.6",
 );
 

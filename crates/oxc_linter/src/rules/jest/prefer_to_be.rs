@@ -10,7 +10,16 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct PreferToBe;
 
-declare_oxc_lint!(PreferToBe, jest, style, fix, docs = DOCUMENTATION, version = "0.2.14",);
+declare_oxc_lint!(
+    PreferToBe,
+    jest,
+    style,
+    fix,
+    docs = DOCUMENTATION,
+    references =
+        "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-be.md",
+    version = "0.2.14",
+);
 
 impl Rule for PreferToBe {
     fn run_on_jest_node<'a, 'c>(

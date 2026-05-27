@@ -71,6 +71,7 @@ declare_oxc_lint!(
     NoDeprecatedEventsApi,
     vue,
     correctness,
+    references = "https://eslint.vuejs.org/rules/no-deprecated-events-api.html",
     version = "1.62.0",
 );
 

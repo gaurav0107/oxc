@@ -95,6 +95,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = ConsistentGenericConstructorsConfig,
+    references = "https://typescript-eslint.io/rules/consistent-generic-constructors/",
     version = "0.14.0",
 );
 

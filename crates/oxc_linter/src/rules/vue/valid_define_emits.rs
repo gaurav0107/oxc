@@ -133,6 +133,7 @@ declare_oxc_lint!(
     vue,
     correctness,
     pending,  // TODO: removing empty `defineEmits` and merging multiple `defineEmits` calls
+    references = "https://eslint.vuejs.org/rules/valid-define-emits.html",
     version = "1.14.0",
 );
 

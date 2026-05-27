@@ -48,6 +48,7 @@ declare_oxc_lint!(
     ValidDescribeCallback,
     jest,
     correctness,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/valid-describe-callback.md",
     version = "0.0.8",
 );
 

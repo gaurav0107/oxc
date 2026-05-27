@@ -62,6 +62,7 @@ declare_oxc_lint!(
     react,
     style,
     config = PreferES6ClassOptionType,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prefer-es-6-class.md",
     version = "0.5.0",
 );
 

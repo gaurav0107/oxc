@@ -79,6 +79,7 @@ declare_oxc_lint!(
     import,
     style,
     config = NoNodejsModulesConfig,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-nodejs-modules.md",
     version = "1.43.0",
 );
 

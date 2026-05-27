@@ -55,6 +55,7 @@ declare_oxc_lint!(
     unicorn,
     restriction,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-for-each.md",
     version = "0.0.19",
 );
 

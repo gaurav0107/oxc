@@ -43,6 +43,7 @@ declare_oxc_lint!(
     JsxNoNewArrayAsProp,
     react_perf,
     perf,
+    references = "https://github.com/cvazac/eslint-plugin-react-perf/blob/master/docs/rules/jsx-no-new-array-as-prop.md",
     version = "0.2.3",
 );
 

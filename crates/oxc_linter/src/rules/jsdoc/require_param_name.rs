@@ -44,6 +44,7 @@ declare_oxc_lint!(
     RequireParamName,
     jsdoc,
     pedantic,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireParamName.md",
     version = "0.4.3",
 );
 

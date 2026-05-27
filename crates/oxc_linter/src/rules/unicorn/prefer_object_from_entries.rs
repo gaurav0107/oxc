@@ -82,6 +82,7 @@ declare_oxc_lint!(
     style,
     pending,
     config = PreferObjectFromEntriesConfig,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md",
     version = "0.16.12",
 );
 

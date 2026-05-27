@@ -57,6 +57,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     fix,
+    references = "https://typescript-eslint.io/rules/prefer-ts-expect-error/",
     version = "0.2.11",
 );
 

@@ -81,6 +81,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     fix_dangerous,
+    references = "https://eslint.org/docs/latest/rules/require-await",
     version = "0.4.2",
 );
 

@@ -82,6 +82,7 @@ declare_oxc_lint!(
     style,
     pending,
     config = HookUseState,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/hook-use-state.md",
     version = "1.59.0",
 );
 

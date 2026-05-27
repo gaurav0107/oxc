@@ -56,6 +56,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-blob-reading-methods.md",
     version = "0.0.16",
 );
 

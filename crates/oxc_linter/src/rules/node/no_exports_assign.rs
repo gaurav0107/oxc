@@ -76,6 +76,7 @@ declare_oxc_lint!(
     node,
     style,
     fix,
+    references = "https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-exports-assign.md",
     version = "0.9.3",
 );
 

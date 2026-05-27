@@ -80,6 +80,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     config = NoSequences,
+    references = "https://eslint.org/docs/latest/rules/no-sequences",
     version = "1.33.0",
 );
 

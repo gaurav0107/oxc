@@ -43,6 +43,7 @@ declare_oxc_lint!(
     style,
     docs = DOCUMENTATION,
     suggestion,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-expect-assertions.md",
     version = "1.62.0",
     config = PreferExpectAssertionsConfig
 );

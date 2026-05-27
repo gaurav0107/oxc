@@ -53,6 +53,7 @@ declare_oxc_lint!(
     NoSparseArrays,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-sparse-arrays",
     version = "0.0.4",
 );
 

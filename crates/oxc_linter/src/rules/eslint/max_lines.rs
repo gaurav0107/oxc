@@ -61,6 +61,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     config = MaxLinesConfig,
+    references = "https://eslint.org/docs/latest/rules/max-lines",
     version = "0.2.14",
 );
 

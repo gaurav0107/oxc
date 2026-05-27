@@ -92,6 +92,7 @@ declare_oxc_lint!(
     pedantic,
     conditional_fix_dangerous,
     config = RadixType,
+    references = "https://eslint.org/docs/latest/rules/radix",
     version = "0.3.3",
 );
 

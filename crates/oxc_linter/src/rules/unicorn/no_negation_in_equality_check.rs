@@ -52,6 +52,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-negation-in-equality-check.md",
     version = "0.5.3",
 );
 

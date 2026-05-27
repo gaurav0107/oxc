@@ -15,6 +15,7 @@ declare_oxc_lint!(
     style,
     config = MaxNestedDescribeConfig,
     docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/max-nested-describe.md",
     version = "0.4.4",
 );
 

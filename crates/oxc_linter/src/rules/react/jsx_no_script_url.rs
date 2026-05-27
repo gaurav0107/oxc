@@ -76,6 +76,7 @@ declare_oxc_lint!(
     suspicious,
     pending,
     config = JsxNoScriptUrlConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md",
     version = "0.13.2",
 );
 

@@ -95,6 +95,7 @@ declare_oxc_lint!(
     pedantic,
     pending,
     config = RequireReturnsConfig,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireReturns.md",
     version = "0.4.0",
 );
 

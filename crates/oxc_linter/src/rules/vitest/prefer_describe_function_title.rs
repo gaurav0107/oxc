@@ -58,6 +58,7 @@ declare_oxc_lint!(
     vitest,
     style,
     fix,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-describe-function-title.md",
     version = "1.39.0",
 );
 

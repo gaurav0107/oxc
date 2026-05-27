@@ -92,6 +92,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = NoEval,
+    references = "https://eslint.org/docs/latest/rules/no-eval",
     version = "0.0.3",
 );
 

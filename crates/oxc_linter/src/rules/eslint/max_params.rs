@@ -150,6 +150,7 @@ declare_oxc_lint!(
     eslint,
     style,
     config = MaxParamsConfig,
+    references = "https://eslint.org/docs/latest/rules/max-params",
     version = "0.2.14",
 );
 

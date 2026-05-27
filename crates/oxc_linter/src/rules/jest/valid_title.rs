@@ -19,6 +19,8 @@ declare_oxc_lint!(
     // indicate that this rule has configuration and avoid errors.
     config = Value,
     docs = SharedValidTitle::DOCUMENTATION,
+    references =
+        "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/valid-title.md",
     version = "0.0.14",
 );
 

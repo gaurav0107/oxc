@@ -16,6 +16,7 @@ declare_oxc_lint!(
     style,
     fix,
     docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-mock-return-shorthand.md",
     version = "1.49.0",
 );
 

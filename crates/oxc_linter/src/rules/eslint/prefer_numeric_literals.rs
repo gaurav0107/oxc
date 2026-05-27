@@ -60,6 +60,7 @@ declare_oxc_lint!(
     eslint,
     style,
     conditional_fix,
+    references = "https://eslint.org/docs/latest/rules/prefer-numeric-literals",
     version = "0.7.0",
 );
 

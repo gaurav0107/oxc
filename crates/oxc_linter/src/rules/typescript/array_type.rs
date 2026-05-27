@@ -165,6 +165,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = ArrayTypeConfig,
+    references = "https://typescript-eslint.io/rules/array-type/",
     version = "0.2.8",
 );
 

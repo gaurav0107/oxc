@@ -155,6 +155,7 @@ declare_oxc_lint!(
     pedantic,
     pending,
     config = RequireUnicodeRegexp,
+    references = "https://eslint.org/docs/latest/rules/require-unicode-regexp",
     version = "1.63.0",
 );
 

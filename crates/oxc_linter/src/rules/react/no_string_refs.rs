@@ -86,6 +86,7 @@ declare_oxc_lint!(
     react,
     correctness,
     config = NoStringRefs,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md",
     version = "0.0.15",
 );
 

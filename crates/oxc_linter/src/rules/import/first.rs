@@ -80,6 +80,7 @@ declare_oxc_lint!(
     style,
     pending, // TODO: fixer
     config = AbsoluteFirst,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/first.md",
     version = "0.11.1",
 );
 

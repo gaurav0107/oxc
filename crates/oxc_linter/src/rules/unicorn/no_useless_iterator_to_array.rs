@@ -133,6 +133,7 @@ declare_oxc_lint!(
     unicorn,
     nursery,
     fix_or_suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-iterator-to-array.md",
     version = "1.59.0",
 );
 

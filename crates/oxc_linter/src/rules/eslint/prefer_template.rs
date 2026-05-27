@@ -44,6 +44,7 @@ declare_oxc_lint!(
     eslint,
     style,
     fix,
+    references = "https://eslint.org/docs/latest/rules/prefer-template",
     version = "1.12.0",
 );
 

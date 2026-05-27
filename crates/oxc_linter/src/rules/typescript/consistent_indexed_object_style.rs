@@ -109,6 +109,7 @@ declare_oxc_lint!(
     style,
     conditional_fix,
     config = ConsistentIndexedObjectStyleConfig,
+    references = "https://typescript-eslint.io/rules/consistent-indexed-object-style/",
     version = "0.4.2",
 );
 

@@ -46,6 +46,7 @@ declare_oxc_lint!(
     unicorn,
     restriction,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-length-as-slice-end.md",
     version = "0.7.0",
 );
 

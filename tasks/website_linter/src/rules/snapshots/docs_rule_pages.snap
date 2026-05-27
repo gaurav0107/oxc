@@ -618,7 +618,7 @@ console.log(b);
 This rule was added in v0.7.0.
 
 ## References
-<RuleReferences />
+- <https://eslint.org/docs/latest/rules/no-unused-vars>
 
 
 --- import/namespace.md ---
@@ -715,7 +715,7 @@ Whether to allow computed references to an imported namespace.
 This rule was added in v0.2.11.
 
 ## References
-<RuleReferences />
+- <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/namespace.md>
 
 
 --- jest/expect-expect.md ---
@@ -792,7 +792,7 @@ NOTE: The default value is `["expect"]` for Jest and
 This rule was added in v0.0.12.
 
 ## References
-<RuleReferences />
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/expect-expect.md>
 
 
 --- nextjs/no-duplicate-head.md ---
@@ -876,7 +876,7 @@ export default MyDocument
 This rule was added in v0.3.3.
 
 ## References
-<RuleReferences />
+- <https://nextjs.org/docs/messages/no-duplicate-head>
 
 
 --- promise/no-callback-in-promise.md ---
@@ -974,7 +974,7 @@ Boolean as to whether callbacks in timeout functions like `setTimeout` will err.
 This rule was added in v0.10.0.
 
 ## References
-<RuleReferences />
+- <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-callback-in-promise.md>
 
 
 --- react/no-will-update-set-state.md ---
@@ -1063,7 +1063,7 @@ Makes this rule more strict by disallowing calls to `this.setState`` even within
 This rule was added in v1.37.0.
 
 ## References
-<RuleReferences />
+- <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-will-update-set-state.md>
 
 
 --- typescript/no-floating-promises.md ---
@@ -1350,7 +1350,7 @@ Ignore Promises that are void expressions.
 This rule was added in v1.11.0.
 
 ## References
-<RuleReferences />
+- <https://typescript-eslint.io/rules/no-floating-promises/>
 
 
 --- vue/no-lifecycle-after-await.md ---
@@ -1419,7 +1419,7 @@ export default {
 This rule was added in v1.39.0.
 
 ## References
-<RuleReferences />
+- <https://eslint.vuejs.org/rules/no-lifecycle-after-await.html>
 
 
 --- unicorn/prefer-array-find.md ---
@@ -1475,7 +1475,7 @@ const match = users.find(fn);
 This rule was added in v0.16.12.
 
 ## References
-<RuleReferences />
+- <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-find.md>
 
 
 --- oxc/no-barrel-file.md ---
@@ -1556,9 +1556,6 @@ before the rule is triggered.
 
 ## Version
 This rule was added in v0.3.0.
-
-## References
-<RuleReferences />
 
 
 --- react/forbid-dom-props.md ---
@@ -1678,7 +1675,7 @@ The name of the prop to forbid.
 This rule was added in v1.24.0.
 
 ## References
-<RuleReferences />
+- <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md>
 
 
 --- typescript/no-explicit-any.md ---
@@ -1776,7 +1773,7 @@ Whether to ignore rest parameter arrays.
 This rule was added in v0.0.13.
 
 ## References
-<RuleReferences />
+- <https://typescript-eslint.io/rules/no-explicit-any/>
 
 
 --- jsdoc/require-returns.md ---
@@ -1888,7 +1885,7 @@ Whether to require a `@returns` tag for async functions.
 This rule was added in v0.4.0.
 
 ## References
-<RuleReferences />
+- <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireReturns.md>
 
 
 --- react/rules-of-hooks.md ---
@@ -1977,7 +1974,7 @@ function useCustomHook() {
 This rule was added in v0.3.3.
 
 ## References
-<RuleReferences />
+- <https://react.dev/reference/rules/rules-of-hooks>
 
 
 --- jest/require-top-level-describe.md ---
@@ -2075,7 +2072,7 @@ The maximum number of top-level `describe` blocks allowed in a test file.
 This rule was added in v0.4.2.
 
 ## References
-<RuleReferences />
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/require-top-level-describe.md>
 
 
 --- typescript/class-literal-property-style.md ---
@@ -2186,4 +2183,4 @@ return "oxc";
 This rule was added in v1.47.0.
 
 ## References
-<RuleReferences />
+- <https://typescript-eslint.io/rules/class-literal-property-style/>

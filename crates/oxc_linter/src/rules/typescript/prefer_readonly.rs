@@ -51,6 +51,7 @@ declare_oxc_lint!(
     typescript,
     style,
     config = PreferReadonlyConfig,
+    references = "https://typescript-eslint.io/rules/prefer-readonly/",
     version = "0.0.8",
 );
 

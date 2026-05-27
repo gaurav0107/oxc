@@ -54,6 +54,7 @@ declare_oxc_lint!(
     RequireDefaultExport,
     vue,
     suspicious,
+    references = "https://eslint.vuejs.org/rules/require-default-export.html",
     version = "1.21.0",
 );
 

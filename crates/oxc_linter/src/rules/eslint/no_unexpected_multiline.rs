@@ -104,6 +104,7 @@ declare_oxc_lint!(
     eslint,
     suspicious,
     fix_dangerous,
+    references = "https://eslint.org/docs/latest/rules/no-unexpected-multiline",
     version = "0.9.7",
 );
 

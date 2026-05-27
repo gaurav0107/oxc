@@ -54,6 +54,7 @@ declare_oxc_lint!(
     restriction,
     suggestion,
     config = NoEmpty,
+    references = "https://eslint.org/docs/latest/rules/no-empty",
     version = "0.0.3",
 );
 

@@ -89,6 +89,7 @@ declare_oxc_lint!(
     VarsOnTop,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/vars-on-top",
     version = "0.15.4",
 );
 

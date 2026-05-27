@@ -70,6 +70,7 @@ declare_oxc_lint!(
     RequireRenderReturn,
     react,
     nursery,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/require-render-return.md",
     version = "0.2.0",
 );
 

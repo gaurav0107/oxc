@@ -36,6 +36,7 @@ declare_oxc_lint!(
     NoDeprecatedVueConfigKeycodes,
     vue,
     correctness,
+    references = "https://eslint.vuejs.org/rules/no-deprecated-vue-config-keycodes.html",
     version = "1.62.0",
 );
 

@@ -39,6 +39,7 @@ declare_oxc_lint!(
     NoNewRequire,
     node,
     restriction,
+    references = "https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-new-require.md",
     version = "0.10.0",
 );
 

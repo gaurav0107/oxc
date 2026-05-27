@@ -123,6 +123,7 @@ declare_oxc_lint!(
     BlockScopedVar,
     eslint,
     suspicious,
+    references = "https://eslint.org/docs/latest/rules/block-scoped-var",
     version = "0.16.9",
 );
 

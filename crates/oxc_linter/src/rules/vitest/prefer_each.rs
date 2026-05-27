@@ -10,6 +10,8 @@ declare_oxc_lint!(
     vitest,
     style,
     docs = SharedPreferEach::DOCUMENTATION,
+    references =
+        "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-each.md",
     version = "0.9.0",
 );
 

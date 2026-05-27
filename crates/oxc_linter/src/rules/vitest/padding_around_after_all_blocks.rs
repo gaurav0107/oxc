@@ -16,6 +16,7 @@ declare_oxc_lint!(
     style,
     fix,
     docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/padding-around-after-all-blocks.md",
     version = "1.66.0",
 );
 

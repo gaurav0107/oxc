@@ -130,6 +130,7 @@ declare_oxc_lint!(
     node,
     restriction,
     config = HandleCallbackErrConfig,
+    references = "https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/handle-callback-err.md",
     version = "1.56.0",
 );
 

@@ -101,6 +101,7 @@ declare_oxc_lint!(
     jsdoc,
     correctness,
     config = RequireYieldsConfig,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireYields.md",
     version = "0.3.2",
 );
 

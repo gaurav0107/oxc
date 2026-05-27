@@ -62,6 +62,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     config = NoRestrictedGlobals,
+    references = "https://eslint.org/docs/latest/rules/no-restricted-globals",
     version = "0.4.0",
 );
 

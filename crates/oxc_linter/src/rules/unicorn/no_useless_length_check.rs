@@ -62,6 +62,7 @@ declare_oxc_lint!(
     unicorn,
     correctness,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-length-check.md",
     version = "0.0.19",
 );
 

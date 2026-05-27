@@ -53,6 +53,7 @@ declare_oxc_lint!(
     NoAlert,
     eslint,
     restriction,
+    references = "https://eslint.org/docs/latest/rules/no-alert",
     version = "0.9.3",
 );
 

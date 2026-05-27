@@ -42,6 +42,7 @@ declare_oxc_lint!(
     unicorn,
     restriction,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md",
     version = "0.0.19",
 );
 

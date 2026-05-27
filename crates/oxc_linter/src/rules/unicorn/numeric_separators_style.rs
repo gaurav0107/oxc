@@ -136,6 +136,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = NumericSeparatorsStyleConfig,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/numeric-separators-style.md",
     version = "0.0.19",
 );
 

@@ -145,6 +145,7 @@ declare_oxc_lint!(
     pedantic,
     pending,
     config = JsxNoTargetBlank,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md",
     version = "0.2.5",
 );
 

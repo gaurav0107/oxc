@@ -82,6 +82,7 @@ declare_oxc_lint!(
     import,
     suspicious,
     config = NoUnassignedImportConfig,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unassigned-import.md",
     version = "0.16.11",
 );
 

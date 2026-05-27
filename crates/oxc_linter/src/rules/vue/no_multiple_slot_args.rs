@@ -69,6 +69,7 @@ declare_oxc_lint!(
     vue,
     restriction,
     pending,  // TODO: Remove second argument, Spread argument is possible not supported
+    references = "https://eslint.vuejs.org/rules/no-multiple-slot-args.html",
     version = "1.15.0",
 );
 

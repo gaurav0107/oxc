@@ -43,6 +43,7 @@ declare_oxc_lint!(
     ValidDescribeCallback,
     vitest,
     correctness,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/valid-describe-callback.md",
     version = "0.0.8",
 );
 

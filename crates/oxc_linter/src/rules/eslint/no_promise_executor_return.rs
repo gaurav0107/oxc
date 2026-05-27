@@ -118,6 +118,7 @@ declare_oxc_lint!(
     pedantic,
     pending,
     config = NoPromiseExecutorReturnConfig,
+    references = "https://eslint.org/docs/latest/rules/no-promise-executor-return",
     version = "1.33.0",
 );
 

@@ -60,6 +60,7 @@ declare_oxc_lint!(
     promise,
     restriction,
     config = SpecOnlyConfig,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/spec-only.md",
     version = "0.9.2",
 );
 

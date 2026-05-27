@@ -47,6 +47,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     fix,
+    references = "https://eslint.org/docs/latest/rules/no-unused-labels",
     version = "0.0.3",
 );
 

@@ -220,6 +220,7 @@ declare_oxc_lint!(
     style,
     conditional_fix_suggestion,
     config = FuncNames,
+    references = "https://eslint.org/docs/latest/rules/func-names",
     version = "0.7.0",
 );
 

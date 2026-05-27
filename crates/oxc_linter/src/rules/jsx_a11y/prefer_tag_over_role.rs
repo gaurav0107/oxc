@@ -45,6 +45,7 @@ declare_oxc_lint!(
     PreferTagOverRole,
     jsx_a11y,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/prefer-tag-over-role.md",
     version = "0.1.1",
 );
 

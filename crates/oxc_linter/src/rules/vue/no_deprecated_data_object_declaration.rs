@@ -53,6 +53,7 @@ declare_oxc_lint!(
     vue,
     correctness,
     pending, // fixer will be implemented later
+    references = "https://eslint.vuejs.org/rules/no-deprecated-data-object-declaration.html",
     version = "1.62.0",
 );
 

@@ -98,6 +98,7 @@ declare_oxc_lint!(
     GlobalRequire,
     node,
     style,
+    references = "https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/global-require.md",
     version = "1.36.0",
 );
 

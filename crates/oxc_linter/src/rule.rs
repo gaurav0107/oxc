@@ -288,6 +288,12 @@ pub trait RuleMeta {
         None
     }
 
+    /// Upstream-plugin docs URL for the rule this one was ported from.
+    /// `None` for native oxc rules or rules whose upstream is unknown.
+    fn references() -> Option<&'static str> {
+        None
+    }
+
     #[expect(unused_variables)]
     fn config_schema(generator: &mut SchemaGenerator) -> Option<Schema> {
         None

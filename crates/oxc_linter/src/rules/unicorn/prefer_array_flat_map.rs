@@ -41,6 +41,7 @@ declare_oxc_lint!(
     unicorn,
     perf,
     fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat-map.md",
     version = "0.0.14",
 );
 

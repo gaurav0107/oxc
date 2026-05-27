@@ -124,6 +124,7 @@ declare_oxc_lint!(
     typescript,
     style,
     config = ParameterPropertiesConfig,
+    references = "https://typescript-eslint.io/rules/parameter-properties/",
     version = "1.48.0",
 );
 

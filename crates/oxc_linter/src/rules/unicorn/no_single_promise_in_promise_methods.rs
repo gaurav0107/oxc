@@ -56,6 +56,7 @@ declare_oxc_lint!(
     unicorn,
     correctness,
     conditional_fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-single-promise-in-promise-methods.md",
     version = "0.2.18",
 );
 

@@ -58,6 +58,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     suggestion,
+    references = "https://typescript-eslint.io/rules/prefer-enum-initializers/",
     version = "0.3.2",
 );
 

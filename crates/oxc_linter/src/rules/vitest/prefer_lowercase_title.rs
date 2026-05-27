@@ -17,6 +17,7 @@ declare_oxc_lint!(
     fix,
     config = PreferLowercaseTitleConfig,
     docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-lowercase-title.md",
     version = "0.15.9",
 );
 

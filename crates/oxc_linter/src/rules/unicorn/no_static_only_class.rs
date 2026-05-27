@@ -56,6 +56,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     fix_dangerous,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-static-only-class.md",
     version = "0.0.16",
 );
 

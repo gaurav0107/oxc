@@ -119,6 +119,7 @@ declare_oxc_lint!(
     import,
     style,
     config = NoAnonymousDefaultExport,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-anonymous-default-export.md",
     version = "0.15.14",
 );
 

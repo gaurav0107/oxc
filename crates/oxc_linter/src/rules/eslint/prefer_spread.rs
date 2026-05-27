@@ -65,6 +65,7 @@ declare_oxc_lint!(
     PreferSpread,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/prefer-spread",
     version = "0.0.17",
 );
 

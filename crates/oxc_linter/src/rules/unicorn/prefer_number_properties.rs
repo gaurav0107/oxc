@@ -84,6 +84,7 @@ declare_oxc_lint!(
     restriction,
     dangerous_fix,
     config = PreferNumberPropertiesConfig,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-number-properties.md",
     version = "0.0.19",
 );
 

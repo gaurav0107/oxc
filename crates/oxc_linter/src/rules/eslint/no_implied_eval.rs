@@ -55,6 +55,7 @@ declare_oxc_lint!(
     NoImpliedEval,
     eslint,
     suspicious,
+    references = "https://eslint.org/docs/latest/rules/no-implied-eval",
     version = "1.66.0",
 );
 

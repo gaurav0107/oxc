@@ -132,6 +132,7 @@ declare_oxc_lint!(
     ConstructorSuper,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/constructor-super",
     version = "0.0.3",
 );
 

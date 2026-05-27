@@ -63,6 +63,7 @@ declare_oxc_lint!(
     NoNamedAsDefaultMember,
     import,
     suspicious,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-as-default-member.md",
     version = "0.2.1",
 );
 

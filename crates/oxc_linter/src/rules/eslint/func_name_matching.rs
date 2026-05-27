@@ -222,6 +222,7 @@ declare_oxc_lint!(
     style,
     none,
     config = FuncNameMatching,
+    references = "https://eslint.org/docs/latest/rules/func-name-matching",
     version = "1.62.0",
 );
 

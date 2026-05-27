@@ -85,6 +85,7 @@ declare_oxc_lint!(
     RequireLocalTestContextForConcurrentSnapshots,
     vitest,
     correctness,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-local-test-context-for-concurrent-snapshots.md",
     version = "0.8.0",
 );
 

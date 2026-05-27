@@ -75,6 +75,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     suggestion,
+    references = "https://typescript-eslint.io/rules/require-await/",
     version = "1.12.0",
 );
 

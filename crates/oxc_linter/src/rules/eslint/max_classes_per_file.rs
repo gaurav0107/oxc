@@ -73,6 +73,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     config = MaxClassesPerFileConfig,
+    references = "https://eslint.org/docs/latest/rules/max-classes-per-file",
     version = "0.3.4",
 );
 

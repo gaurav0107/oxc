@@ -117,6 +117,7 @@ declare_oxc_lint!(
     style,
     conditional_fix,
     config = NoUselessComputedKey,
+    references = "https://eslint.org/docs/latest/rules/no-useless-computed-key",
     version = "1.16.0",
 );
 

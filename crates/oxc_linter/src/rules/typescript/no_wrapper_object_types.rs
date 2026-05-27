@@ -57,6 +57,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     fix,
+    references = "https://typescript-eslint.io/rules/no-wrapper-object-types/",
     version = "0.8.0",
 );
 

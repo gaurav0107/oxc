@@ -48,6 +48,7 @@ declare_oxc_lint!(
     NoMagicArrayFlatDepth,
     unicorn,
     restriction,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-magic-array-flat-depth.md",
     version = "0.4.2",
 );
 

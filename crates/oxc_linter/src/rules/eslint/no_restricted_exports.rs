@@ -183,6 +183,7 @@ declare_oxc_lint!(
     eslint,
     nursery, // TODO: change category to `restriction`
     config = NoRestrictedExportsConfig,
+    references = "https://eslint.org/docs/latest/rules/no-restricted-exports",
     version = "1.59.0",
 );
 

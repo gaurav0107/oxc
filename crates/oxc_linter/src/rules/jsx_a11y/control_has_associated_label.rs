@@ -112,6 +112,7 @@ declare_oxc_lint!(
     jsx_a11y,
     correctness,
     config = ControlHasAssociatedLabelConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/control-has-associated-label.md",
     version = "1.65.0",
 );
 

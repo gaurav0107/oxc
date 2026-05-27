@@ -17,6 +17,8 @@ declare_oxc_lint!(
     style,
     config = RequireHookConfig,
     docs = DOCUMENTATION,
+    references =
+        "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-hook.md",
     version = "0.3.2",
 );
 

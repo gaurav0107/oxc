@@ -46,6 +46,7 @@ declare_oxc_lint!(
     RequireThrowsType,
     jsdoc,
     pedantic,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireThrowsType.md",
     version = "1.65.0",
 );
 

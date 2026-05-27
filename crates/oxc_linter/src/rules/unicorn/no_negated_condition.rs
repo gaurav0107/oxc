@@ -19,6 +19,7 @@ declare_oxc_lint!(
     pedantic,
     pending,
     docs = DOCUMENTATION,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-negated-condition.md",
     version = "0.0.18",
 );
 

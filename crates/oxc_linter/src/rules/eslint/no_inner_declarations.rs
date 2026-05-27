@@ -77,6 +77,7 @@ declare_oxc_lint!(
     eslint,
     pedantic,
     config = NoInnerDeclarations,
+    references = "https://eslint.org/docs/latest/rules/no-inner-declarations",
     version = "0.0.5",
 );
 

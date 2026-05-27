@@ -69,6 +69,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = NoCondAssignConfig,
+    references = "https://eslint.org/docs/latest/rules/no-cond-assign",
     version = "0.0.5",
 );
 

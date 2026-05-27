@@ -87,6 +87,7 @@ declare_oxc_lint!(
     react,
     correctness,
     config = NoUnsafeConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unsafe.md",
     version = "1.35.0",
 );
 

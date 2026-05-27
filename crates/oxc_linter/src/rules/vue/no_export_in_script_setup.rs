@@ -44,6 +44,7 @@ declare_oxc_lint!(
     NoExportInScriptSetup,
     vue,
     correctness,
+    references = "https://eslint.vuejs.org/rules/no-export-in-script-setup.html",
     version = "1.20.0",
 );
 

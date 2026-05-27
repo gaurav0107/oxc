@@ -86,6 +86,7 @@ declare_oxc_lint!(
     eslint,
     style,
     fix,
+    references = "https://eslint.org/docs/latest/rules/no-extra-label",
     version = "0.15.4",
 );
 

@@ -58,6 +58,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     fix_dangerous,
+    references = "https://eslint.org/docs/latest/rules/no-eq-null",
     version = "0.2.14",
 );
 

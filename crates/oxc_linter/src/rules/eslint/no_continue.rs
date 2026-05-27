@@ -51,6 +51,7 @@ declare_oxc_lint!(
     NoContinue,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/no-continue",
     version = "0.2.14",
 );
 

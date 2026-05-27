@@ -124,6 +124,7 @@ declare_oxc_lint!(
     react,
     style,
     config = StateInConstructorConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/state-in-constructor.md",
     version = "1.26.0",
 );
 

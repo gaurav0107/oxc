@@ -38,6 +38,7 @@ declare_oxc_lint!(
     JsxNoJsxAsProp,
     react_perf,
     perf,
+    references = "https://github.com/cvazac/eslint-plugin-react-perf/blob/master/docs/rules/jsx-no-jsx-as-prop.md",
     version = "0.2.3",
 );
 

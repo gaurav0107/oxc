@@ -51,6 +51,7 @@ declare_oxc_lint!(
     unicorn,
     suspicious,
     suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md",
     version = "0.15.15",
 );
 

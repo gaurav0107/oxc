@@ -51,6 +51,7 @@ declare_oxc_lint!(
     typescript,
     style,
     config = PreferStringStartsEndsWithConfig,
+    references = "https://typescript-eslint.io/rules/prefer-string-starts-ends-with/",
     version = "0.0.8",
 );
 

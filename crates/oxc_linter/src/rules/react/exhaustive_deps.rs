@@ -270,6 +270,7 @@ declare_oxc_lint!(
     correctness,
     safe_fixes_and_dangerous_suggestions,
     config = ExhaustiveDepsConfigJson,
+    references = "https://github.com/facebook/react/blob/main/packages/eslint-plugin-react-hooks/README.md#advanced-configuration",
     version = "0.12.0",
 );
 

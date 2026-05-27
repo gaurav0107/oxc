@@ -9,7 +9,14 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct NoCommentedOutTests;
 
-declare_oxc_lint!(NoCommentedOutTests, vitest, suspicious, docs = DOCUMENTATION, version = "0.0.8",);
+declare_oxc_lint!(
+    NoCommentedOutTests,
+    vitest,
+    suspicious,
+    docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-commented-out-tests.md",
+    version = "0.0.8",
+);
 
 impl Rule for NoCommentedOutTests {
     fn run_once(&self, ctx: &LintContext) {

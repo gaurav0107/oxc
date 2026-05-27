@@ -47,6 +47,7 @@ declare_oxc_lint!(
     NoTemplateCurlyInString,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/no-template-curly-in-string",
     version = "0.2.14",
 );
 

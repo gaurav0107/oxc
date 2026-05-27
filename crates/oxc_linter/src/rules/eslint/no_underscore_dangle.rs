@@ -112,6 +112,7 @@ declare_oxc_lint!(
     eslint,
     suspicious,
     config = NoUnderscoreDangle,
+    references = "https://eslint.org/docs/latest/rules/no-underscore-dangle",
     version = "1.62.0",
 );
 

@@ -67,6 +67,7 @@ declare_oxc_lint!(
     unicorn,
     perf,
     dangerous_fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-has.md",
     version = "0.13.2",
 );
 

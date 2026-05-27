@@ -63,6 +63,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-collection-argument.md",
     version = "1.28.0",
 );
 

@@ -163,6 +163,7 @@ declare_oxc_lint!(
     pedantic,
     pending,
     config = ArrayCallbackReturn,
+    references = "https://eslint.org/docs/latest/rules/array-callback-return",
     version = "0.0.3",
 );
 

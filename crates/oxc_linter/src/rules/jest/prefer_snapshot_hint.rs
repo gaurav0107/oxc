@@ -15,6 +15,7 @@ declare_oxc_lint!(
     correctness,
     config = SnapshotHintMode,
     docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-snapshot-hint.md",
     version = "1.59.0",
 );
 

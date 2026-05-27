@@ -44,6 +44,7 @@ declare_oxc_lint!(
     eslint,
     style,
     fix,
+    references = "https://eslint.org/docs/latest/rules/prefer-exponentiation-operator",
     version = "0.4.0",
 );
 

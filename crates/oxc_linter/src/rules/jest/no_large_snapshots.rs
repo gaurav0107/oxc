@@ -15,6 +15,7 @@ declare_oxc_lint!(
     style,
     config = NoLargeSnapshotsConfig,
     docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-large-snapshots.md",
     version = "0.4.3",
 );
 

@@ -29,6 +29,7 @@ declare_oxc_lint!(
     PreferFind(tsgolint),
     typescript,
     style,
+    references = "https://typescript-eslint.io/rules/prefer-find/",
     version = "1.49.0",
 );
 

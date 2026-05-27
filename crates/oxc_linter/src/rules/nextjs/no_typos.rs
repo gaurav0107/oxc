@@ -51,6 +51,7 @@ declare_oxc_lint!(
     nextjs,
     correctness,
     pending,
+    references = "https://nextjs.org/docs/messages/no-typos",
     version = "0.2.1",
 );
 

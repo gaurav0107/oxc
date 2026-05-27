@@ -180,6 +180,7 @@ declare_oxc_lint!(
     eslint,
     style,
     config = IdLengthConfig,
+    references = "https://eslint.org/docs/latest/rules/id-length",
     version = "1.4.0",
 );
 

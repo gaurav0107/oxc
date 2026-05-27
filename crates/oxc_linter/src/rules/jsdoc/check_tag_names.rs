@@ -83,6 +83,7 @@ declare_oxc_lint!(
     correctness,
     pending,
     config = CheckTagNamesConfig,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/checkTagNames.md",
     version = "0.3.2",
 );
 

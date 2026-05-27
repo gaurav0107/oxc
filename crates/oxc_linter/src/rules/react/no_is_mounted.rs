@@ -47,6 +47,7 @@ declare_oxc_lint!(
     NoIsMounted,
     react,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md",
     version = "0.0.19",
 );
 

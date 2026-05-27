@@ -95,6 +95,7 @@ declare_oxc_lint!(
     restriction,
     pending,
     config = NoUnknownPropertyConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md",
     version = "0.2.0",
 );
 

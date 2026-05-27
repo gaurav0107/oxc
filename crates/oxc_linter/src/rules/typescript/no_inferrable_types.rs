@@ -63,6 +63,7 @@ declare_oxc_lint!(
     style,
     suggestion,
     config = NoInferrableTypes,
+    references = "https://typescript-eslint.io/rules/no-inferrable-types/",
     version = "0.14.0",
 );
 

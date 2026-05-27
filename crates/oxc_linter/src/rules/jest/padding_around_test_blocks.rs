@@ -61,6 +61,7 @@ declare_oxc_lint!(
     jest,
     style,
     fix,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/padding-around-test-blocks.md",
     version = "1.13.0",
 );
 

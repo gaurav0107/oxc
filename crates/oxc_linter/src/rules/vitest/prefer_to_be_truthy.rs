@@ -98,6 +98,7 @@ declare_oxc_lint!(
     vitest,
     style,
     fix,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-be-truthy.md",
     version = "0.7.1",
 );
 

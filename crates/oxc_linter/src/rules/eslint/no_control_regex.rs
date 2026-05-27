@@ -85,6 +85,7 @@ declare_oxc_lint!(
     NoControlRegex,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-control-regex",
     version = "0.0.7",
 );
 

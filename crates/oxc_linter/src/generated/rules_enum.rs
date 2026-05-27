@@ -7532,6 +7532,1081 @@ impl RuleEnum {
             Self::VueValidNextTick(_) => VueValidNextTick::documentation(),
         }
     }
+    pub fn references(&self) -> Option<&'static str> {
+        match self {
+            Self::ImportConsistentTypeSpecifierStyle(_) => {
+                ImportConsistentTypeSpecifierStyle::references()
+            }
+            Self::ImportDefault(_) => ImportDefault::references(),
+            Self::ImportExport(_) => ImportExport::references(),
+            Self::ImportExportsLast(_) => ImportExportsLast::references(),
+            Self::ImportExtensions(_) => ImportExtensions::references(),
+            Self::ImportFirst(_) => ImportFirst::references(),
+            Self::ImportGroupExports(_) => ImportGroupExports::references(),
+            Self::ImportMaxDependencies(_) => ImportMaxDependencies::references(),
+            Self::ImportNamed(_) => ImportNamed::references(),
+            Self::ImportNamespace(_) => ImportNamespace::references(),
+            Self::ImportNewlineAfterImport(_) => ImportNewlineAfterImport::references(),
+            Self::ImportNoAbsolutePath(_) => ImportNoAbsolutePath::references(),
+            Self::ImportNoAmd(_) => ImportNoAmd::references(),
+            Self::ImportNoAnonymousDefaultExport(_) => ImportNoAnonymousDefaultExport::references(),
+            Self::ImportNoCommonjs(_) => ImportNoCommonjs::references(),
+            Self::ImportNoCycle(_) => ImportNoCycle::references(),
+            Self::ImportNoDefaultExport(_) => ImportNoDefaultExport::references(),
+            Self::ImportNoDuplicates(_) => ImportNoDuplicates::references(),
+            Self::ImportNoDynamicRequire(_) => ImportNoDynamicRequire::references(),
+            Self::ImportNoEmptyNamedBlocks(_) => ImportNoEmptyNamedBlocks::references(),
+            Self::ImportNoMutableExports(_) => ImportNoMutableExports::references(),
+            Self::ImportNoNamedAsDefault(_) => ImportNoNamedAsDefault::references(),
+            Self::ImportNoNamedAsDefaultMember(_) => ImportNoNamedAsDefaultMember::references(),
+            Self::ImportNoNamedDefault(_) => ImportNoNamedDefault::references(),
+            Self::ImportNoNamedExport(_) => ImportNoNamedExport::references(),
+            Self::ImportNoNamespace(_) => ImportNoNamespace::references(),
+            Self::ImportNoNodejsModules(_) => ImportNoNodejsModules::references(),
+            Self::ImportNoRelativeParentImports(_) => ImportNoRelativeParentImports::references(),
+            Self::ImportNoSelfImport(_) => ImportNoSelfImport::references(),
+            Self::ImportNoUnassignedImport(_) => ImportNoUnassignedImport::references(),
+            Self::ImportNoWebpackLoaderSyntax(_) => ImportNoWebpackLoaderSyntax::references(),
+            Self::ImportPreferDefaultExport(_) => ImportPreferDefaultExport::references(),
+            Self::ImportUnambiguous(_) => ImportUnambiguous::references(),
+            Self::EslintAccessorPairs(_) => EslintAccessorPairs::references(),
+            Self::EslintArrayCallbackReturn(_) => EslintArrayCallbackReturn::references(),
+            Self::EslintArrowBodyStyle(_) => EslintArrowBodyStyle::references(),
+            Self::EslintBlockScopedVar(_) => EslintBlockScopedVar::references(),
+            Self::EslintCapitalizedComments(_) => EslintCapitalizedComments::references(),
+            Self::EslintClassMethodsUseThis(_) => EslintClassMethodsUseThis::references(),
+            Self::EslintComplexity(_) => EslintComplexity::references(),
+            Self::EslintConstructorSuper(_) => EslintConstructorSuper::references(),
+            Self::EslintCurly(_) => EslintCurly::references(),
+            Self::EslintDefaultCase(_) => EslintDefaultCase::references(),
+            Self::EslintDefaultCaseLast(_) => EslintDefaultCaseLast::references(),
+            Self::EslintDefaultParamLast(_) => EslintDefaultParamLast::references(),
+            Self::EslintEqeqeq(_) => EslintEqeqeq::references(),
+            Self::EslintForDirection(_) => EslintForDirection::references(),
+            Self::EslintFuncNameMatching(_) => EslintFuncNameMatching::references(),
+            Self::EslintFuncNames(_) => EslintFuncNames::references(),
+            Self::EslintFuncStyle(_) => EslintFuncStyle::references(),
+            Self::EslintGetterReturn(_) => EslintGetterReturn::references(),
+            Self::EslintGroupedAccessorPairs(_) => EslintGroupedAccessorPairs::references(),
+            Self::EslintGuardForIn(_) => EslintGuardForIn::references(),
+            Self::EslintIdLength(_) => EslintIdLength::references(),
+            Self::EslintIdMatch(_) => EslintIdMatch::references(),
+            Self::EslintInitDeclarations(_) => EslintInitDeclarations::references(),
+            Self::EslintLogicalAssignmentOperators(_) => {
+                EslintLogicalAssignmentOperators::references()
+            }
+            Self::EslintMaxClassesPerFile(_) => EslintMaxClassesPerFile::references(),
+            Self::EslintMaxDepth(_) => EslintMaxDepth::references(),
+            Self::EslintMaxLines(_) => EslintMaxLines::references(),
+            Self::EslintMaxLinesPerFunction(_) => EslintMaxLinesPerFunction::references(),
+            Self::EslintMaxNestedCallbacks(_) => EslintMaxNestedCallbacks::references(),
+            Self::EslintMaxParams(_) => EslintMaxParams::references(),
+            Self::EslintMaxStatements(_) => EslintMaxStatements::references(),
+            Self::EslintNewCap(_) => EslintNewCap::references(),
+            Self::EslintNoAlert(_) => EslintNoAlert::references(),
+            Self::EslintNoArrayConstructor(_) => EslintNoArrayConstructor::references(),
+            Self::EslintNoAsyncPromiseExecutor(_) => EslintNoAsyncPromiseExecutor::references(),
+            Self::EslintNoAwaitInLoop(_) => EslintNoAwaitInLoop::references(),
+            Self::EslintNoBitwise(_) => EslintNoBitwise::references(),
+            Self::EslintNoCaller(_) => EslintNoCaller::references(),
+            Self::EslintNoCaseDeclarations(_) => EslintNoCaseDeclarations::references(),
+            Self::EslintNoClassAssign(_) => EslintNoClassAssign::references(),
+            Self::EslintNoCompareNegZero(_) => EslintNoCompareNegZero::references(),
+            Self::EslintNoCondAssign(_) => EslintNoCondAssign::references(),
+            Self::EslintNoConsole(_) => EslintNoConsole::references(),
+            Self::EslintNoConstAssign(_) => EslintNoConstAssign::references(),
+            Self::EslintNoConstantBinaryExpression(_) => {
+                EslintNoConstantBinaryExpression::references()
+            }
+            Self::EslintNoConstantCondition(_) => EslintNoConstantCondition::references(),
+            Self::EslintNoConstructorReturn(_) => EslintNoConstructorReturn::references(),
+            Self::EslintNoContinue(_) => EslintNoContinue::references(),
+            Self::EslintNoControlRegex(_) => EslintNoControlRegex::references(),
+            Self::EslintNoDebugger(_) => EslintNoDebugger::references(),
+            Self::EslintNoDeleteVar(_) => EslintNoDeleteVar::references(),
+            Self::EslintNoDivRegex(_) => EslintNoDivRegex::references(),
+            Self::EslintNoDupeClassMembers(_) => EslintNoDupeClassMembers::references(),
+            Self::EslintNoDupeElseIf(_) => EslintNoDupeElseIf::references(),
+            Self::EslintNoDupeKeys(_) => EslintNoDupeKeys::references(),
+            Self::EslintNoDuplicateCase(_) => EslintNoDuplicateCase::references(),
+            Self::EslintNoDuplicateImports(_) => EslintNoDuplicateImports::references(),
+            Self::EslintNoElseReturn(_) => EslintNoElseReturn::references(),
+            Self::EslintNoEmpty(_) => EslintNoEmpty::references(),
+            Self::EslintNoEmptyCharacterClass(_) => EslintNoEmptyCharacterClass::references(),
+            Self::EslintNoEmptyFunction(_) => EslintNoEmptyFunction::references(),
+            Self::EslintNoEmptyPattern(_) => EslintNoEmptyPattern::references(),
+            Self::EslintNoEmptyStaticBlock(_) => EslintNoEmptyStaticBlock::references(),
+            Self::EslintNoEqNull(_) => EslintNoEqNull::references(),
+            Self::EslintNoEval(_) => EslintNoEval::references(),
+            Self::EslintNoExAssign(_) => EslintNoExAssign::references(),
+            Self::EslintNoExtendNative(_) => EslintNoExtendNative::references(),
+            Self::EslintNoExtraBind(_) => EslintNoExtraBind::references(),
+            Self::EslintNoExtraBooleanCast(_) => EslintNoExtraBooleanCast::references(),
+            Self::EslintNoExtraLabel(_) => EslintNoExtraLabel::references(),
+            Self::EslintNoFallthrough(_) => EslintNoFallthrough::references(),
+            Self::EslintNoFuncAssign(_) => EslintNoFuncAssign::references(),
+            Self::EslintNoGlobalAssign(_) => EslintNoGlobalAssign::references(),
+            Self::EslintNoImplicitCoercion(_) => EslintNoImplicitCoercion::references(),
+            Self::EslintNoImplicitGlobals(_) => EslintNoImplicitGlobals::references(),
+            Self::EslintNoImpliedEval(_) => EslintNoImpliedEval::references(),
+            Self::EslintNoImportAssign(_) => EslintNoImportAssign::references(),
+            Self::EslintNoInlineComments(_) => EslintNoInlineComments::references(),
+            Self::EslintNoInnerDeclarations(_) => EslintNoInnerDeclarations::references(),
+            Self::EslintNoInvalidRegexp(_) => EslintNoInvalidRegexp::references(),
+            Self::EslintNoIrregularWhitespace(_) => EslintNoIrregularWhitespace::references(),
+            Self::EslintNoIterator(_) => EslintNoIterator::references(),
+            Self::EslintNoLabelVar(_) => EslintNoLabelVar::references(),
+            Self::EslintNoLabels(_) => EslintNoLabels::references(),
+            Self::EslintNoLoneBlocks(_) => EslintNoLoneBlocks::references(),
+            Self::EslintNoLonelyIf(_) => EslintNoLonelyIf::references(),
+            Self::EslintNoLoopFunc(_) => EslintNoLoopFunc::references(),
+            Self::EslintNoLossOfPrecision(_) => EslintNoLossOfPrecision::references(),
+            Self::EslintNoMagicNumbers(_) => EslintNoMagicNumbers::references(),
+            Self::EslintNoMisleadingCharacterClass(_) => {
+                EslintNoMisleadingCharacterClass::references()
+            }
+            Self::EslintNoMultiAssign(_) => EslintNoMultiAssign::references(),
+            Self::EslintNoMultiStr(_) => EslintNoMultiStr::references(),
+            Self::EslintNoNegatedCondition(_) => EslintNoNegatedCondition::references(),
+            Self::EslintNoNestedTernary(_) => EslintNoNestedTernary::references(),
+            Self::EslintNoNew(_) => EslintNoNew::references(),
+            Self::EslintNoNewFunc(_) => EslintNoNewFunc::references(),
+            Self::EslintNoNewNativeNonconstructor(_) => {
+                EslintNoNewNativeNonconstructor::references()
+            }
+            Self::EslintNoNewWrappers(_) => EslintNoNewWrappers::references(),
+            Self::EslintNoNonoctalDecimalEscape(_) => EslintNoNonoctalDecimalEscape::references(),
+            Self::EslintNoObjCalls(_) => EslintNoObjCalls::references(),
+            Self::EslintNoObjectConstructor(_) => EslintNoObjectConstructor::references(),
+            Self::EslintNoParamReassign(_) => EslintNoParamReassign::references(),
+            Self::EslintNoPlusplus(_) => EslintNoPlusplus::references(),
+            Self::EslintNoPromiseExecutorReturn(_) => EslintNoPromiseExecutorReturn::references(),
+            Self::EslintNoProto(_) => EslintNoProto::references(),
+            Self::EslintNoPrototypeBuiltins(_) => EslintNoPrototypeBuiltins::references(),
+            Self::EslintNoRedeclare(_) => EslintNoRedeclare::references(),
+            Self::EslintNoRegexSpaces(_) => EslintNoRegexSpaces::references(),
+            Self::EslintNoRestrictedExports(_) => EslintNoRestrictedExports::references(),
+            Self::EslintNoRestrictedGlobals(_) => EslintNoRestrictedGlobals::references(),
+            Self::EslintNoRestrictedImports(_) => EslintNoRestrictedImports::references(),
+            Self::EslintNoRestrictedProperties(_) => EslintNoRestrictedProperties::references(),
+            Self::EslintNoReturnAssign(_) => EslintNoReturnAssign::references(),
+            Self::EslintNoScriptUrl(_) => EslintNoScriptUrl::references(),
+            Self::EslintNoSelfAssign(_) => EslintNoSelfAssign::references(),
+            Self::EslintNoSelfCompare(_) => EslintNoSelfCompare::references(),
+            Self::EslintNoSequences(_) => EslintNoSequences::references(),
+            Self::EslintNoSetterReturn(_) => EslintNoSetterReturn::references(),
+            Self::EslintNoShadow(_) => EslintNoShadow::references(),
+            Self::EslintNoShadowRestrictedNames(_) => EslintNoShadowRestrictedNames::references(),
+            Self::EslintNoSparseArrays(_) => EslintNoSparseArrays::references(),
+            Self::EslintNoTemplateCurlyInString(_) => EslintNoTemplateCurlyInString::references(),
+            Self::EslintNoTernary(_) => EslintNoTernary::references(),
+            Self::EslintNoThisBeforeSuper(_) => EslintNoThisBeforeSuper::references(),
+            Self::EslintNoThrowLiteral(_) => EslintNoThrowLiteral::references(),
+            Self::EslintNoUnassignedVars(_) => EslintNoUnassignedVars::references(),
+            Self::EslintNoUndef(_) => EslintNoUndef::references(),
+            Self::EslintNoUndefined(_) => EslintNoUndefined::references(),
+            Self::EslintNoUnderscoreDangle(_) => EslintNoUnderscoreDangle::references(),
+            Self::EslintNoUnexpectedMultiline(_) => EslintNoUnexpectedMultiline::references(),
+            Self::EslintNoUnmodifiedLoopCondition(_) => {
+                EslintNoUnmodifiedLoopCondition::references()
+            }
+            Self::EslintNoUnneededTernary(_) => EslintNoUnneededTernary::references(),
+            Self::EslintNoUnreachable(_) => EslintNoUnreachable::references(),
+            Self::EslintNoUnsafeFinally(_) => EslintNoUnsafeFinally::references(),
+            Self::EslintNoUnsafeNegation(_) => EslintNoUnsafeNegation::references(),
+            Self::EslintNoUnsafeOptionalChaining(_) => EslintNoUnsafeOptionalChaining::references(),
+            Self::EslintNoUnusedExpressions(_) => EslintNoUnusedExpressions::references(),
+            Self::EslintNoUnusedLabels(_) => EslintNoUnusedLabels::references(),
+            Self::EslintNoUnusedPrivateClassMembers(_) => {
+                EslintNoUnusedPrivateClassMembers::references()
+            }
+            Self::EslintNoUnusedVars(_) => EslintNoUnusedVars::references(),
+            Self::EslintNoUseBeforeDefine(_) => EslintNoUseBeforeDefine::references(),
+            Self::EslintNoUselessAssignment(_) => EslintNoUselessAssignment::references(),
+            Self::EslintNoUselessBackreference(_) => EslintNoUselessBackreference::references(),
+            Self::EslintNoUselessCall(_) => EslintNoUselessCall::references(),
+            Self::EslintNoUselessCatch(_) => EslintNoUselessCatch::references(),
+            Self::EslintNoUselessComputedKey(_) => EslintNoUselessComputedKey::references(),
+            Self::EslintNoUselessConcat(_) => EslintNoUselessConcat::references(),
+            Self::EslintNoUselessConstructor(_) => EslintNoUselessConstructor::references(),
+            Self::EslintNoUselessEscape(_) => EslintNoUselessEscape::references(),
+            Self::EslintNoUselessRename(_) => EslintNoUselessRename::references(),
+            Self::EslintNoUselessReturn(_) => EslintNoUselessReturn::references(),
+            Self::EslintNoVar(_) => EslintNoVar::references(),
+            Self::EslintNoVoid(_) => EslintNoVoid::references(),
+            Self::EslintNoWarningComments(_) => EslintNoWarningComments::references(),
+            Self::EslintNoWith(_) => EslintNoWith::references(),
+            Self::EslintObjectShorthand(_) => EslintObjectShorthand::references(),
+            Self::EslintOperatorAssignment(_) => EslintOperatorAssignment::references(),
+            Self::EslintPreferArrowCallback(_) => EslintPreferArrowCallback::references(),
+            Self::EslintPreferConst(_) => EslintPreferConst::references(),
+            Self::EslintPreferDestructuring(_) => EslintPreferDestructuring::references(),
+            Self::EslintPreferExponentiationOperator(_) => {
+                EslintPreferExponentiationOperator::references()
+            }
+            Self::EslintPreferNumericLiterals(_) => EslintPreferNumericLiterals::references(),
+            Self::EslintPreferObjectHasOwn(_) => EslintPreferObjectHasOwn::references(),
+            Self::EslintPreferObjectSpread(_) => EslintPreferObjectSpread::references(),
+            Self::EslintPreferPromiseRejectErrors(_) => {
+                EslintPreferPromiseRejectErrors::references()
+            }
+            Self::EslintPreferRegexLiterals(_) => EslintPreferRegexLiterals::references(),
+            Self::EslintPreferRestParams(_) => EslintPreferRestParams::references(),
+            Self::EslintPreferSpread(_) => EslintPreferSpread::references(),
+            Self::EslintPreferTemplate(_) => EslintPreferTemplate::references(),
+            Self::EslintPreserveCaughtError(_) => EslintPreserveCaughtError::references(),
+            Self::EslintRadix(_) => EslintRadix::references(),
+            Self::EslintRequireAwait(_) => EslintRequireAwait::references(),
+            Self::EslintRequireUnicodeRegexp(_) => EslintRequireUnicodeRegexp::references(),
+            Self::EslintRequireYield(_) => EslintRequireYield::references(),
+            Self::EslintSortImports(_) => EslintSortImports::references(),
+            Self::EslintSortKeys(_) => EslintSortKeys::references(),
+            Self::EslintSortVars(_) => EslintSortVars::references(),
+            Self::EslintSymbolDescription(_) => EslintSymbolDescription::references(),
+            Self::EslintUnicodeBom(_) => EslintUnicodeBom::references(),
+            Self::EslintUseIsnan(_) => EslintUseIsnan::references(),
+            Self::EslintValidTypeof(_) => EslintValidTypeof::references(),
+            Self::EslintVarsOnTop(_) => EslintVarsOnTop::references(),
+            Self::EslintYoda(_) => EslintYoda::references(),
+            Self::TypescriptAdjacentOverloadSignatures(_) => {
+                TypescriptAdjacentOverloadSignatures::references()
+            }
+            Self::TypescriptArrayType(_) => TypescriptArrayType::references(),
+            Self::TypescriptAwaitThenable(_) => TypescriptAwaitThenable::references(),
+            Self::TypescriptBanTsComment(_) => TypescriptBanTsComment::references(),
+            Self::TypescriptBanTslintComment(_) => TypescriptBanTslintComment::references(),
+            Self::TypescriptBanTypes(_) => TypescriptBanTypes::references(),
+            Self::TypescriptClassLiteralPropertyStyle(_) => {
+                TypescriptClassLiteralPropertyStyle::references()
+            }
+            Self::TypescriptConsistentGenericConstructors(_) => {
+                TypescriptConsistentGenericConstructors::references()
+            }
+            Self::TypescriptConsistentIndexedObjectStyle(_) => {
+                TypescriptConsistentIndexedObjectStyle::references()
+            }
+            Self::TypescriptConsistentReturn(_) => TypescriptConsistentReturn::references(),
+            Self::TypescriptConsistentTypeAssertions(_) => {
+                TypescriptConsistentTypeAssertions::references()
+            }
+            Self::TypescriptConsistentTypeDefinitions(_) => {
+                TypescriptConsistentTypeDefinitions::references()
+            }
+            Self::TypescriptConsistentTypeExports(_) => {
+                TypescriptConsistentTypeExports::references()
+            }
+            Self::TypescriptConsistentTypeImports(_) => {
+                TypescriptConsistentTypeImports::references()
+            }
+            Self::TypescriptDotNotation(_) => TypescriptDotNotation::references(),
+            Self::TypescriptExplicitFunctionReturnType(_) => {
+                TypescriptExplicitFunctionReturnType::references()
+            }
+            Self::TypescriptExplicitMemberAccessibility(_) => {
+                TypescriptExplicitMemberAccessibility::references()
+            }
+            Self::TypescriptExplicitModuleBoundaryTypes(_) => {
+                TypescriptExplicitModuleBoundaryTypes::references()
+            }
+            Self::TypescriptNoArrayDelete(_) => TypescriptNoArrayDelete::references(),
+            Self::TypescriptNoBaseToString(_) => TypescriptNoBaseToString::references(),
+            Self::TypescriptNoConfusingNonNullAssertion(_) => {
+                TypescriptNoConfusingNonNullAssertion::references()
+            }
+            Self::TypescriptNoConfusingVoidExpression(_) => {
+                TypescriptNoConfusingVoidExpression::references()
+            }
+            Self::TypescriptNoDeprecated(_) => TypescriptNoDeprecated::references(),
+            Self::TypescriptNoDuplicateEnumValues(_) => {
+                TypescriptNoDuplicateEnumValues::references()
+            }
+            Self::TypescriptNoDuplicateTypeConstituents(_) => {
+                TypescriptNoDuplicateTypeConstituents::references()
+            }
+            Self::TypescriptNoDynamicDelete(_) => TypescriptNoDynamicDelete::references(),
+            Self::TypescriptNoEmptyInterface(_) => TypescriptNoEmptyInterface::references(),
+            Self::TypescriptNoEmptyObjectType(_) => TypescriptNoEmptyObjectType::references(),
+            Self::TypescriptNoExplicitAny(_) => TypescriptNoExplicitAny::references(),
+            Self::TypescriptNoExtraNonNullAssertion(_) => {
+                TypescriptNoExtraNonNullAssertion::references()
+            }
+            Self::TypescriptNoExtraneousClass(_) => TypescriptNoExtraneousClass::references(),
+            Self::TypescriptNoFloatingPromises(_) => TypescriptNoFloatingPromises::references(),
+            Self::TypescriptNoForInArray(_) => TypescriptNoForInArray::references(),
+            Self::TypescriptNoImpliedEval(_) => TypescriptNoImpliedEval::references(),
+            Self::TypescriptNoImportTypeSideEffects(_) => {
+                TypescriptNoImportTypeSideEffects::references()
+            }
+            Self::TypescriptNoInferrableTypes(_) => TypescriptNoInferrableTypes::references(),
+            Self::TypescriptNoInvalidVoidType(_) => TypescriptNoInvalidVoidType::references(),
+            Self::TypescriptNoMeaninglessVoidOperator(_) => {
+                TypescriptNoMeaninglessVoidOperator::references()
+            }
+            Self::TypescriptNoMisusedNew(_) => TypescriptNoMisusedNew::references(),
+            Self::TypescriptNoMisusedPromises(_) => TypescriptNoMisusedPromises::references(),
+            Self::TypescriptNoMisusedSpread(_) => TypescriptNoMisusedSpread::references(),
+            Self::TypescriptNoMixedEnums(_) => TypescriptNoMixedEnums::references(),
+            Self::TypescriptNoNamespace(_) => TypescriptNoNamespace::references(),
+            Self::TypescriptNoNonNullAssertedNullishCoalescing(_) => {
+                TypescriptNoNonNullAssertedNullishCoalescing::references()
+            }
+            Self::TypescriptNoNonNullAssertedOptionalChain(_) => {
+                TypescriptNoNonNullAssertedOptionalChain::references()
+            }
+            Self::TypescriptNoNonNullAssertion(_) => TypescriptNoNonNullAssertion::references(),
+            Self::TypescriptNoRedundantTypeConstituents(_) => {
+                TypescriptNoRedundantTypeConstituents::references()
+            }
+            Self::TypescriptNoRequireImports(_) => TypescriptNoRequireImports::references(),
+            Self::TypescriptNoRestrictedTypes(_) => TypescriptNoRestrictedTypes::references(),
+            Self::TypescriptNoThisAlias(_) => TypescriptNoThisAlias::references(),
+            Self::TypescriptNoUnnecessaryBooleanLiteralCompare(_) => {
+                TypescriptNoUnnecessaryBooleanLiteralCompare::references()
+            }
+            Self::TypescriptNoUnnecessaryCondition(_) => {
+                TypescriptNoUnnecessaryCondition::references()
+            }
+            Self::TypescriptNoUnnecessaryParameterPropertyAssignment(_) => {
+                TypescriptNoUnnecessaryParameterPropertyAssignment::references()
+            }
+            Self::TypescriptNoUnnecessaryQualifier(_) => {
+                TypescriptNoUnnecessaryQualifier::references()
+            }
+            Self::TypescriptNoUnnecessaryTemplateExpression(_) => {
+                TypescriptNoUnnecessaryTemplateExpression::references()
+            }
+            Self::TypescriptNoUnnecessaryTypeArguments(_) => {
+                TypescriptNoUnnecessaryTypeArguments::references()
+            }
+            Self::TypescriptNoUnnecessaryTypeAssertion(_) => {
+                TypescriptNoUnnecessaryTypeAssertion::references()
+            }
+            Self::TypescriptNoUnnecessaryTypeConstraint(_) => {
+                TypescriptNoUnnecessaryTypeConstraint::references()
+            }
+            Self::TypescriptNoUnnecessaryTypeConversion(_) => {
+                TypescriptNoUnnecessaryTypeConversion::references()
+            }
+            Self::TypescriptNoUnnecessaryTypeParameters(_) => {
+                TypescriptNoUnnecessaryTypeParameters::references()
+            }
+            Self::TypescriptNoUnsafeArgument(_) => TypescriptNoUnsafeArgument::references(),
+            Self::TypescriptNoUnsafeAssignment(_) => TypescriptNoUnsafeAssignment::references(),
+            Self::TypescriptNoUnsafeCall(_) => TypescriptNoUnsafeCall::references(),
+            Self::TypescriptNoUnsafeDeclarationMerging(_) => {
+                TypescriptNoUnsafeDeclarationMerging::references()
+            }
+            Self::TypescriptNoUnsafeEnumComparison(_) => {
+                TypescriptNoUnsafeEnumComparison::references()
+            }
+            Self::TypescriptNoUnsafeFunctionType(_) => TypescriptNoUnsafeFunctionType::references(),
+            Self::TypescriptNoUnsafeMemberAccess(_) => TypescriptNoUnsafeMemberAccess::references(),
+            Self::TypescriptNoUnsafeReturn(_) => TypescriptNoUnsafeReturn::references(),
+            Self::TypescriptNoUnsafeTypeAssertion(_) => {
+                TypescriptNoUnsafeTypeAssertion::references()
+            }
+            Self::TypescriptNoUnsafeUnaryMinus(_) => TypescriptNoUnsafeUnaryMinus::references(),
+            Self::TypescriptNoUselessDefaultAssignment(_) => {
+                TypescriptNoUselessDefaultAssignment::references()
+            }
+            Self::TypescriptNoUselessEmptyExport(_) => TypescriptNoUselessEmptyExport::references(),
+            Self::TypescriptNoVarRequires(_) => TypescriptNoVarRequires::references(),
+            Self::TypescriptNoWrapperObjectTypes(_) => TypescriptNoWrapperObjectTypes::references(),
+            Self::TypescriptNonNullableTypeAssertionStyle(_) => {
+                TypescriptNonNullableTypeAssertionStyle::references()
+            }
+            Self::TypescriptOnlyThrowError(_) => TypescriptOnlyThrowError::references(),
+            Self::TypescriptParameterProperties(_) => TypescriptParameterProperties::references(),
+            Self::TypescriptPreferAsConst(_) => TypescriptPreferAsConst::references(),
+            Self::TypescriptPreferEnumInitializers(_) => {
+                TypescriptPreferEnumInitializers::references()
+            }
+            Self::TypescriptPreferFind(_) => TypescriptPreferFind::references(),
+            Self::TypescriptPreferForOf(_) => TypescriptPreferForOf::references(),
+            Self::TypescriptPreferFunctionType(_) => TypescriptPreferFunctionType::references(),
+            Self::TypescriptPreferIncludes(_) => TypescriptPreferIncludes::references(),
+            Self::TypescriptPreferLiteralEnumMember(_) => {
+                TypescriptPreferLiteralEnumMember::references()
+            }
+            Self::TypescriptPreferNamespaceKeyword(_) => {
+                TypescriptPreferNamespaceKeyword::references()
+            }
+            Self::TypescriptPreferNullishCoalescing(_) => {
+                TypescriptPreferNullishCoalescing::references()
+            }
+            Self::TypescriptPreferOptionalChain(_) => TypescriptPreferOptionalChain::references(),
+            Self::TypescriptPreferPromiseRejectErrors(_) => {
+                TypescriptPreferPromiseRejectErrors::references()
+            }
+            Self::TypescriptPreferReadonly(_) => TypescriptPreferReadonly::references(),
+            Self::TypescriptPreferReadonlyParameterTypes(_) => {
+                TypescriptPreferReadonlyParameterTypes::references()
+            }
+            Self::TypescriptPreferReduceTypeParameter(_) => {
+                TypescriptPreferReduceTypeParameter::references()
+            }
+            Self::TypescriptPreferRegexpExec(_) => TypescriptPreferRegexpExec::references(),
+            Self::TypescriptPreferReturnThisType(_) => TypescriptPreferReturnThisType::references(),
+            Self::TypescriptPreferStringStartsEndsWith(_) => {
+                TypescriptPreferStringStartsEndsWith::references()
+            }
+            Self::TypescriptPreferTsExpectError(_) => TypescriptPreferTsExpectError::references(),
+            Self::TypescriptPromiseFunctionAsync(_) => TypescriptPromiseFunctionAsync::references(),
+            Self::TypescriptRelatedGetterSetterPairs(_) => {
+                TypescriptRelatedGetterSetterPairs::references()
+            }
+            Self::TypescriptRequireArraySortCompare(_) => {
+                TypescriptRequireArraySortCompare::references()
+            }
+            Self::TypescriptRequireAwait(_) => TypescriptRequireAwait::references(),
+            Self::TypescriptRestrictPlusOperands(_) => TypescriptRestrictPlusOperands::references(),
+            Self::TypescriptRestrictTemplateExpressions(_) => {
+                TypescriptRestrictTemplateExpressions::references()
+            }
+            Self::TypescriptReturnAwait(_) => TypescriptReturnAwait::references(),
+            Self::TypescriptStrictBooleanExpressions(_) => {
+                TypescriptStrictBooleanExpressions::references()
+            }
+            Self::TypescriptStrictVoidReturn(_) => TypescriptStrictVoidReturn::references(),
+            Self::TypescriptSwitchExhaustivenessCheck(_) => {
+                TypescriptSwitchExhaustivenessCheck::references()
+            }
+            Self::TypescriptTripleSlashReference(_) => TypescriptTripleSlashReference::references(),
+            Self::TypescriptUnboundMethod(_) => TypescriptUnboundMethod::references(),
+            Self::TypescriptUnifiedSignatures(_) => TypescriptUnifiedSignatures::references(),
+            Self::TypescriptUseUnknownInCatchCallbackVariable(_) => {
+                TypescriptUseUnknownInCatchCallbackVariable::references()
+            }
+            Self::JestConsistentTestIt(_) => JestConsistentTestIt::references(),
+            Self::JestExpectExpect(_) => JestExpectExpect::references(),
+            Self::JestMaxExpects(_) => JestMaxExpects::references(),
+            Self::JestMaxNestedDescribe(_) => JestMaxNestedDescribe::references(),
+            Self::JestNoAliasMethods(_) => JestNoAliasMethods::references(),
+            Self::JestNoCommentedOutTests(_) => JestNoCommentedOutTests::references(),
+            Self::JestNoConditionalExpect(_) => JestNoConditionalExpect::references(),
+            Self::JestNoConditionalInTest(_) => JestNoConditionalInTest::references(),
+            Self::JestNoConfusingSetTimeout(_) => JestNoConfusingSetTimeout::references(),
+            Self::JestNoDeprecatedFunctions(_) => JestNoDeprecatedFunctions::references(),
+            Self::JestNoDisabledTests(_) => JestNoDisabledTests::references(),
+            Self::JestNoDoneCallback(_) => JestNoDoneCallback::references(),
+            Self::JestNoDuplicateHooks(_) => JestNoDuplicateHooks::references(),
+            Self::JestNoExport(_) => JestNoExport::references(),
+            Self::JestNoFocusedTests(_) => JestNoFocusedTests::references(),
+            Self::JestNoHooks(_) => JestNoHooks::references(),
+            Self::JestNoIdenticalTitle(_) => JestNoIdenticalTitle::references(),
+            Self::JestNoInterpolationInSnapshots(_) => JestNoInterpolationInSnapshots::references(),
+            Self::JestNoJasmineGlobals(_) => JestNoJasmineGlobals::references(),
+            Self::JestNoLargeSnapshots(_) => JestNoLargeSnapshots::references(),
+            Self::JestNoMocksImport(_) => JestNoMocksImport::references(),
+            Self::JestNoRestrictedJestMethods(_) => JestNoRestrictedJestMethods::references(),
+            Self::JestNoRestrictedMatchers(_) => JestNoRestrictedMatchers::references(),
+            Self::JestNoStandaloneExpect(_) => JestNoStandaloneExpect::references(),
+            Self::JestNoTestPrefixes(_) => JestNoTestPrefixes::references(),
+            Self::JestNoTestReturnStatement(_) => JestNoTestReturnStatement::references(),
+            Self::JestNoUnneededAsyncExpectFunction(_) => {
+                JestNoUnneededAsyncExpectFunction::references()
+            }
+            Self::JestNoUntypedMockFactory(_) => JestNoUntypedMockFactory::references(),
+            Self::JestPaddingAroundAfterAllBlocks(_) => {
+                JestPaddingAroundAfterAllBlocks::references()
+            }
+            Self::JestPaddingAroundTestBlocks(_) => JestPaddingAroundTestBlocks::references(),
+            Self::JestPreferCalledWith(_) => JestPreferCalledWith::references(),
+            Self::JestPreferComparisonMatcher(_) => JestPreferComparisonMatcher::references(),
+            Self::JestPreferEach(_) => JestPreferEach::references(),
+            Self::JestPreferEndingWithAnExpect(_) => JestPreferEndingWithAnExpect::references(),
+            Self::JestPreferEqualityMatcher(_) => JestPreferEqualityMatcher::references(),
+            Self::JestPreferExpectAssertions(_) => JestPreferExpectAssertions::references(),
+            Self::JestPreferExpectResolves(_) => JestPreferExpectResolves::references(),
+            Self::JestPreferHooksInOrder(_) => JestPreferHooksInOrder::references(),
+            Self::JestPreferHooksOnTop(_) => JestPreferHooksOnTop::references(),
+            Self::JestPreferImportingJestGlobals(_) => JestPreferImportingJestGlobals::references(),
+            Self::JestPreferJestMocked(_) => JestPreferJestMocked::references(),
+            Self::JestPreferLowercaseTitle(_) => JestPreferLowercaseTitle::references(),
+            Self::JestPreferMockPromiseShorthand(_) => JestPreferMockPromiseShorthand::references(),
+            Self::JestPreferMockReturnShorthand(_) => JestPreferMockReturnShorthand::references(),
+            Self::JestPreferSnapshotHint(_) => JestPreferSnapshotHint::references(),
+            Self::JestPreferSpyOn(_) => JestPreferSpyOn::references(),
+            Self::JestPreferStrictEqual(_) => JestPreferStrictEqual::references(),
+            Self::JestPreferToBe(_) => JestPreferToBe::references(),
+            Self::JestPreferToContain(_) => JestPreferToContain::references(),
+            Self::JestPreferToHaveBeenCalled(_) => JestPreferToHaveBeenCalled::references(),
+            Self::JestPreferToHaveBeenCalledTimes(_) => {
+                JestPreferToHaveBeenCalledTimes::references()
+            }
+            Self::JestPreferToHaveLength(_) => JestPreferToHaveLength::references(),
+            Self::JestPreferTodo(_) => JestPreferTodo::references(),
+            Self::JestRequireHook(_) => JestRequireHook::references(),
+            Self::JestRequireToThrowMessage(_) => JestRequireToThrowMessage::references(),
+            Self::JestRequireTopLevelDescribe(_) => JestRequireTopLevelDescribe::references(),
+            Self::JestValidDescribeCallback(_) => JestValidDescribeCallback::references(),
+            Self::JestValidExpect(_) => JestValidExpect::references(),
+            Self::JestValidExpectInPromise(_) => JestValidExpectInPromise::references(),
+            Self::JestValidTitle(_) => JestValidTitle::references(),
+            Self::ReactButtonHasType(_) => ReactButtonHasType::references(),
+            Self::ReactCheckedRequiresOnchangeOrReadonly(_) => {
+                ReactCheckedRequiresOnchangeOrReadonly::references()
+            }
+            Self::ReactDisplayName(_) => ReactDisplayName::references(),
+            Self::ReactExhaustiveDeps(_) => ReactExhaustiveDeps::references(),
+            Self::ReactForbidComponentProps(_) => ReactForbidComponentProps::references(),
+            Self::ReactForbidDomProps(_) => ReactForbidDomProps::references(),
+            Self::ReactForbidElements(_) => ReactForbidElements::references(),
+            Self::ReactForwardRefUsesRef(_) => ReactForwardRefUsesRef::references(),
+            Self::ReactHookUseState(_) => ReactHookUseState::references(),
+            Self::ReactIframeMissingSandbox(_) => ReactIframeMissingSandbox::references(),
+            Self::ReactJsxBooleanValue(_) => ReactJsxBooleanValue::references(),
+            Self::ReactJsxCurlyBracePresence(_) => ReactJsxCurlyBracePresence::references(),
+            Self::ReactJsxFilenameExtension(_) => ReactJsxFilenameExtension::references(),
+            Self::ReactJsxFragments(_) => ReactJsxFragments::references(),
+            Self::ReactJsxHandlerNames(_) => ReactJsxHandlerNames::references(),
+            Self::ReactJsxKey(_) => ReactJsxKey::references(),
+            Self::ReactJsxMaxDepth(_) => ReactJsxMaxDepth::references(),
+            Self::ReactJsxNoCommentTextnodes(_) => ReactJsxNoCommentTextnodes::references(),
+            Self::ReactJsxNoConstructedContextValues(_) => {
+                ReactJsxNoConstructedContextValues::references()
+            }
+            Self::ReactJsxNoDuplicateProps(_) => ReactJsxNoDuplicateProps::references(),
+            Self::ReactJsxNoScriptUrl(_) => ReactJsxNoScriptUrl::references(),
+            Self::ReactJsxNoTargetBlank(_) => ReactJsxNoTargetBlank::references(),
+            Self::ReactJsxNoUndef(_) => ReactJsxNoUndef::references(),
+            Self::ReactJsxNoUselessFragment(_) => ReactJsxNoUselessFragment::references(),
+            Self::ReactJsxPascalCase(_) => ReactJsxPascalCase::references(),
+            Self::ReactJsxPropsNoSpreadMulti(_) => ReactJsxPropsNoSpreadMulti::references(),
+            Self::ReactJsxPropsNoSpreading(_) => ReactJsxPropsNoSpreading::references(),
+            Self::ReactNoArrayIndexKey(_) => ReactNoArrayIndexKey::references(),
+            Self::ReactNoChildrenProp(_) => ReactNoChildrenProp::references(),
+            Self::ReactNoCloneElement(_) => ReactNoCloneElement::references(),
+            Self::ReactNoDanger(_) => ReactNoDanger::references(),
+            Self::ReactNoDangerWithChildren(_) => ReactNoDangerWithChildren::references(),
+            Self::ReactNoDidMountSetState(_) => ReactNoDidMountSetState::references(),
+            Self::ReactNoDidUpdateSetState(_) => ReactNoDidUpdateSetState::references(),
+            Self::ReactNoDirectMutationState(_) => ReactNoDirectMutationState::references(),
+            Self::ReactNoFindDomNode(_) => ReactNoFindDomNode::references(),
+            Self::ReactNoIsMounted(_) => ReactNoIsMounted::references(),
+            Self::ReactNoMultiComp(_) => ReactNoMultiComp::references(),
+            Self::ReactNoNamespace(_) => ReactNoNamespace::references(),
+            Self::ReactNoObjectTypeAsDefaultProp(_) => ReactNoObjectTypeAsDefaultProp::references(),
+            Self::ReactNoReactChildren(_) => ReactNoReactChildren::references(),
+            Self::ReactNoRedundantShouldComponentUpdate(_) => {
+                ReactNoRedundantShouldComponentUpdate::references()
+            }
+            Self::ReactNoRenderReturnValue(_) => ReactNoRenderReturnValue::references(),
+            Self::ReactNoSetState(_) => ReactNoSetState::references(),
+            Self::ReactNoStringRefs(_) => ReactNoStringRefs::references(),
+            Self::ReactNoThisInSfc(_) => ReactNoThisInSfc::references(),
+            Self::ReactNoUnescapedEntities(_) => ReactNoUnescapedEntities::references(),
+            Self::ReactNoUnknownProperty(_) => ReactNoUnknownProperty::references(),
+            Self::ReactNoUnsafe(_) => ReactNoUnsafe::references(),
+            Self::ReactNoUnstableNestedComponents(_) => {
+                ReactNoUnstableNestedComponents::references()
+            }
+            Self::ReactNoWillUpdateSetState(_) => ReactNoWillUpdateSetState::references(),
+            Self::ReactOnlyExportComponents(_) => ReactOnlyExportComponents::references(),
+            Self::ReactPreferEs6Class(_) => ReactPreferEs6Class::references(),
+            Self::ReactPreferFunctionComponent(_) => ReactPreferFunctionComponent::references(),
+            Self::ReactReactInJsxScope(_) => ReactReactInJsxScope::references(),
+            Self::ReactRequireRenderReturn(_) => ReactRequireRenderReturn::references(),
+            Self::ReactRulesOfHooks(_) => ReactRulesOfHooks::references(),
+            Self::ReactSelfClosingComp(_) => ReactSelfClosingComp::references(),
+            Self::ReactStateInConstructor(_) => ReactStateInConstructor::references(),
+            Self::ReactStylePropObject(_) => ReactStylePropObject::references(),
+            Self::ReactVoidDomElementsNoChildren(_) => ReactVoidDomElementsNoChildren::references(),
+            Self::ReactPerfJsxNoJsxAsProp(_) => ReactPerfJsxNoJsxAsProp::references(),
+            Self::ReactPerfJsxNoNewArrayAsProp(_) => ReactPerfJsxNoNewArrayAsProp::references(),
+            Self::ReactPerfJsxNoNewFunctionAsProp(_) => {
+                ReactPerfJsxNoNewFunctionAsProp::references()
+            }
+            Self::ReactPerfJsxNoNewObjectAsProp(_) => ReactPerfJsxNoNewObjectAsProp::references(),
+            Self::UnicornCatchErrorName(_) => UnicornCatchErrorName::references(),
+            Self::UnicornConsistentAssert(_) => UnicornConsistentAssert::references(),
+            Self::UnicornConsistentDateClone(_) => UnicornConsistentDateClone::references(),
+            Self::UnicornConsistentEmptyArraySpread(_) => {
+                UnicornConsistentEmptyArraySpread::references()
+            }
+            Self::UnicornConsistentExistenceIndexCheck(_) => {
+                UnicornConsistentExistenceIndexCheck::references()
+            }
+            Self::UnicornConsistentFunctionScoping(_) => {
+                UnicornConsistentFunctionScoping::references()
+            }
+            Self::UnicornConsistentTemplateLiteralEscape(_) => {
+                UnicornConsistentTemplateLiteralEscape::references()
+            }
+            Self::UnicornCustomErrorDefinition(_) => UnicornCustomErrorDefinition::references(),
+            Self::UnicornEmptyBraceSpaces(_) => UnicornEmptyBraceSpaces::references(),
+            Self::UnicornErrorMessage(_) => UnicornErrorMessage::references(),
+            Self::UnicornEscapeCase(_) => UnicornEscapeCase::references(),
+            Self::UnicornExplicitLengthCheck(_) => UnicornExplicitLengthCheck::references(),
+            Self::UnicornFilenameCase(_) => UnicornFilenameCase::references(),
+            Self::UnicornImportStyle(_) => UnicornImportStyle::references(),
+            Self::UnicornNewForBuiltins(_) => UnicornNewForBuiltins::references(),
+            Self::UnicornNoAbusiveEslintDisable(_) => UnicornNoAbusiveEslintDisable::references(),
+            Self::UnicornNoAccessorRecursion(_) => UnicornNoAccessorRecursion::references(),
+            Self::UnicornNoAnonymousDefaultExport(_) => {
+                UnicornNoAnonymousDefaultExport::references()
+            }
+            Self::UnicornNoArrayCallbackReference(_) => {
+                UnicornNoArrayCallbackReference::references()
+            }
+            Self::UnicornNoArrayForEach(_) => UnicornNoArrayForEach::references(),
+            Self::UnicornNoArrayMethodThisArgument(_) => {
+                UnicornNoArrayMethodThisArgument::references()
+            }
+            Self::UnicornNoArrayReduce(_) => UnicornNoArrayReduce::references(),
+            Self::UnicornNoArrayReverse(_) => UnicornNoArrayReverse::references(),
+            Self::UnicornNoArraySort(_) => UnicornNoArraySort::references(),
+            Self::UnicornNoAwaitExpressionMember(_) => UnicornNoAwaitExpressionMember::references(),
+            Self::UnicornNoAwaitInPromiseMethods(_) => UnicornNoAwaitInPromiseMethods::references(),
+            Self::UnicornNoConsoleSpaces(_) => UnicornNoConsoleSpaces::references(),
+            Self::UnicornNoDocumentCookie(_) => UnicornNoDocumentCookie::references(),
+            Self::UnicornNoEmptyFile(_) => UnicornNoEmptyFile::references(),
+            Self::UnicornNoHexEscape(_) => UnicornNoHexEscape::references(),
+            Self::UnicornNoImmediateMutation(_) => UnicornNoImmediateMutation::references(),
+            Self::UnicornNoInstanceofArray(_) => UnicornNoInstanceofArray::references(),
+            Self::UnicornNoInstanceofBuiltins(_) => UnicornNoInstanceofBuiltins::references(),
+            Self::UnicornNoInvalidFetchOptions(_) => UnicornNoInvalidFetchOptions::references(),
+            Self::UnicornNoInvalidRemoveEventListener(_) => {
+                UnicornNoInvalidRemoveEventListener::references()
+            }
+            Self::UnicornNoLengthAsSliceEnd(_) => UnicornNoLengthAsSliceEnd::references(),
+            Self::UnicornNoLonelyIf(_) => UnicornNoLonelyIf::references(),
+            Self::UnicornNoMagicArrayFlatDepth(_) => UnicornNoMagicArrayFlatDepth::references(),
+            Self::UnicornNoNegatedCondition(_) => UnicornNoNegatedCondition::references(),
+            Self::UnicornNoNegationInEqualityCheck(_) => {
+                UnicornNoNegationInEqualityCheck::references()
+            }
+            Self::UnicornNoNestedTernary(_) => UnicornNoNestedTernary::references(),
+            Self::UnicornNoNewArray(_) => UnicornNoNewArray::references(),
+            Self::UnicornNoNewBuffer(_) => UnicornNoNewBuffer::references(),
+            Self::UnicornNoNull(_) => UnicornNoNull::references(),
+            Self::UnicornNoObjectAsDefaultParameter(_) => {
+                UnicornNoObjectAsDefaultParameter::references()
+            }
+            Self::UnicornNoProcessExit(_) => UnicornNoProcessExit::references(),
+            Self::UnicornNoSinglePromiseInPromiseMethods(_) => {
+                UnicornNoSinglePromiseInPromiseMethods::references()
+            }
+            Self::UnicornNoStaticOnlyClass(_) => UnicornNoStaticOnlyClass::references(),
+            Self::UnicornNoThenable(_) => UnicornNoThenable::references(),
+            Self::UnicornNoThisAssignment(_) => UnicornNoThisAssignment::references(),
+            Self::UnicornNoTypeofUndefined(_) => UnicornNoTypeofUndefined::references(),
+            Self::UnicornNoUnnecessaryArrayFlatDepth(_) => {
+                UnicornNoUnnecessaryArrayFlatDepth::references()
+            }
+            Self::UnicornNoUnnecessaryArraySpliceCount(_) => {
+                UnicornNoUnnecessaryArraySpliceCount::references()
+            }
+            Self::UnicornNoUnnecessaryAwait(_) => UnicornNoUnnecessaryAwait::references(),
+            Self::UnicornNoUnnecessarySliceEnd(_) => UnicornNoUnnecessarySliceEnd::references(),
+            Self::UnicornNoUnreadableArrayDestructuring(_) => {
+                UnicornNoUnreadableArrayDestructuring::references()
+            }
+            Self::UnicornNoUnreadableIife(_) => UnicornNoUnreadableIife::references(),
+            Self::UnicornNoUselessCollectionArgument(_) => {
+                UnicornNoUselessCollectionArgument::references()
+            }
+            Self::UnicornNoUselessErrorCaptureStackTrace(_) => {
+                UnicornNoUselessErrorCaptureStackTrace::references()
+            }
+            Self::UnicornNoUselessFallbackInSpread(_) => {
+                UnicornNoUselessFallbackInSpread::references()
+            }
+            Self::UnicornNoUselessIteratorToArray(_) => {
+                UnicornNoUselessIteratorToArray::references()
+            }
+            Self::UnicornNoUselessLengthCheck(_) => UnicornNoUselessLengthCheck::references(),
+            Self::UnicornNoUselessPromiseResolveReject(_) => {
+                UnicornNoUselessPromiseResolveReject::references()
+            }
+            Self::UnicornNoUselessSpread(_) => UnicornNoUselessSpread::references(),
+            Self::UnicornNoUselessSwitchCase(_) => UnicornNoUselessSwitchCase::references(),
+            Self::UnicornNoUselessUndefined(_) => UnicornNoUselessUndefined::references(),
+            Self::UnicornNoZeroFractions(_) => UnicornNoZeroFractions::references(),
+            Self::UnicornNumberLiteralCase(_) => UnicornNumberLiteralCase::references(),
+            Self::UnicornNumericSeparatorsStyle(_) => UnicornNumericSeparatorsStyle::references(),
+            Self::UnicornPreferAddEventListener(_) => UnicornPreferAddEventListener::references(),
+            Self::UnicornPreferArrayFind(_) => UnicornPreferArrayFind::references(),
+            Self::UnicornPreferArrayFlat(_) => UnicornPreferArrayFlat::references(),
+            Self::UnicornPreferArrayFlatMap(_) => UnicornPreferArrayFlatMap::references(),
+            Self::UnicornPreferArrayIndexOf(_) => UnicornPreferArrayIndexOf::references(),
+            Self::UnicornPreferArraySome(_) => UnicornPreferArraySome::references(),
+            Self::UnicornPreferAt(_) => UnicornPreferAt::references(),
+            Self::UnicornPreferBigintLiterals(_) => UnicornPreferBigintLiterals::references(),
+            Self::UnicornPreferBlobReadingMethods(_) => {
+                UnicornPreferBlobReadingMethods::references()
+            }
+            Self::UnicornPreferClassFields(_) => UnicornPreferClassFields::references(),
+            Self::UnicornPreferClasslistToggle(_) => UnicornPreferClasslistToggle::references(),
+            Self::UnicornPreferCodePoint(_) => UnicornPreferCodePoint::references(),
+            Self::UnicornPreferDateNow(_) => UnicornPreferDateNow::references(),
+            Self::UnicornPreferDefaultParameters(_) => UnicornPreferDefaultParameters::references(),
+            Self::UnicornPreferDomNodeAppend(_) => UnicornPreferDomNodeAppend::references(),
+            Self::UnicornPreferDomNodeDataset(_) => UnicornPreferDomNodeDataset::references(),
+            Self::UnicornPreferDomNodeRemove(_) => UnicornPreferDomNodeRemove::references(),
+            Self::UnicornPreferDomNodeTextContent(_) => {
+                UnicornPreferDomNodeTextContent::references()
+            }
+            Self::UnicornPreferEventTarget(_) => UnicornPreferEventTarget::references(),
+            Self::UnicornPreferGlobalThis(_) => UnicornPreferGlobalThis::references(),
+            Self::UnicornPreferImportMetaProperties(_) => {
+                UnicornPreferImportMetaProperties::references()
+            }
+            Self::UnicornPreferIncludes(_) => UnicornPreferIncludes::references(),
+            Self::UnicornPreferKeyboardEventKey(_) => UnicornPreferKeyboardEventKey::references(),
+            Self::UnicornPreferLogicalOperatorOverTernary(_) => {
+                UnicornPreferLogicalOperatorOverTernary::references()
+            }
+            Self::UnicornPreferMathMinMax(_) => UnicornPreferMathMinMax::references(),
+            Self::UnicornPreferMathTrunc(_) => UnicornPreferMathTrunc::references(),
+            Self::UnicornPreferModernDomApis(_) => UnicornPreferModernDomApis::references(),
+            Self::UnicornPreferModernMathApis(_) => UnicornPreferModernMathApis::references(),
+            Self::UnicornPreferModule(_) => UnicornPreferModule::references(),
+            Self::UnicornPreferNativeCoercionFunctions(_) => {
+                UnicornPreferNativeCoercionFunctions::references()
+            }
+            Self::UnicornPreferNegativeIndex(_) => UnicornPreferNegativeIndex::references(),
+            Self::UnicornPreferNodeProtocol(_) => UnicornPreferNodeProtocol::references(),
+            Self::UnicornPreferNumberProperties(_) => UnicornPreferNumberProperties::references(),
+            Self::UnicornPreferObjectFromEntries(_) => UnicornPreferObjectFromEntries::references(),
+            Self::UnicornPreferOptionalCatchBinding(_) => {
+                UnicornPreferOptionalCatchBinding::references()
+            }
+            Self::UnicornPreferPrototypeMethods(_) => UnicornPreferPrototypeMethods::references(),
+            Self::UnicornPreferQuerySelector(_) => UnicornPreferQuerySelector::references(),
+            Self::UnicornPreferReflectApply(_) => UnicornPreferReflectApply::references(),
+            Self::UnicornPreferRegexpTest(_) => UnicornPreferRegexpTest::references(),
+            Self::UnicornPreferResponseStaticJson(_) => {
+                UnicornPreferResponseStaticJson::references()
+            }
+            Self::UnicornPreferSetHas(_) => UnicornPreferSetHas::references(),
+            Self::UnicornPreferSetSize(_) => UnicornPreferSetSize::references(),
+            Self::UnicornPreferSpread(_) => UnicornPreferSpread::references(),
+            Self::UnicornPreferStringRaw(_) => UnicornPreferStringRaw::references(),
+            Self::UnicornPreferStringReplaceAll(_) => UnicornPreferStringReplaceAll::references(),
+            Self::UnicornPreferStringSlice(_) => UnicornPreferStringSlice::references(),
+            Self::UnicornPreferStringStartsEndsWith(_) => {
+                UnicornPreferStringStartsEndsWith::references()
+            }
+            Self::UnicornPreferStringTrimStartEnd(_) => {
+                UnicornPreferStringTrimStartEnd::references()
+            }
+            Self::UnicornPreferStructuredClone(_) => UnicornPreferStructuredClone::references(),
+            Self::UnicornPreferTernary(_) => UnicornPreferTernary::references(),
+            Self::UnicornPreferTopLevelAwait(_) => UnicornPreferTopLevelAwait::references(),
+            Self::UnicornPreferTypeError(_) => UnicornPreferTypeError::references(),
+            Self::UnicornRelativeUrlStyle(_) => UnicornRelativeUrlStyle::references(),
+            Self::UnicornRequireArrayJoinSeparator(_) => {
+                UnicornRequireArrayJoinSeparator::references()
+            }
+            Self::UnicornRequireModuleAttributes(_) => UnicornRequireModuleAttributes::references(),
+            Self::UnicornRequireModuleSpecifiers(_) => UnicornRequireModuleSpecifiers::references(),
+            Self::UnicornRequireNumberToFixedDigitsArgument(_) => {
+                UnicornRequireNumberToFixedDigitsArgument::references()
+            }
+            Self::UnicornRequirePostMessageTargetOrigin(_) => {
+                UnicornRequirePostMessageTargetOrigin::references()
+            }
+            Self::UnicornSwitchCaseBraces(_) => UnicornSwitchCaseBraces::references(),
+            Self::UnicornSwitchCaseBreakPosition(_) => UnicornSwitchCaseBreakPosition::references(),
+            Self::UnicornTextEncodingIdentifierCase(_) => {
+                UnicornTextEncodingIdentifierCase::references()
+            }
+            Self::UnicornThrowNewError(_) => UnicornThrowNewError::references(),
+            Self::JsxA11YAltText(_) => JsxA11YAltText::references(),
+            Self::JsxA11YAnchorAmbiguousText(_) => JsxA11YAnchorAmbiguousText::references(),
+            Self::JsxA11YAnchorHasContent(_) => JsxA11YAnchorHasContent::references(),
+            Self::JsxA11YAnchorIsValid(_) => JsxA11YAnchorIsValid::references(),
+            Self::JsxA11YAriaActivedescendantHasTabindex(_) => {
+                JsxA11YAriaActivedescendantHasTabindex::references()
+            }
+            Self::JsxA11YAriaProps(_) => JsxA11YAriaProps::references(),
+            Self::JsxA11YAriaProptypes(_) => JsxA11YAriaProptypes::references(),
+            Self::JsxA11YAriaRole(_) => JsxA11YAriaRole::references(),
+            Self::JsxA11YAriaUnsupportedElements(_) => JsxA11YAriaUnsupportedElements::references(),
+            Self::JsxA11YAutocompleteValid(_) => JsxA11YAutocompleteValid::references(),
+            Self::JsxA11YClickEventsHaveKeyEvents(_) => {
+                JsxA11YClickEventsHaveKeyEvents::references()
+            }
+            Self::JsxA11YControlHasAssociatedLabel(_) => {
+                JsxA11YControlHasAssociatedLabel::references()
+            }
+            Self::JsxA11YHeadingHasContent(_) => JsxA11YHeadingHasContent::references(),
+            Self::JsxA11YHtmlHasLang(_) => JsxA11YHtmlHasLang::references(),
+            Self::JsxA11YIframeHasTitle(_) => JsxA11YIframeHasTitle::references(),
+            Self::JsxA11YImgRedundantAlt(_) => JsxA11YImgRedundantAlt::references(),
+            Self::JsxA11YInteractiveSupportsFocus(_) => {
+                JsxA11YInteractiveSupportsFocus::references()
+            }
+            Self::JsxA11YLabelHasAssociatedControl(_) => {
+                JsxA11YLabelHasAssociatedControl::references()
+            }
+            Self::JsxA11YLang(_) => JsxA11YLang::references(),
+            Self::JsxA11YMediaHasCaption(_) => JsxA11YMediaHasCaption::references(),
+            Self::JsxA11YMouseEventsHaveKeyEvents(_) => {
+                JsxA11YMouseEventsHaveKeyEvents::references()
+            }
+            Self::JsxA11YNoAccessKey(_) => JsxA11YNoAccessKey::references(),
+            Self::JsxA11YNoAriaHiddenOnFocusable(_) => JsxA11YNoAriaHiddenOnFocusable::references(),
+            Self::JsxA11YNoAutofocus(_) => JsxA11YNoAutofocus::references(),
+            Self::JsxA11YNoDistractingElements(_) => JsxA11YNoDistractingElements::references(),
+            Self::JsxA11YNoInteractiveElementToNoninteractiveRole(_) => {
+                JsxA11YNoInteractiveElementToNoninteractiveRole::references()
+            }
+            Self::JsxA11YNoNoninteractiveElementInteractions(_) => {
+                JsxA11YNoNoninteractiveElementInteractions::references()
+            }
+            Self::JsxA11YNoNoninteractiveElementToInteractiveRole(_) => {
+                JsxA11YNoNoninteractiveElementToInteractiveRole::references()
+            }
+            Self::JsxA11YNoNoninteractiveTabindex(_) => {
+                JsxA11YNoNoninteractiveTabindex::references()
+            }
+            Self::JsxA11YNoRedundantRoles(_) => JsxA11YNoRedundantRoles::references(),
+            Self::JsxA11YNoStaticElementInteractions(_) => {
+                JsxA11YNoStaticElementInteractions::references()
+            }
+            Self::JsxA11YPreferTagOverRole(_) => JsxA11YPreferTagOverRole::references(),
+            Self::JsxA11YRoleHasRequiredAriaProps(_) => {
+                JsxA11YRoleHasRequiredAriaProps::references()
+            }
+            Self::JsxA11YRoleSupportsAriaProps(_) => JsxA11YRoleSupportsAriaProps::references(),
+            Self::JsxA11YScope(_) => JsxA11YScope::references(),
+            Self::JsxA11YTabindexNoPositive(_) => JsxA11YTabindexNoPositive::references(),
+            Self::OxcApproxConstant(_) => OxcApproxConstant::references(),
+            Self::OxcBadArrayMethodOnArguments(_) => OxcBadArrayMethodOnArguments::references(),
+            Self::OxcBadBitwiseOperator(_) => OxcBadBitwiseOperator::references(),
+            Self::OxcBadCharAtComparison(_) => OxcBadCharAtComparison::references(),
+            Self::OxcBadComparisonSequence(_) => OxcBadComparisonSequence::references(),
+            Self::OxcBadMinMaxFunc(_) => OxcBadMinMaxFunc::references(),
+            Self::OxcBadObjectLiteralComparison(_) => OxcBadObjectLiteralComparison::references(),
+            Self::OxcBadReplaceAllArg(_) => OxcBadReplaceAllArg::references(),
+            Self::OxcBranchesSharingCode(_) => OxcBranchesSharingCode::references(),
+            Self::OxcConstComparisons(_) => OxcConstComparisons::references(),
+            Self::OxcDoubleComparisons(_) => OxcDoubleComparisons::references(),
+            Self::OxcErasingOp(_) => OxcErasingOp::references(),
+            Self::OxcMisrefactoredAssignOp(_) => OxcMisrefactoredAssignOp::references(),
+            Self::OxcMissingThrow(_) => OxcMissingThrow::references(),
+            Self::OxcNoAccumulatingSpread(_) => OxcNoAccumulatingSpread::references(),
+            Self::OxcNoAsyncAwait(_) => OxcNoAsyncAwait::references(),
+            Self::OxcNoAsyncEndpointHandlers(_) => OxcNoAsyncEndpointHandlers::references(),
+            Self::OxcNoBarrelFile(_) => OxcNoBarrelFile::references(),
+            Self::OxcNoConstEnum(_) => OxcNoConstEnum::references(),
+            Self::OxcNoMapSpread(_) => OxcNoMapSpread::references(),
+            Self::OxcNoOptionalChaining(_) => OxcNoOptionalChaining::references(),
+            Self::OxcNoRestSpreadProperties(_) => OxcNoRestSpreadProperties::references(),
+            Self::OxcNoThisInExportedFunction(_) => OxcNoThisInExportedFunction::references(),
+            Self::OxcNumberArgOutOfRange(_) => OxcNumberArgOutOfRange::references(),
+            Self::OxcOnlyUsedInRecursion(_) => OxcOnlyUsedInRecursion::references(),
+            Self::OxcUninvokedArrayCallback(_) => OxcUninvokedArrayCallback::references(),
+            Self::NextjsGoogleFontDisplay(_) => NextjsGoogleFontDisplay::references(),
+            Self::NextjsGoogleFontPreconnect(_) => NextjsGoogleFontPreconnect::references(),
+            Self::NextjsInlineScriptId(_) => NextjsInlineScriptId::references(),
+            Self::NextjsNextScriptForGa(_) => NextjsNextScriptForGa::references(),
+            Self::NextjsNoAssignModuleVariable(_) => NextjsNoAssignModuleVariable::references(),
+            Self::NextjsNoAsyncClientComponent(_) => NextjsNoAsyncClientComponent::references(),
+            Self::NextjsNoBeforeInteractiveScriptOutsideDocument(_) => {
+                NextjsNoBeforeInteractiveScriptOutsideDocument::references()
+            }
+            Self::NextjsNoCssTags(_) => NextjsNoCssTags::references(),
+            Self::NextjsNoDocumentImportInPage(_) => NextjsNoDocumentImportInPage::references(),
+            Self::NextjsNoDuplicateHead(_) => NextjsNoDuplicateHead::references(),
+            Self::NextjsNoHeadElement(_) => NextjsNoHeadElement::references(),
+            Self::NextjsNoHeadImportInDocument(_) => NextjsNoHeadImportInDocument::references(),
+            Self::NextjsNoHtmlLinkForPages(_) => NextjsNoHtmlLinkForPages::references(),
+            Self::NextjsNoImgElement(_) => NextjsNoImgElement::references(),
+            Self::NextjsNoPageCustomFont(_) => NextjsNoPageCustomFont::references(),
+            Self::NextjsNoScriptComponentInHead(_) => NextjsNoScriptComponentInHead::references(),
+            Self::NextjsNoStyledJsxInDocument(_) => NextjsNoStyledJsxInDocument::references(),
+            Self::NextjsNoSyncScripts(_) => NextjsNoSyncScripts::references(),
+            Self::NextjsNoTitleInDocumentHead(_) => NextjsNoTitleInDocumentHead::references(),
+            Self::NextjsNoTypos(_) => NextjsNoTypos::references(),
+            Self::NextjsNoUnwantedPolyfillio(_) => NextjsNoUnwantedPolyfillio::references(),
+            Self::JsdocCheckAccess(_) => JsdocCheckAccess::references(),
+            Self::JsdocCheckPropertyNames(_) => JsdocCheckPropertyNames::references(),
+            Self::JsdocCheckTagNames(_) => JsdocCheckTagNames::references(),
+            Self::JsdocEmptyTags(_) => JsdocEmptyTags::references(),
+            Self::JsdocImplementsOnClasses(_) => JsdocImplementsOnClasses::references(),
+            Self::JsdocNoDefaults(_) => JsdocNoDefaults::references(),
+            Self::JsdocRequireParam(_) => JsdocRequireParam::references(),
+            Self::JsdocRequireParamDescription(_) => JsdocRequireParamDescription::references(),
+            Self::JsdocRequireParamName(_) => JsdocRequireParamName::references(),
+            Self::JsdocRequireParamType(_) => JsdocRequireParamType::references(),
+            Self::JsdocRequireProperty(_) => JsdocRequireProperty::references(),
+            Self::JsdocRequirePropertyDescription(_) => {
+                JsdocRequirePropertyDescription::references()
+            }
+            Self::JsdocRequirePropertyName(_) => JsdocRequirePropertyName::references(),
+            Self::JsdocRequirePropertyType(_) => JsdocRequirePropertyType::references(),
+            Self::JsdocRequireReturns(_) => JsdocRequireReturns::references(),
+            Self::JsdocRequireReturnsDescription(_) => JsdocRequireReturnsDescription::references(),
+            Self::JsdocRequireReturnsType(_) => JsdocRequireReturnsType::references(),
+            Self::JsdocRequireThrowsDescription(_) => JsdocRequireThrowsDescription::references(),
+            Self::JsdocRequireThrowsType(_) => JsdocRequireThrowsType::references(),
+            Self::JsdocRequireYields(_) => JsdocRequireYields::references(),
+            Self::JsdocRequireYieldsType(_) => JsdocRequireYieldsType::references(),
+            Self::PromiseAlwaysReturn(_) => PromiseAlwaysReturn::references(),
+            Self::PromiseAvoidNew(_) => PromiseAvoidNew::references(),
+            Self::PromiseCatchOrReturn(_) => PromiseCatchOrReturn::references(),
+            Self::PromiseNoCallbackInPromise(_) => PromiseNoCallbackInPromise::references(),
+            Self::PromiseNoMultipleResolved(_) => PromiseNoMultipleResolved::references(),
+            Self::PromiseNoNesting(_) => PromiseNoNesting::references(),
+            Self::PromiseNoNewStatics(_) => PromiseNoNewStatics::references(),
+            Self::PromiseNoPromiseInCallback(_) => PromiseNoPromiseInCallback::references(),
+            Self::PromiseNoReturnInFinally(_) => PromiseNoReturnInFinally::references(),
+            Self::PromiseNoReturnWrap(_) => PromiseNoReturnWrap::references(),
+            Self::PromiseParamNames(_) => PromiseParamNames::references(),
+            Self::PromisePreferAwaitToCallbacks(_) => PromisePreferAwaitToCallbacks::references(),
+            Self::PromisePreferAwaitToThen(_) => PromisePreferAwaitToThen::references(),
+            Self::PromisePreferCatch(_) => PromisePreferCatch::references(),
+            Self::PromiseSpecOnly(_) => PromiseSpecOnly::references(),
+            Self::PromiseValidParams(_) => PromiseValidParams::references(),
+            Self::VitestConsistentEachFor(_) => VitestConsistentEachFor::references(),
+            Self::VitestConsistentTestFilename(_) => VitestConsistentTestFilename::references(),
+            Self::VitestConsistentTestIt(_) => VitestConsistentTestIt::references(),
+            Self::VitestConsistentVitestVi(_) => VitestConsistentVitestVi::references(),
+            Self::VitestExpectExpect(_) => VitestExpectExpect::references(),
+            Self::VitestHoistedApisOnTop(_) => VitestHoistedApisOnTop::references(),
+            Self::VitestMaxExpects(_) => VitestMaxExpects::references(),
+            Self::VitestMaxNestedDescribe(_) => VitestMaxNestedDescribe::references(),
+            Self::VitestNoAliasMethods(_) => VitestNoAliasMethods::references(),
+            Self::VitestNoCommentedOutTests(_) => VitestNoCommentedOutTests::references(),
+            Self::VitestNoConditionalExpect(_) => VitestNoConditionalExpect::references(),
+            Self::VitestNoConditionalInTest(_) => VitestNoConditionalInTest::references(),
+            Self::VitestNoConditionalTests(_) => VitestNoConditionalTests::references(),
+            Self::VitestNoDisabledTests(_) => VitestNoDisabledTests::references(),
+            Self::VitestNoDuplicateHooks(_) => VitestNoDuplicateHooks::references(),
+            Self::VitestNoFocusedTests(_) => VitestNoFocusedTests::references(),
+            Self::VitestNoHooks(_) => VitestNoHooks::references(),
+            Self::VitestNoIdenticalTitle(_) => VitestNoIdenticalTitle::references(),
+            Self::VitestNoImportNodeTest(_) => VitestNoImportNodeTest::references(),
+            Self::VitestNoImportingVitestGlobals(_) => VitestNoImportingVitestGlobals::references(),
+            Self::VitestNoInterpolationInSnapshots(_) => {
+                VitestNoInterpolationInSnapshots::references()
+            }
+            Self::VitestNoLargeSnapshots(_) => VitestNoLargeSnapshots::references(),
+            Self::VitestNoMocksImport(_) => VitestNoMocksImport::references(),
+            Self::VitestNoRestrictedMatchers(_) => VitestNoRestrictedMatchers::references(),
+            Self::VitestNoRestrictedViMethods(_) => VitestNoRestrictedViMethods::references(),
+            Self::VitestNoStandaloneExpect(_) => VitestNoStandaloneExpect::references(),
+            Self::VitestNoTestPrefixes(_) => VitestNoTestPrefixes::references(),
+            Self::VitestNoTestReturnStatement(_) => VitestNoTestReturnStatement::references(),
+            Self::VitestNoUnneededAsyncExpectFunction(_) => {
+                VitestNoUnneededAsyncExpectFunction::references()
+            }
+            Self::VitestPaddingAroundAfterAllBlocks(_) => {
+                VitestPaddingAroundAfterAllBlocks::references()
+            }
+            Self::VitestPreferCalledExactlyOnceWith(_) => {
+                VitestPreferCalledExactlyOnceWith::references()
+            }
+            Self::VitestPreferCalledOnce(_) => VitestPreferCalledOnce::references(),
+            Self::VitestPreferCalledTimes(_) => VitestPreferCalledTimes::references(),
+            Self::VitestPreferCalledWith(_) => VitestPreferCalledWith::references(),
+            Self::VitestPreferComparisonMatcher(_) => VitestPreferComparisonMatcher::references(),
+            Self::VitestPreferDescribeFunctionTitle(_) => {
+                VitestPreferDescribeFunctionTitle::references()
+            }
+            Self::VitestPreferEach(_) => VitestPreferEach::references(),
+            Self::VitestPreferEqualityMatcher(_) => VitestPreferEqualityMatcher::references(),
+            Self::VitestPreferExpectAssertions(_) => VitestPreferExpectAssertions::references(),
+            Self::VitestPreferExpectResolves(_) => VitestPreferExpectResolves::references(),
+            Self::VitestPreferExpectTypeOf(_) => VitestPreferExpectTypeOf::references(),
+            Self::VitestPreferHooksInOrder(_) => VitestPreferHooksInOrder::references(),
+            Self::VitestPreferHooksOnTop(_) => VitestPreferHooksOnTop::references(),
+            Self::VitestPreferImportInMock(_) => VitestPreferImportInMock::references(),
+            Self::VitestPreferImportingVitestGlobals(_) => {
+                VitestPreferImportingVitestGlobals::references()
+            }
+            Self::VitestPreferLowercaseTitle(_) => VitestPreferLowercaseTitle::references(),
+            Self::VitestPreferMockPromiseShorthand(_) => {
+                VitestPreferMockPromiseShorthand::references()
+            }
+            Self::VitestPreferMockReturnShorthand(_) => {
+                VitestPreferMockReturnShorthand::references()
+            }
+            Self::VitestPreferSnapshotHint(_) => VitestPreferSnapshotHint::references(),
+            Self::VitestPreferSpyOn(_) => VitestPreferSpyOn::references(),
+            Self::VitestPreferStrictBooleanMatchers(_) => {
+                VitestPreferStrictBooleanMatchers::references()
+            }
+            Self::VitestPreferStrictEqual(_) => VitestPreferStrictEqual::references(),
+            Self::VitestPreferToBe(_) => VitestPreferToBe::references(),
+            Self::VitestPreferToBeFalsy(_) => VitestPreferToBeFalsy::references(),
+            Self::VitestPreferToBeObject(_) => VitestPreferToBeObject::references(),
+            Self::VitestPreferToBeTruthy(_) => VitestPreferToBeTruthy::references(),
+            Self::VitestPreferToContain(_) => VitestPreferToContain::references(),
+            Self::VitestPreferToHaveBeenCalledTimes(_) => {
+                VitestPreferToHaveBeenCalledTimes::references()
+            }
+            Self::VitestPreferToHaveLength(_) => VitestPreferToHaveLength::references(),
+            Self::VitestPreferTodo(_) => VitestPreferTodo::references(),
+            Self::VitestRequireAwaitedExpectPoll(_) => VitestRequireAwaitedExpectPoll::references(),
+            Self::VitestRequireHook(_) => VitestRequireHook::references(),
+            Self::VitestRequireLocalTestContextForConcurrentSnapshots(_) => {
+                VitestRequireLocalTestContextForConcurrentSnapshots::references()
+            }
+            Self::VitestRequireMockTypeParameters(_) => {
+                VitestRequireMockTypeParameters::references()
+            }
+            Self::VitestRequireTestTimeout(_) => VitestRequireTestTimeout::references(),
+            Self::VitestRequireToThrowMessage(_) => VitestRequireToThrowMessage::references(),
+            Self::VitestRequireTopLevelDescribe(_) => VitestRequireTopLevelDescribe::references(),
+            Self::VitestValidDescribeCallback(_) => VitestValidDescribeCallback::references(),
+            Self::VitestValidExpect(_) => VitestValidExpect::references(),
+            Self::VitestValidExpectInPromise(_) => VitestValidExpectInPromise::references(),
+            Self::VitestValidTitle(_) => VitestValidTitle::references(),
+            Self::VitestWarnTodo(_) => VitestWarnTodo::references(),
+            Self::NodeCallbackReturn(_) => NodeCallbackReturn::references(),
+            Self::NodeGlobalRequire(_) => NodeGlobalRequire::references(),
+            Self::NodeHandleCallbackErr(_) => NodeHandleCallbackErr::references(),
+            Self::NodeNoExportsAssign(_) => NodeNoExportsAssign::references(),
+            Self::NodeNoNewRequire(_) => NodeNoNewRequire::references(),
+            Self::NodeNoPathConcat(_) => NodeNoPathConcat::references(),
+            Self::NodeNoProcessEnv(_) => NodeNoProcessEnv::references(),
+            Self::VueDefineEmitsDeclaration(_) => VueDefineEmitsDeclaration::references(),
+            Self::VueDefinePropsDeclaration(_) => VueDefinePropsDeclaration::references(),
+            Self::VueDefinePropsDestructuring(_) => VueDefinePropsDestructuring::references(),
+            Self::VueMaxProps(_) => VueMaxProps::references(),
+            Self::VueNoArrowFunctionsInWatch(_) => VueNoArrowFunctionsInWatch::references(),
+            Self::VueNoComputedPropertiesInData(_) => VueNoComputedPropertiesInData::references(),
+            Self::VueNoDeprecatedDataObjectDeclaration(_) => {
+                VueNoDeprecatedDataObjectDeclaration::references()
+            }
+            Self::VueNoDeprecatedDeleteSet(_) => VueNoDeprecatedDeleteSet::references(),
+            Self::VueNoDeprecatedDestroyedLifecycle(_) => {
+                VueNoDeprecatedDestroyedLifecycle::references()
+            }
+            Self::VueNoDeprecatedEventsApi(_) => VueNoDeprecatedEventsApi::references(),
+            Self::VueNoDeprecatedModelDefinition(_) => VueNoDeprecatedModelDefinition::references(),
+            Self::VueNoDeprecatedPropsDefaultThis(_) => {
+                VueNoDeprecatedPropsDefaultThis::references()
+            }
+            Self::VueNoDeprecatedVueConfigKeycodes(_) => {
+                VueNoDeprecatedVueConfigKeycodes::references()
+            }
+            Self::VueNoExportInScriptSetup(_) => VueNoExportInScriptSetup::references(),
+            Self::VueNoExposeAfterAwait(_) => VueNoExposeAfterAwait::references(),
+            Self::VueNoImportCompilerMacros(_) => VueNoImportCompilerMacros::references(),
+            Self::VueNoLifecycleAfterAwait(_) => VueNoLifecycleAfterAwait::references(),
+            Self::VueNoMultipleSlotArgs(_) => VueNoMultipleSlotArgs::references(),
+            Self::VueNoRequiredPropWithDefault(_) => VueNoRequiredPropWithDefault::references(),
+            Self::VueNoSharedComponentData(_) => VueNoSharedComponentData::references(),
+            Self::VueNoThisInBeforeRouteEnter(_) => VueNoThisInBeforeRouteEnter::references(),
+            Self::VueNoWatchAfterAwait(_) => VueNoWatchAfterAwait::references(),
+            Self::VuePreferImportFromVue(_) => VuePreferImportFromVue::references(),
+            Self::VueRequireDefaultExport(_) => VueRequireDefaultExport::references(),
+            Self::VueRequireRenderReturn(_) => VueRequireRenderReturn::references(),
+            Self::VueRequireSlotsAsFunctions(_) => VueRequireSlotsAsFunctions::references(),
+            Self::VueRequireTypedRef(_) => VueRequireTypedRef::references(),
+            Self::VueReturnInComputedProperty(_) => VueReturnInComputedProperty::references(),
+            Self::VueReturnInEmitsValidator(_) => VueReturnInEmitsValidator::references(),
+            Self::VueValidDefineEmits(_) => VueValidDefineEmits::references(),
+            Self::VueValidDefineOptions(_) => VueValidDefineOptions::references(),
+            Self::VueValidDefineProps(_) => VueValidDefineProps::references(),
+            Self::VueValidNextTick(_) => VueValidNextTick::references(),
+        }
+    }
     #[cfg(feature = "ruledocs")]
     pub fn schema(
         &self,

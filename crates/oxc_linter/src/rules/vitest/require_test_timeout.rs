@@ -94,6 +94,7 @@ declare_oxc_lint!(
     RequireTestTimeout,
     vitest,
     restriction,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-test-timeout.md",
     version = "1.58.0",
 );
 

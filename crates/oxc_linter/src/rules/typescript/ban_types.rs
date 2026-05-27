@@ -79,6 +79,7 @@ declare_oxc_lint!(
     typescript,
     pedantic,
     none,
+    references = "https://typescript-eslint.io/rules/ban-types/",
     version = "0.0.14",
 );
 

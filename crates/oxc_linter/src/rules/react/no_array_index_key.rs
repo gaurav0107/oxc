@@ -52,6 +52,7 @@ declare_oxc_lint!(
     NoArrayIndexKey,
     react,
     perf,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md",
     version = "0.13.0",
 );
 

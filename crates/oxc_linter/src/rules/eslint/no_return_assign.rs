@@ -61,6 +61,7 @@ declare_oxc_lint!(
     style,
     none,
     config = NoReturnAssignMode,
+    references = "https://eslint.org/docs/latest/rules/no-return-assign",
     version = "0.9.10",
 );
 

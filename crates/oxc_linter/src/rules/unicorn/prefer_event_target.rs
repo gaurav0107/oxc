@@ -51,6 +51,7 @@ declare_oxc_lint!(
     PreferEventTarget,
     unicorn,
     pedantic,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-event-target.md",
     version = "0.0.18",
 );
 

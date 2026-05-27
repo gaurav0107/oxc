@@ -78,6 +78,7 @@ declare_oxc_lint!(
     vue,
     suspicious,
     suggestion,
+    references = "https://eslint.vuejs.org/rules/no-required-prop-with-default.html",
     version = "1.17.0",
 );
 

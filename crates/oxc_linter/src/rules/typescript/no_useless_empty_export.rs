@@ -53,6 +53,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     fix,
+    references = "https://typescript-eslint.io/rules/no-useless-empty-export/",
     version = "0.4.4",
 );
 

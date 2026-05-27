@@ -9,7 +9,14 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct PreferHooksOnTop;
 
-declare_oxc_lint!(PreferHooksOnTop, jest, style, docs = DOCUMENTATION, version = "0.4.2",);
+declare_oxc_lint!(
+    PreferHooksOnTop,
+    jest,
+    style,
+    docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-hooks-on-top.md",
+    version = "0.4.2",
+);
 
 impl Rule for PreferHooksOnTop {
     fn run_once(&self, ctx: &LintContext) {

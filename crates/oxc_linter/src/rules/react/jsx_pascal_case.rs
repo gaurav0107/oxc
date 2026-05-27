@@ -108,6 +108,7 @@ declare_oxc_lint!(
     react,
     style,
     config = JsxPascalCaseConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md",
     version = "1.19.0",
 );
 

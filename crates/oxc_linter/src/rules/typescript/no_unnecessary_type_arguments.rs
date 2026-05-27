@@ -66,6 +66,7 @@ declare_oxc_lint!(
     typescript,
     suspicious,
     fix,
+    references = "https://typescript-eslint.io/rules/no-unnecessary-type-arguments/",
     version = "1.12.0",
 );
 

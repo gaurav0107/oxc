@@ -72,6 +72,7 @@ declare_oxc_lint!(
     NoCaller,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-caller",
     version = "0.0.3",
 );
 

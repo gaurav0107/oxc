@@ -122,6 +122,7 @@ declare_oxc_lint!(
     style,
     pending,
     config = NoDuplicateImports,
+    references = "https://eslint.org/docs/latest/rules/no-duplicate-imports",
     version = "0.13.2",
 );
 

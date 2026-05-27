@@ -127,6 +127,7 @@ declare_oxc_lint!(
     style,
     pending,
     config = ClassLiteralPropertyStyleOption,
+    references = "https://typescript-eslint.io/rules/class-literal-property-style/",
     version = "1.47.0",
 );
 

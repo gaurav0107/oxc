@@ -67,6 +67,7 @@ declare_oxc_lint!(
     correctness,
     suggestion,
     config = NoMisusedSpreadConfig,
+    references = "https://typescript-eslint.io/rules/no-misused-spread/",
     version = "1.12.0",
 );
 

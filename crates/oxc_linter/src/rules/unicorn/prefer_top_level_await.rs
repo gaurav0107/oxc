@@ -61,6 +61,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-top-level-await.md",
     version = "1.20.0",
 );
 

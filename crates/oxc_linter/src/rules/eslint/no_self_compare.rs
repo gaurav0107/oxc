@@ -37,6 +37,7 @@ declare_oxc_lint!(
     eslint,
     pedantic, // The code is not wrong if it is intended to check for NaNs, which is the majority of
               // the case.
+    references = "https://eslint.org/docs/latest/rules/no-self-compare",
     version = "0.0.3",
 );
 

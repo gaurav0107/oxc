@@ -100,6 +100,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = NoDeprecatedFunctionsConfig,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-deprecated-functions.md",
     version = "0.0.18",
 );
 

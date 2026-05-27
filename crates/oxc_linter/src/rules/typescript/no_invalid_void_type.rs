@@ -130,6 +130,7 @@ declare_oxc_lint!(
     restriction,
     none,
     config = NoInvalidVoidTypeConfig,
+    references = "https://typescript-eslint.io/rules/no-invalid-void-type/",
     version = "1.47.0",
 );
 

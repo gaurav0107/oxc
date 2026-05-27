@@ -64,6 +64,7 @@ declare_oxc_lint!(
     NoDupeKeys,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-dupe-keys",
     version = "0.0.3",
 );
 

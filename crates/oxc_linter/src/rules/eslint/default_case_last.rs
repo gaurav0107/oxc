@@ -81,6 +81,7 @@ declare_oxc_lint!(
     DefaultCaseLast,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/default-case-last",
     version = "0.0.16",
 );
 

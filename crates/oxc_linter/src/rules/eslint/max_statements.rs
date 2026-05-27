@@ -197,6 +197,7 @@ declare_oxc_lint!(
     eslint,
     style,
     config = MaxStatementsConfig,
+    references = "https://eslint.org/docs/latest/rules/max-statements",
     version = "1.35.0",
 );
 

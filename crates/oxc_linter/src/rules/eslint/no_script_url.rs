@@ -38,6 +38,7 @@ declare_oxc_lint!(
     NoScriptUrl,
     eslint,
     style,
+    references = "https://eslint.org/docs/latest/rules/no-script-url",
     version = "0.2.15",
 );
 

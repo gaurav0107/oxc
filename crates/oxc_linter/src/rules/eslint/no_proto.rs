@@ -43,6 +43,7 @@ declare_oxc_lint!(
     eslint,
     restriction,
     pending,
+    references = "https://eslint.org/docs/latest/rules/no-proto",
     version = "0.2.14",
 );
 

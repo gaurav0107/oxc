@@ -93,6 +93,7 @@ declare_oxc_lint!(
     pedantic,
     conditional_fix,
     config = ExplicitLengthCheck,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/explicit-length-check.md",
     version = "0.0.19",
 );
 

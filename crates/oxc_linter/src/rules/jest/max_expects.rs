@@ -15,6 +15,8 @@ declare_oxc_lint!(
     style,
     config = MaxExpectsConfig,
     docs = DOCUMENTATION,
+    references =
+        "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/max-expects.md",
     version = "0.0.18",
 );
 

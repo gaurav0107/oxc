@@ -177,6 +177,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = NoImplicitCoercionConfig,
+    references = "https://eslint.org/docs/latest/rules/no-implicit-coercion",
     version = "1.33.0",
 );
 

@@ -152,6 +152,7 @@ declare_oxc_lint!(
     jest,
     style,
     config = PreferEndingWithAnExpectConfig,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-ending-with-an-expect.md",
     version = "1.60.0"
 );
 

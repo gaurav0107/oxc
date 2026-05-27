@@ -65,6 +65,7 @@ declare_oxc_lint!(
     pedantic,
     suggestion,
     config = JsxNoUselessFragment,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md",
     version = "0.0.14",
 );
 

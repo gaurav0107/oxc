@@ -57,6 +57,7 @@ declare_oxc_lint!(
     unicorn,
     restriction,
     pending,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-math-apis.md",
     version = "0.1.1",
 );
 

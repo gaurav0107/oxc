@@ -90,6 +90,7 @@ declare_oxc_lint!(
     import,
     pedantic,
     config = MaxDependenciesConfig,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/max-dependencies.md",
     version = "0.5.0",
 );
 

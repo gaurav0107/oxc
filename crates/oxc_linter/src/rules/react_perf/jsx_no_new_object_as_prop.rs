@@ -44,6 +44,7 @@ declare_oxc_lint!(
     JsxNoNewObjectAsProp,
     react_perf,
     perf,
+    references = "https://github.com/cvazac/eslint-plugin-react-perf/blob/master/docs/rules/jsx-no-new-object-as-prop.md",
     version = "0.2.3",
 );
 

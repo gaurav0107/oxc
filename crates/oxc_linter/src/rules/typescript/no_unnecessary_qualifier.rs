@@ -34,6 +34,7 @@ declare_oxc_lint!(
     NoUnnecessaryQualifier(tsgolint),
     typescript,
     style,
+    references = "https://typescript-eslint.io/rules/no-unnecessary-qualifier/",
     version = "1.49.0",
 );
 

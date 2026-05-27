@@ -47,6 +47,7 @@ declare_oxc_lint!(
     NoDangerWithChildren,
     react,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-danger-with-children.md",
     version = "0.9.6",
 );
 

@@ -77,6 +77,7 @@ declare_oxc_lint!(
     typescript,
     suspicious,
     pending,
+    references = "https://typescript-eslint.io/rules/no-unnecessary-type-constraint/",
     version = "0.0.6",
 );
 

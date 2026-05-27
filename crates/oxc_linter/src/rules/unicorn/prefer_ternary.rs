@@ -63,6 +63,7 @@ declare_oxc_lint!(
     style,
     pending,
     config = PreferTernaryOption,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-ternary.md",
     version = "1.50.0",
 );
 

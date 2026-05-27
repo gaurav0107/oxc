@@ -74,6 +74,7 @@ declare_oxc_lint!(
     NoThenable,
     unicorn,
     correctness,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-thenable.md",
     version = "0.0.13",
 );
 

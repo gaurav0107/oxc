@@ -118,6 +118,7 @@ declare_oxc_lint!(
     eslint,
     style,
     config = NoLabels,
+    references = "https://eslint.org/docs/latest/rules/no-labels",
     version = "0.15.4",
 );
 

@@ -61,6 +61,7 @@ declare_oxc_lint!(
     NoThisInBeforeRouteEnter,
     vue,
     correctness,
+    references = "https://eslint.vuejs.org/rules/no-this-in-before-route-enter.html",
     version = "1.37.0",
 );
 

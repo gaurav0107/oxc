@@ -102,6 +102,7 @@ declare_oxc_lint!(
     pedantic,
     pending,
     config = RequireParamConfig,
+    references = "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireParam.md",
     version = "0.4.3",
 );
 

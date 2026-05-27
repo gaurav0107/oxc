@@ -76,6 +76,7 @@ declare_oxc_lint!(
     JsxNoConstructedContextValues,
     react,
     perf,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-constructed-context-values.md",
     version = "1.48.0",
 );
 

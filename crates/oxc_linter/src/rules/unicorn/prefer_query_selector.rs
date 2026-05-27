@@ -63,6 +63,7 @@ declare_oxc_lint!(
     unicorn,
     pedantic,
     conditional_fix,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-query-selector.md",
     version = "0.0.15",
 );
 

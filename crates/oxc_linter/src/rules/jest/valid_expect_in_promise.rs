@@ -15,6 +15,7 @@ declare_oxc_lint!(
     jest,
     correctness,
     docs = DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/valid-expect-in-promise.md",
     version = "1.60.0",
 );
 

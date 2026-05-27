@@ -82,6 +82,7 @@ declare_oxc_lint!(
     restriction,
     none,
     config = NoMultiComp,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md",
     version = "1.43.0",
 );
 

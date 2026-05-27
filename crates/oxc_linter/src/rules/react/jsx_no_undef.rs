@@ -41,6 +41,7 @@ declare_oxc_lint!(
     JsxNoUndef,
     react,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md",
     version = "0.1.1",
 );
 

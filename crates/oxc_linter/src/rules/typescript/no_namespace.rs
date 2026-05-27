@@ -114,6 +114,7 @@ declare_oxc_lint!(
     typescript,
     restriction,
     config = NoNamespace,
+    references = "https://typescript-eslint.io/rules/no-namespace/",
     version = "0.0.8",
 );
 

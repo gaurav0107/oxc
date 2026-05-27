@@ -168,6 +168,7 @@ declare_oxc_lint!(
     vitest,
     correctness,
     config = ConsistentEachForJson,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/consistent-each-for.md",
     version = "1.39.0",
 );
 

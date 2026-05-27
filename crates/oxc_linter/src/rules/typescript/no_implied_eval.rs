@@ -50,6 +50,7 @@ declare_oxc_lint!(
     NoImpliedEval(tsgolint),
     typescript,
     correctness,
+    references = "https://typescript-eslint.io/rules/no-implied-eval/",
     version = "1.12.0",
 );
 

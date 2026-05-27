@@ -123,6 +123,7 @@ declare_oxc_lint!(
     eslint,
     style,
     config = InitDeclarations,
+    references = "https://eslint.org/docs/latest/rules/init-declarations",
     version = "0.15.11",
 );
 

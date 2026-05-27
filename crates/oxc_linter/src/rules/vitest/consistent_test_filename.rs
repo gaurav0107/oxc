@@ -99,6 +99,7 @@ declare_oxc_lint!(
     vitest,
     style,
     config = ConsistentTestFilenameConfig,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/consistent-test-filename.md",
     version = "1.36.0",
 );
 

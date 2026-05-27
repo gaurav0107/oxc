@@ -249,6 +249,7 @@ declare_oxc_lint!(
     pedantic, // Fall through code are still incorrect.
     pending, // TODO: add a dangerous suggestion for this rule.
     config = NoFallthroughConfig,
+    references = "https://eslint.org/docs/latest/rules/no-fallthrough",
     version = "0.0.14",
 );
 

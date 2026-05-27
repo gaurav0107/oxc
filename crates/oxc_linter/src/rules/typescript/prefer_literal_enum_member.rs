@@ -55,6 +55,7 @@ declare_oxc_lint!(
     typescript,
     restriction,
     config = PreferLiteralEnumMember,
+    references = "https://typescript-eslint.io/rules/prefer-literal-enum-member/",
     version = "0.3.2",
 );
 

@@ -68,6 +68,7 @@ declare_oxc_lint!(
     promise,
     style,
     config = PreferAwaitToThenConfig,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/prefer-await-to-then.md",
     version = "0.7.1",
 );
 

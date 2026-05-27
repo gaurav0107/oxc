@@ -64,6 +64,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     config = NoUnusedExpressionsConfig,
+    references = "https://eslint.org/docs/latest/rules/no-unused-expressions",
     version = "0.14.0",
 );
 

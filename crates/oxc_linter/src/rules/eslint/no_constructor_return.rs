@@ -46,6 +46,7 @@ declare_oxc_lint!(
     NoConstructorReturn,
     eslint,
     pedantic,
+    references = "https://eslint.org/docs/latest/rules/no-constructor-return",
     version = "0.4.3",
 );
 

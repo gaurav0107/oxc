@@ -136,6 +136,7 @@ declare_oxc_lint!(
     style,
     pending,
     config = NoReturnWrap,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-return-wrap.md",
     version = "0.15.14",
 );
 

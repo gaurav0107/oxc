@@ -74,6 +74,7 @@ declare_oxc_lint!(
     react,
     correctness,
     config = NoWillUpdateSetStateConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-will-update-set-state.md",
     version = "1.37.0",
 );
 

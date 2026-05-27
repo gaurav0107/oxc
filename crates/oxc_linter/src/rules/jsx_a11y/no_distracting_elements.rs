@@ -88,6 +88,7 @@ declare_oxc_lint!(
     jsx_a11y,
     correctness,
     config = NoDistractingElementsConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-distracting-elements.md",
     version = "0.0.22",
 );
 

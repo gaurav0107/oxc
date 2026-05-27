@@ -94,6 +94,7 @@ declare_oxc_lint!(
     style,
     conditional_fix,
     config = PreferConst,
+    references = "https://eslint.org/docs/latest/rules/prefer-const",
     version = "1.43.0",
 );
 

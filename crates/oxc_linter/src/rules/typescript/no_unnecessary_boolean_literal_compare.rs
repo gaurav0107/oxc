@@ -84,6 +84,7 @@ declare_oxc_lint!(
     suspicious,
     pending,
     config = NoUnnecessaryBooleanLiteralCompareConfig,
+    references = "https://typescript-eslint.io/rules/no-unnecessary-boolean-literal-compare/",
     version = "1.12.0",
 );
 

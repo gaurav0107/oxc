@@ -15,6 +15,7 @@ declare_oxc_lint!(
     style,
     config = SharedNoRestrictedMatchers::NoRestrictedMatchersConfig,
     docs = SharedNoRestrictedMatchers::DOCUMENTATION,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-restricted-matchers.md",
     version = "0.2.3",
 );
 

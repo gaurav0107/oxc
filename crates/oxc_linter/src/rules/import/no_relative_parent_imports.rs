@@ -50,6 +50,7 @@ declare_oxc_lint!(
     NoRelativeParentImports,
     import,
     restriction,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-parent-imports.md",
     version = "1.43.0",
 );
 

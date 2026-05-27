@@ -126,6 +126,7 @@ declare_oxc_lint!(
     suspicious,
     conditional_suggestion,
     config = NoInstanceofBuiltinsConfig,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-builtins.md",
     version = "0.16.12",
 );
 

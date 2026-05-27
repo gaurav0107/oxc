@@ -10,7 +10,14 @@ use crate::{
 #[derive(Debug, Default, Clone)]
 pub struct NoDisabledTests;
 
-declare_oxc_lint!(NoDisabledTests, vitest, correctness, docs = DOCUMENTATION, version = "0.0.7",);
+declare_oxc_lint!(
+    NoDisabledTests,
+    vitest,
+    correctness,
+    docs = DOCUMENTATION,
+    references = "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-disabled-tests.md",
+    version = "0.0.7",
+);
 
 impl Rule for NoDisabledTests {
     fn run_on_jest_node<'a, 'c>(

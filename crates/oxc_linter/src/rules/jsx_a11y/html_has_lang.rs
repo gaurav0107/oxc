@@ -54,6 +54,7 @@ declare_oxc_lint!(
     HtmlHasLang,
     jsx_a11y,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/html-has-lang.md",
     version = "0.0.18",
 );
 

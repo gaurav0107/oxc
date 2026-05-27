@@ -29,6 +29,7 @@ declare_oxc_lint!(
     NoUnnecessaryTypeConversion(tsgolint),
     typescript,
     suspicious,
+    references = "https://typescript-eslint.io/rules/no-unnecessary-type-conversion/",
     version = "1.49.0",
 );
 

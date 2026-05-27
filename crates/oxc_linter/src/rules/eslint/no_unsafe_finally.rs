@@ -53,6 +53,7 @@ declare_oxc_lint!(
     NoUnsafeFinally,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-unsafe-finally",
     version = "0.0.5",
 );
 

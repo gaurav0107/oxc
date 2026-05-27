@@ -81,6 +81,7 @@ declare_oxc_lint!(
     NoAsyncPromiseExecutor,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-async-promise-executor",
     version = "0.0.3",
 );
 

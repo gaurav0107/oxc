@@ -73,6 +73,7 @@ declare_oxc_lint!(
     NoConfusingSetTimeout,
     jest,
     style,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-confusing-set-timeout.md",
     version = "0.0.14",
 );
 

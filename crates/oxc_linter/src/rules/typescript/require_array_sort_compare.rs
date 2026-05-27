@@ -74,6 +74,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     config = RequireArraySortCompareConfig,
+    references = "https://typescript-eslint.io/rules/require-array-sort-compare/",
     version = "1.12.0",
 );
 

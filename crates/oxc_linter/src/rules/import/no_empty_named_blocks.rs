@@ -39,6 +39,7 @@ declare_oxc_lint!(
     import,
     suspicious,
     fix,
+    references = "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-empty-named-blocks.md",
     version = "0.16.1",
 );
 

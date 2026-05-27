@@ -60,6 +60,7 @@ declare_oxc_lint!(
     unicorn,
     style,
     suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-global-this.md",
     version = "0.16.12",
 );
 

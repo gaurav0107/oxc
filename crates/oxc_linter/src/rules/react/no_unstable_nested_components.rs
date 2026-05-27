@@ -112,6 +112,7 @@ declare_oxc_lint!(
     suspicious,
     none,
     config = NoUnstableNestedComponentsConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unstable-nested-components.md",
     version = "1.66.0",
 );
 

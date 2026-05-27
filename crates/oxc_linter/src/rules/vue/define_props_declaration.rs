@@ -85,6 +85,7 @@ declare_oxc_lint!(
     vue,
     style,
     config = DeclarationStyle,
+    references = "https://eslint.vuejs.org/rules/define-props-declaration.html",
     version = "1.15.0",
 );
 

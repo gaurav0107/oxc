@@ -48,6 +48,7 @@ declare_oxc_lint!(
     unicorn,
     correctness,
     dangerous_suggestion,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-new-array.md",
     version = "0.0.16",
 );
 

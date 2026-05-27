@@ -55,6 +55,7 @@ declare_oxc_lint!(
     restriction,
     suggestion,
     config = NoVoid,
+    references = "https://eslint.org/docs/latest/rules/no-void",
     version = "0.2.5",
 );
 

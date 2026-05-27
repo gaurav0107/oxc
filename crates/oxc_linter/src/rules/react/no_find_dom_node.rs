@@ -44,6 +44,7 @@ declare_oxc_lint!(
     NoFindDomNode,
     react,
     correctness,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-find-dom-node.md",
     version = "0.0.15",
 );
 

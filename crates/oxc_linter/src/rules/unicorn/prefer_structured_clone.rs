@@ -75,6 +75,7 @@ declare_oxc_lint!(
     style,
     suggestion,
     config = PreferStructuredCloneConfig,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-structured-clone.md",
     version = "0.9.0",
 );
 

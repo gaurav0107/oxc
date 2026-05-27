@@ -16,6 +16,8 @@ declare_oxc_lint!(
     correctness,
     config = ExpectExpectConfig,
     docs = DOCUMENTATION,
+    references =
+        "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/expect-expect.md",
     version = "0.0.12",
 );
 

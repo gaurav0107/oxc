@@ -275,6 +275,7 @@ declare_oxc_lint!(
     react,
     restriction,
     config = ForbidComponentPropsConfig,
+    references = "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md",
     version = "1.62.0"
 );
 

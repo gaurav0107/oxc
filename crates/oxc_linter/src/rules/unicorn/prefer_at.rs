@@ -86,6 +86,7 @@ declare_oxc_lint!(
     pedantic,
     dangerous_fix,
     config = PreferAtConfig,
+    references = "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md",
     version = "1.20.0",
 );
 

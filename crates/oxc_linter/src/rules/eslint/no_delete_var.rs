@@ -44,6 +44,7 @@ declare_oxc_lint!(
     NoDeleteVar,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-delete-var",
     version = "0.0.4",
 );
 

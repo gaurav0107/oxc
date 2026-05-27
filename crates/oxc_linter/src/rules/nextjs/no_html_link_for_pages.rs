@@ -76,6 +76,7 @@ declare_oxc_lint!(
     NoHtmlLinkForPages,
     nextjs,
     correctness,
+    references = "https://nextjs.org/docs/messages/no-html-link-for-pages",
     version = "1.7.0",
 );
 

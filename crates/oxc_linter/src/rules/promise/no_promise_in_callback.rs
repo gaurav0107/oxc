@@ -61,6 +61,7 @@ declare_oxc_lint!(
     promise,
     suspicious,
     config = NoPromiseInCallback,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-promise-in-callback.md",
     version = "0.13.1",
 );
 

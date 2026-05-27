@@ -79,6 +79,7 @@ declare_oxc_lint!(
     NoMultipleResolved,
     promise,
     suspicious,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-multiple-resolved.md",
     version = "1.19.0",
 );
 

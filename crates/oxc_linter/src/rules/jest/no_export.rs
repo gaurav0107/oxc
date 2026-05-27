@@ -42,6 +42,7 @@ declare_oxc_lint!(
     NoExport,
     jest,
     correctness,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-export.md",
     version = "0.0.13",
 );
 

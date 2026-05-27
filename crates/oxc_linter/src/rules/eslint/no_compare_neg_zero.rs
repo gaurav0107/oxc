@@ -63,6 +63,7 @@ declare_oxc_lint!(
     eslint,
     correctness,
     conditional_fix_suggestion,
+    references = "https://eslint.org/docs/latest/rules/no-compare-neg-zero",
     version = "0.0.3",
 );
 

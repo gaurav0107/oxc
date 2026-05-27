@@ -83,6 +83,7 @@ declare_oxc_lint!(
     promise,
     restriction,
     config = CatchOrReturnConfig,
+    references = "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/catch-or-return.md",
     version = "0.9.2",
 );
 

@@ -75,6 +75,7 @@ declare_oxc_lint!(
     typescript,
     correctness,
     fix,
+    references = "https://typescript-eslint.io/rules/no-extra-non-null-assertion/",
     version = "0.0.6",
 );
 

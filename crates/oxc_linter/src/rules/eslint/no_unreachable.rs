@@ -71,6 +71,7 @@ declare_oxc_lint!(
     NoUnreachable,
     eslint,
     correctness,
+    references = "https://eslint.org/docs/latest/rules/no-unreachable",
     version = "0.4.4",
 );
 

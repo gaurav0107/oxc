@@ -125,6 +125,7 @@ declare_oxc_lint!(
     style,
     fix,
     config = PreferImportingJestGlobalsConfig,
+    references = "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-importing-jest-globals.md",
     version = "1.60.0"
 );
 
